@@ -6,4 +6,4 @@
 
 >Credit for scan: Internet Archive, contributor: Emmanuel - University of Toronto, 2006 upload, https://archive.org/details/psychologybriefe00willuoft
 
-This watermark and the highlights can be removed using standard PDF tools.
+>This watermark and the highlights can be removed using standard PDF tools.
