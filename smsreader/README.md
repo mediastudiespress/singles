@@ -1,1 +1,0 @@
-This will be the spot where the chapters and other materials for *Social Media and the Self: An Open Access Reader* will appear.
