@@ -7,3 +7,16 @@
 >Credit for scan: Internet Archive, contributor: Emmanuel - University of Toronto, 2006 upload, https://archive.org/details/psychologybriefe00willuoft
 
 >This watermark and the highlights can be removed using standard PDF tools.
+
+2. Take a screenshot of cover, if a full book, and add to the Front Matter
+
+* Title the jpg lastname-year-title-page.jpg
+* Use centered logo
+
+3. Every excerpt, add something like this: Excerpt from James Rorty. Our Master’s Voice: Advertising. New York: John Day Company, 1934: v–viii.
+
+4. Save each excerpt into Github folder
+
+5. Create a header/preview 1200px to 800px for each chapter: rorty-1200-800
+
+6. Create a title page image: rorty-front
