@@ -30,7 +30,6 @@ So there are major advantages to our web-based model of open publishing. Like th
 
 Rorty, back in 1934, summarized *Our Master’s House* as "an attempt, by an advertising man and journalist, to tell how and why the traditional conception and function of journalism has lapsed in this country." The book describes "the progressive seizure and use, by business, of the apparatus of social communication in America."[^12] Eighty-five years later, and we are still domiciled.
 
-***
 
 [^1]: Vance O. Packard. [*The Hidden Persuaders*](https://www.worldcat.org/title/hidden-persuaders/oclc/245181). New York: McKay, 1957. 
 [^2]: See, for example, Neil Gross, [*Richard Rorty: The Making of an American Philosopher*](https://www.worldcat.org/title/richard-rorty-the-making-of-an-american-philosopher/oclc/474963500) (Chicago: University of Chicago Press, 2008), 38, 42–43.
