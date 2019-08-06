@@ -20,3 +20,9 @@
 5. Create a header/preview 1200px to 800px for each chapter: rorty-1200-800
 
 6. Create a title page image: rorty-front
+
+
+
+# Adding a new chapter
+
+* Copy the text in Drafts into a new Draft
