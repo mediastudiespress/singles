@@ -37,7 +37,7 @@
 * Markdownify it (with footnotes in separate draft)
     * combine lines
     * check for italics and em-dashes
-    * search and replace "  -"
+    * search and replace "-  "
     * search and replace "  "
     * shift to iA Writer and do smart quotes
     * export as Markdown
