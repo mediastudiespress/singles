@@ -45,23 +45,24 @@
     * add any footnotes
     * read over for errors
     * add in superscript italics "First chapter of ..." [in Chicago] + "PDF | ORIGINAL PDF" at top and bottom
-        * scheme: https://mediastudies.press/masters-voice/5-rorty-1934-chapter-one-msp.pdf | replace msp with original
+        * scheme: https://github.com/mediastudiespress/singles/raw/master/public_domain/rorty-1934/pdfs/5-rorty-1934-chapter-one-original.pdf | replace msp with original
+    * Title is h1 (e.g., "Chapter Two:")
+    * Subtitle is h2 italics
     * add horizontal lines to break up sections
     * add footnote list at the bottom
     * merge into public and mint a DOI
 * Download the Markdown and LaTeX versions from the Mac; md to /markdown and LaTeX can stay
 * Open LaTeX in Kodex
     * remove the italicized header and footer
+    * for any section, add
     * remove other extraneous latex
-    * add \marginnote{\href{https://doi.org/10.21428/3f8575cb.6124a94d}{doi} | \href{https://mediastudies.press/masters-voice/1-rorty-1934-front-matter-original.pdf}{original pdf}}
+    * add at beginning \newthought{[all-capitalized word made cap]}\marginnote{\href{https://doi.org/10.21428/3f8575cb.6124a94d}{doi} | \href{https://github.com/mediastudiespress/singles/raw/master/public_domain/rorty-1934/pdfs/6-rorty-1934-chapter-two-original.pdf}{original pdf}}
   
 * Copy and paste into Overleaf
 * Check against pdf
 * Export pdf
     * Save to working copy as rorty-1934-our-masters-voice-msp.pdf
-    * Upload with transmit
     * Using PDF Viewer, select just the relevant parts (title + info page)
-    * Uplod with transmit
     * Upload as featured download
     
 
