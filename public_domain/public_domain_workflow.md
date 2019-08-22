@@ -29,10 +29,9 @@
     * Add the preview image (1200x800) and select for Header too
     * In attribution, replace your name with author's name, and select "List on byline"
     * In Collections, add to relevant collection and place in order; also make sure order is correct on page
-* Add PDF to Transmit /masters-voice/
+* Add PDF to Github 
     * Normally, include cover page and TOC
     * Save to /pdfs
-    * Add to transmit
 * Copy the text in Drafts into a new Draft
 * Markdownify it (with footnotes in separate draft)
     * combine lines
