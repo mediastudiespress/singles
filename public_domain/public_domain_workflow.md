@@ -48,7 +48,7 @@
     * Title is h1 (e.g., "Chapter Two:")
     * Subtitle is h2 italics
     * add horizontal lines to break up sections
-    * add footnote list at the bottom
+    * add tables
     * merge into public and mint a DOI
 * Download the Markdown and LaTeX versions from the Mac; md to /markdown and LaTeX can stay
 * Open LaTeX in Kodex
