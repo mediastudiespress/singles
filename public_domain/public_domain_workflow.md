@@ -53,7 +53,7 @@
 * Download the Markdown and LaTeX versions from the Mac; md to /markdown and LaTeX can stay
 * Open LaTeX in Kodex
     * remove the italicized header and footer
-    * for any section, add
+    * for any section, add horizontal rule
     * remove other extraneous latex
     * add at beginning \newthought{[all-capitalized word made cap]}\marginnote{\href{https://doi.org/10.21428/3f8575cb.6124a94d}{doi} | \href{https://github.com/mediastudiespress/singles/raw/master/public_domain/rorty-1934/pdfs/6-rorty-1934-chapter-two-original.pdf}{original pdf}}
   
