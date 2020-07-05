@@ -1,0 +1,57 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-Light
+FamilyName:Helvetica LT Std
+StyleName:Light
+FullName:Helvetica LT Std Light
+MenuName:Helvetica LT Std Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:F:\!_Clients\mediapress\COMPS\Mech_Cover_V1_MM_Mediastudies Folder\Document fonts\HelveticaLTStd-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:27720
+FileModTime:1188223708
+WeightClass:300
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,4,Helvetica LT Std Light
+NameArray:0,Win,1,Helvetica LT Std Light
+NameArray:0,Win,16,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-LightObl
+FamilyName:Helvetica LT Std
+StyleName:Light Oblique
+FullName:Helvetica LT Std Light Oblique
+MenuName:Helvetica LT Std Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:F:\!_Clients\mediapress\COMPS\Mech_Cover_V1_MM_Mediastudies Folder\Document fonts\HelveticaLTStd-LightObl.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:29040
+FileModTime:1188223708
+WeightClass:300
+WidthClass:5
+AngleClass:1
+DesignSize:120
+NameArray:0,Mac,4,Helvetica LT Std Light Oblique
+NameArray:0,Win,1,Helvetica LT Std Light
+NameArray:0,Win,16,Helvetica LT Std
+%EndFont
+
