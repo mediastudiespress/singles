@@ -1,9 +1,9 @@
-\documentclass[twoside,nohyper,openany,nobib]{tufte-book}
+\documentclass[nohyper,openany,nobib]{tufte-book}
 
 % \hypersetup{colorlinks=true,allcolors=[RGB]{97,15,11}}
 
 % For print version
-    % 1. change document class to add \documentclass[twoside,nohyper]
+    % 1. change document class to add \documentclass[nohyper]
     % 2. comment out \hypersetup above
     % 3. get rid of the doi marginnotes
     % 4. export PDF, then use Print Production -> preflight -> tool icon -> scale 229 x 177
@@ -552,7 +552,9 @@ Eighty-five years later, and we are still domiciled.
 \begin{flushright}\emph{Jefferson Pooley}\\ \emph{Bethlehem, PA}\end{flushright}
 
 
-
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
 
 % INTRODUCTION TO MSP EDITION
 \chapter[JAMES RORTY'S VOICE: Introduction to the mediastudies.press edition]{JAMES RORTY'S VOICE: Introduction to the\\ mediastudies.press edition}
@@ -1798,16 +1800,6 @@ emulating.
 
 
 
-
-
-
-
-
-
-
-
-
-
 % REPEAT TITLE PAGE
 \newpage
 \begin{fullwidth}
@@ -1825,7 +1817,7 @@ emulating.
 \endgroup
 
 % MAINMATTER
-\mainmatter\pagenumbering{arabic}\setcounter{page}{2}
+\mainmatter\pagenumbering{arabic}\setcounter{page}{1}
 
 % EPIGRAPHS
 \newpage
@@ -1857,6 +1849,10 @@ in imposing its restraints upon individuals, because its imperatives are disguis
 \endgroup
 
 \end{fullwidth}
+
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
 
 % PREFACE
 \chapter{PREFACE: I Was an Ad-man Once}
