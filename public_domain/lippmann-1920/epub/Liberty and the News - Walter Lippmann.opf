@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">7</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">55b00caf-a342-4bdf-a517-1e838b5fc2c6</dc:identifier>
+        <dc:title>Liberty and the News</dc:title>
+        <dc:creator opf:file-as="Lippmann, Walter" opf:role="aut">Walter Lippmann</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.5.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2020-11-15T05:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;h3&gt;Liberty and the News&lt;/h3&gt;
+&lt;p style="font-style: italic"&gt;by Walter Lippmann&lt;/p&gt;
+&lt;p style="font-style: italic"&gt; &lt;/p&gt;
+&lt;p&gt;A &lt;a href="https://mediastudies.press"&gt;&lt;span style="color: #419cff"&gt;mediastudies.press&lt;/span&gt;&lt;/a&gt; public domain edition, with a new introduction by Sue Curry Jansen&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.mediastudies.press/liberty-and-the-news"&gt;&lt;span style="color: #419cff"&gt;mediastudies.press/liberty-and-the-news&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #419cff"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Liberty and the News&lt;/em&gt; was published a century ago, the young Walter Lippmann’s fifth book. The slim volume merits a fresh read in our post-truth moment. “In an exact, sense,” Lippmann writes, “the present crisis of western democracy is a crisis in journalism.” For Lippmann, liberty constitutes a &lt;em&gt;method&lt;/em&gt;, not a series of prohibitions and permissions. The book’s aim is to identify and examine potential reforms to boost the reliability of news—a project as relevant today as it is unfinished. &lt;em&gt;Liberty and the News&lt;/em&gt; is republished in this mediastudies.press edition with a new introduction by Sue Curry Jansen.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;“Of the power of the press much has already been said and written, but no criticism and appreciation of the modern newspaper more subtle and searching than that contained in this little volume has yet been published.” &lt;/p&gt;
+&lt;p style="text-indent: 24px"&gt;Robert E. Park (1921) &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;“In a single day, I read the text, making notes about almost every page. What I learned startled me, like discovering an ancient scroll meant to be found a century into the future, unearthed just in time to rescue civilization from catastrophe.” &lt;/p&gt;
+&lt;p style="text-indent: 24px"&gt;Roy Peter Clark (2018)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Walter Lippmann&lt;/em&gt; (1889–1974) was an American journalist and public philosopher. &lt;em&gt;Sue Curry Jansen&lt;/em&gt; is professor emeritus of media and communication at Muhlenberg College. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Cover design by Mark McGillivray&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mediastudies.press"&gt;&lt;span style="color: #419cff"&gt;mediastudies.press&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #419cff"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;eISBN 978-1-951399-03-0 | ISBN 978-1-951399-02-3 | DOI 10.32376/3f8575cb.2e69e142&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>mediastudies.press</dc:publisher>
+        <dc:language>eng</dc:language>
+        <meta name="calibre:author_link_map" content="{&quot;Walter Lippmann&quot;: &quot;&quot;}"/>
+        <meta name="calibre:series" content="Public Domain"/>
+        <meta name="calibre:series_index" content="1"/>
+        <meta name="calibre:timestamp" content="2020-11-15T14:47:06.291000+00:00"/>
+        <meta name="calibre:title_sort" content="Liberty and the News"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="Liberty and the News - Walter Lippmann.jpg"/>
+    </guide>
+</package>
