@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">43</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">8a55bcaf-9dd1-46ad-9aca-26d6377c4047</dc:identifier>
+        <dc:title>Our Master's Voice: Advertising</dc:title>
+        <dc:creator opf:file-as="Rorty, James" opf:role="aut">James Rorty</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.6.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:date>2020-10-15T04:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;
+&lt;h3&gt;Our Master's Voice&lt;/h3&gt;
+&lt;p style="font-style: italic"&gt;by Richard Rorty&lt;/p&gt;
+&lt;p&gt;A &lt;a href="https://mediastudies.press"&gt;&lt;span style="color: #419cff"&gt;mediastudies.press&lt;/span&gt;&lt;/a&gt; public domain edition, with a new introduction by Jefferson Pooley.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mediastudies.press/masters-voice"&gt;&lt;span style="color: #419cff"&gt;mediastudies.press/masters-voice&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;“I was an ad-man once,” James Rorty writes in this classic dissection of the advertising industry. Steeped in Rorty’s leftist politics, &lt;em&gt;Our Master’s Voice &lt;/em&gt;presents advertising as the linchpin of a capitalist economy that it also helps justify. The book set off tremors when it was published in 1934, perhaps because its author so decisively repudiated his former profession. But Rorty and his spirited takedown of publicity were all but forgotten a decade later. The book is a neglected masterpiece, republished in this mediastudies.press edition with a new introduction by Jefferson Pooley.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;“Vigorous, athletic, witty, and in parts profound analysis of and attack upon the advertising game in its broadest aspects.” &lt;/p&gt;
+&lt;p style="text-indent: 24px"&gt;&lt;em&gt;The New Yorker &lt;/em&gt;(1934)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;“Some advertising men will denounce it; others, I suspect, will welcome it. And the general reader will find it exceedingly informative.” &lt;/p&gt;
+&lt;p style="text-indent: 24px"&gt;Bruce Catton (1934)&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;James Rorty&lt;/em&gt; (1890–1973) was an American poet, journalist, and sometime advertising copywriter. &lt;em&gt;Jefferson Pooley&lt;/em&gt; is a professor of media and communication at Muhlenberg College. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Cover design by Mark McGillivray&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;mediastudies.press&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;ISBN 9781951399030 | DOI &lt;a href="https://doi.org/10.21428/3f8575cb.dbba9917"&gt;&lt;span style="color: #419cff"&gt;10.21428/3f8575cb.dbba9917&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>mediastudies.press</dc:publisher>
+        <dc:identifier opf:scheme="DOI">10.21428/3f8575cb.dbba9917</dc:identifier>
+        <dc:identifier opf:scheme="ISBN">9781951399016</dc:identifier>
+        <dc:language>eng</dc:language>
+        <meta name="calibre:author_link_map" content="{&quot;James Rorty&quot;: &quot;&quot;}"/>
+        <meta name="calibre:series" content="Public Domain"/>
+        <meta name="calibre:series_index" content="2"/>
+        <meta name="calibre:timestamp" content="2020-10-15T17:48:19+00:00"/>
+        <meta name="calibre:title_sort" content="Our Master's Voice: Advertising"/>
+    </metadata>
+    <guide>
+        <reference type="cover" title="Cover" href="Our Master's Voice_ Advertising - James Rorty.jpg"/>
+    </guide>
+</package>
