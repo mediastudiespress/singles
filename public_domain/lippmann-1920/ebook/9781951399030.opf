@@ -5,7 +5,7 @@
         <dc:identifier opf:scheme="uuid" id="uuid_id">55b00caf-a342-4bdf-a517-1e838b5fc2c6</dc:identifier>
         <dc:title>Liberty and the News</dc:title>
         <dc:creator opf:file-as="Lippmann, Walter" opf:role="aut">Walter Lippmann</dc:creator>
-        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.5.0) [https://calibre-ebook.com]</dc:contributor>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.6.0) [https://calibre-ebook.com]</dc:contributor>
         <dc:date>2020-11-15T05:00:00+00:00</dc:date>
         <dc:description>&lt;div&gt;
 &lt;h3&gt;Liberty and the News&lt;/h3&gt;
@@ -29,8 +29,10 @@
 &lt;p&gt; &lt;/p&gt;
 &lt;p&gt;&lt;a href="https://mediastudies.press"&gt;&lt;span style="color: #419cff"&gt;mediastudies.press&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="color: #419cff"&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;eISBN 978-1-951399-03-0 | ISBN 978-1-951399-02-3 | DOI 10.32376/3f8575cb.2e69e142&lt;/p&gt;&lt;/div&gt;</dc:description>
+&lt;p&gt;eISBN 9781951399030 | ISBN 978-1-951399-02-3 | DOI 10.32376/3f8575cb.2e69e142&lt;/p&gt;&lt;/div&gt;</dc:description>
         <dc:publisher>mediastudies.press</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">9781951399030</dc:identifier>
+        <dc:identifier opf:scheme="DOI">10.32376/3f8575cb.2e69e142</dc:identifier>
         <dc:language>eng</dc:language>
         <meta name="calibre:author_link_map" content="{&quot;Walter Lippmann&quot;: &quot;&quot;}"/>
         <meta name="calibre:series" content="Public Domain"/>
