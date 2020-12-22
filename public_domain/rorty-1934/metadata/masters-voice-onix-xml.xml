@@ -29,9 +29,13 @@
        </EpubLicense>
  <TitleDetail>
    <TitleType>01</TitleType>
-   <TitleText>Our Master's Voice</TitleText>
-   <Subtitle>Advertising</Subtitle>
- </TitleDetail>
+   <TitleElement>
+     <TitleElementLevel>01</TitleElementLevel>
+       <TitleText>Our Master's Voice</TitleText>
+       <Subtitle>Advertising</Subtitle>
+     </TitleElement>
+   </TitleDetail>
+ <TitleDetail>
  <Contributor>
    <SequenceNumber>1</SequenceNumber>
    <ContributorRole>A01</ContributorRole>
@@ -96,23 +100,18 @@
    <Date dateformat="05">2020</Date>
   </PublishingDate>
  </PublishingDetail>
- <RelatedMaterial>
-   <RelatedProduct>
-    <ProductRelationCode>06</ProductRelationCode>
-    <ProductIdentifier>
+ <ProductIdentifier>
     <ProductIDType>15</ProductIDType>
     <IDValue>9781951399009</IDValue>
-    </ProductIdentifier>
+ </ProductIdentifier>
  <ProductIdentifier>
    <ProductIDType>15</ProductIDType>
    <IDValue>9781951399016</IDValue>
-   </ProductIdentifier>
-   <ProductIdentifier>
- <ProductIDType>06</ProductIDType>
+ </ProductIdentifier>
+ <ProductIdentifier>
+   <ProductIDType>06</ProductIDType>
    <IDValue>10.21428/3f8575cb.dbba9917</IDValue>
  </ProductIdentifier>
- </RelatedProduct>
- </RelatedMaterial>
  <ProductSupply>
  <SupplyDetail>
  <Supplier>
