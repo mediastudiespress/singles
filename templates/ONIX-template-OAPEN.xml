@@ -1,216 +1,144 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" release="3.0">
  <Header>
- <Sender>
- <SenderName>The Publisher</SenderName>
- <EmailAddress>info@thepublisher.com</EmailAddress>
- </Sender>
- <SentDateTime>20191204</SentDateTime>
+   <Sender>
+     <SenderName>mediastudies.press</SenderName>
+     <EmailAddress>press@mediastudies.press</EmailAddress>
+   </Sender>
+   <SentDateTime>20201211 ##REPLACE##</SentDateTime>
  </Header>
  <Product>
- <RecordReference>ID_20191204_2</RecordReference>
- <NotificationType>03</NotificationType>
- <RecordSourceType>00</RecordSourceType>
- <ProductIdentifier>
- <ProductIDType>01</ProductIDType>
- <IDValue>ID_20191204_2</IDValue>
- </ProductIdentifier>
- <ProductIdentifier>
- <ProductIDType>15</ProductIDType>
- <IDValue>9780472901258</IDValue>
- </ProductIdentifier>
- <ProductIdentifier>
- <ProductIDType>06</ProductIDType>
- <IDValue>10.3998/mpub.11413902</IDValue>
- </ProductIdentifier>
- <DescriptiveDetail>
- <ProductComposition>00</ProductComposition>
- <ProductForm>EB</ProductForm>
- <ProductFormDetail>E107</ProductFormDetail>
- <PrimaryContentType>10</PrimaryContentType>
- <EpubLicense>
- <EpubLicenseName>Creative Commons License</EpubLicenseName>
- <EpubLicenseExpression>
- <EpubLicenseExpressionType>02</EpubLicenseExpressionType>
- <EpubLicenseExpressionLink>https://creativecommons.org/licenses/by-nc-nd/4.0/</EpubLicenseExpressionLink>
- </EpubLicenseExpression>
- </EpubLicense>
- <Collection>
- <CollectionType>10</CollectionType>
- <CollectionIdentifier>
- <CollectionIDType>02</CollectionIDType>
- <IDValue>1234-5678</IDValue>
- </CollectionIdentifier>
+   <RecordReference>9781951399009 ##REPLACE##</RecordReference>
+   <NotificationType>03</NotificationType>
+   <RecordSourceType>00</RecordSourceType>
+   <ProductIdentifier>
+     <ProductIDType>01</ProductIDType>
+     <IDValue>9781951399009 ##REPLACE##</IDValue>
+   </ProductIdentifier>
+   <DescriptiveDetail>
+     <ProductComposition>00</ProductComposition>
+     <ProductForm>EB</ProductForm>
+     <ProductFormDetail>E107</ProductFormDetail>
+     <PrimaryContentType>10</PrimaryContentType>
+     <EpubLicense>
+       <EpubLicenseName>Attribution-NonCommercial 4.0 International</EpubLicenseName>
+       <EpubLicenseExpression>
+         <EpubLicenseExpressionType>02</EpubLicenseExpressionType>
+         <EpubLicenseExpressionLink>https://creativecommons.org/licenses/by-nc/4.0/</EpubLicenseExpressionLink>
+       </EpubLicenseExpression>
+       </EpubLicense>
  <TitleDetail>
- <TitleType>01</TitleType>
- <TitleElement>
- <TitleElementLevel>02</TitleElementLevel>
- <PartNumber>1</PartNumber>
- <TitleText>War and peace</TitleText>
- </TitleElement>
- </TitleDetail>
- </Collection>
+   <TitleType>01</TitleType>
+   <TitleElement>
+     <TitleElementLevel>01</TitleElementLevel>
+       <TitleText>Our Master's Voice ##REPLACE##</TitleText>
+       <Subtitle>Advertising ##REPLACE OR DELETE##</Subtitle>
+     </TitleElement>
+   </TitleDetail>
  <TitleDetail>
- <TitleType>01</TitleType>
- <TitleElement>
- <TitleElementLevel>01</TitleElementLevel>
- <TitleText>People&apos;s Wars in China, Malaya, and Vietnam</TitleText>
- </TitleElement>
- </TitleDetail>
  <Contributor>
- <SequenceNumber>1</SequenceNumber>
- <ContributorRole>A01</ContributorRole>
- <NamesBeforeKey>Marc</NamesBeforeKey>
- <KeyNames>Opper</KeyNames>
+   <SequenceNumber>1</SequenceNumber>
+   <ContributorRole>A01</ContributorRole>
+   <NamesBeforeKey>James ##REPLACE##</NamesBeforeKey>
+   <KeyNames>Rorty##REPLACE##</KeyNames>
  </Contributor>
  <Contributor>
- <SequenceNumber>1</SequenceNumber>
- <ContributorRole>B01</ContributorRole>
- <NameIdentifier>
- <NameIDType>21</NameIDType>
- <IDValue>0000-0001-9260-4941</IDValue>
- </NameIdentifier>
- <NamesBeforeKey>Ronald</NamesBeforeKey>
- <KeyNames>Snijder</KeyNames>
+   <SequenceNumber>1</SequenceNumber>
+   <ContributorRole>A24</ContributorRole>
+   <NameIdentifier>
+     <NameIDType>21</NameIDType>
+     <IDValue>0000-0002-3674-1930 ##REPLACE OR DELETE##</IDValue>
+   </NameIdentifier>
+   <NamesBeforeKey>Jefferson ##REPLACE##</NamesBeforeKey>
+   <KeyNames>Pooley ##REPLACE##</KeyNames>
  </Contributor>
  <Language>
- <LanguageRole>01</LanguageRole>
- <LanguageCode>eng</LanguageCode>
+   <LanguageRole>01</LanguageRole>
+   <LanguageCode>eng</LanguageCode>
  </Language>
  <Extent>
- <ExtentType>00</ExtentType>
- <ExtentValue>464</ExtentValue>
- <ExtentUnit>03</ExtentUnit>
+   <ExtentType>00</ExtentType>
+   <ExtentValue>318 ##REPLACE PAGE NUMBER##</ExtentValue>
+   <ExtentUnit>03</ExtentUnit>
  </Extent>
  <Subject>
- <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
- <SubjectCode>JP</SubjectCode>
+   <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+   <SubjectCode>JFDV ##REPLACE CODE##</SubjectCode>
  </Subject>
  <Subject>
- <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
- <SubjectCode>HB</SubjectCode>
+   <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+   <SubjectCode>GTC ##REPLACE CODE##</SubjectCode>
+ </Subject>
+  <Subject>
+   <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+   <SubjectCode>KJSA ##REPLACE CODE##</SubjectCode>
  </Subject>
  <Subject>
- <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
- <SubjectHeadingText>Asian Studies:South/Southeast Asia; History:Asian and Southeast Asian History; Political Science:International Relations; Asian
- Studies:China</SubjectHeadingText>
+   <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+   <SubjectHeadingText>advertising & society; communication studies; advertising ##REPLACE##</SubjectHeadingText>
  </Subject>
  <Audience>
- <AudienceCodeType>01</AudienceCodeType>
- <AudienceCodeValue>06</AudienceCodeValue>
+   <AudienceCodeType>01</AudienceCodeType>
+   <AudienceCodeValue>06</AudienceCodeValue>
  </Audience>
  </DescriptiveDetail>
  <CollateralDetail>
- <TextContent>
- <TextType>03</TextType>
- <ContentAudience>03</ContentAudience>
- <Text language="eng">People’s Wars in China, Malaya, and Vietnam explains why some insurgencies collapse after a military defeat while under other circumstances
- insurgents are able to maintain influence, rebuild strength, and ultimately defeat the government. [...]</Text>
- </TextContent>
+   <TextContent>
+   <TextType>03</TextType>
+   <ContentAudience>00</ContentAudience>
+   <Text language="eng">“I was an ad-man once,” James Rorty writes in this classic dissection of the advertising industry. Steeped in Rorty’s leftist politics, Our Master’s Voice presents advertising as the linchpin of a capitalist economy that it also helps justify. The book set off tremors when it was published in 1934, perhaps because its author so decisively repudiated his former profession. But Rorty and his spirited takedown of publicity were all but forgotten a decade later. The book is a neglected masterpiece, republished in this mediastudies.press edition with a new introduction by Jefferson Pooley. ##REPLACE##</Text>
+   </TextContent>
  </CollateralDetail>
- <PublishingDetail>
- <Imprint>
- <ImprintName>University of Michigan Press</ImprintName>
- </Imprint>
- <Publisher>
- <PublishingRole>01</PublishingRole>
- <PublisherName>University of Michigan Press</PublisherName>
- </Publisher>
- <Publisher>
- <PublishingRole>16</PublishingRole>
- <PublisherName>TheFunder</PublisherName>
- <Funding>
- <FundingIdentifier>
- <FundingIDType>01</FundingIDType>
- <IDTypeName>programname</IDTypeName>
- <IDValue>TheFundingProgram</IDValue>
- </FundingIdentifier>
- </Funding>
- </Publisher>
- <Publisher>
- <PublishingRole>16</PublishingRole>
- <PublisherName>TheFunder</PublisherName>
- <Funding>
- <FundingIdentifier>
- <FundingIDType>01</FundingIDType>
- <IDTypeName>projectname</IDTypeName>
- <IDValue>TheFundingProject</IDValue>
- </FundingIdentifier>
- </Funding>
- </Publisher>
- <Publisher>
- <PublishingRole>16</PublishingRole>
- <PublisherName>TheFunder</PublisherName>
- <Funding>
- <FundingIdentifier>
- <FundingIDType>01</FundingIDType>
- <IDTypeName>projectacronym</IDTypeName>
- <IDValue>FUNDINGACRONYM</IDValue>
- </FundingIdentifier>
- </Funding>
- </Publisher>
- <Publisher>
- <PublishingRole>16</PublishingRole>
- <PublisherName>TheFunder</PublisherName>
- <Funding>
- <FundingIdentifier>
- <FundingIDType>01</FundingIDType>
- <IDTypeName>grantnumber</IDTypeName>
- <IDValue>FundNR 12345</IDValue>
- </FundingIdentifier>
- </Funding>
- </Publisher>
-<CityOfPublication>Ann Arbor</CityOfPublication>
+ <PublishingDetail>   <Publisher>
+     <PublishingRole>01</PublishingRole>
+     <PublisherName>mediastudies.press</PublisherName>
+   </Publisher>
+<CityOfPublication>Bethlehem, PA</CityOfPublication>
  <PublishingStatus>00</PublishingStatus>
  <PublishingDate>
- <PublishingDateRole>01</PublishingDateRole>
- <Date dateformat="05">2019</Date>
- </PublishingDate>
+   <PublishingDateRole>01</PublishingDateRole>
+   <Date dateformat="05">2020 ##REPLACE##</Date>
+  </PublishingDate>
  </PublishingDetail>
- <RelatedMaterial>
- <RelatedProduct>
- <ProductRelationCode>06</ProductRelationCode>
  <ProductIdentifier>
- <ProductIDType>15</ProductIDType>
- <IDValue>9780472901258</IDValue>
+    <ProductIDType>15</ProductIDType>
+    <IDValue>9781951399009 ##REPLACE##</IDValue>
  </ProductIdentifier>
  <ProductIdentifier>
- <ProductIDType>15</ProductIDType>
- <IDValue>9780472131846</IDValue>
+   <ProductIDType>15</ProductIDType>
+   <IDValue>9781951399016 ##REPLACE##</IDValue>
  </ProductIdentifier>
  <ProductIdentifier>
- <ProductIDType>06</ProductIDType>
- <IDValue>10.3998/mpub.11413902</IDValue>
+   <ProductIDType>06</ProductIDType>
+   <IDValue>10.21428/3f8575cb.dbba9917 ##REPLACE##</IDValue>
  </ProductIdentifier>
- </RelatedProduct>
- </RelatedMaterial>
  <ProductSupply>
  <SupplyDetail>
  <Supplier>
  <SupplierRole>11</SupplierRole>
- <SupplierName>University of Michigan Press</SupplierName>
+ <SupplierName>mediastudies.press</SupplierName>
  <Website>
  <WebsiteRole>01</WebsiteRole>
  <WebsiteDescription>Publisher's website: download the
  title</WebsiteDescription>
- <WebsiteLink>https://www.fulcrum.org/concern/monographs/x920fz70g/ebooks/nv9354614/download?locale=en</WebsiteLink>
+ <WebsiteLink>https://assets.pubpub.org/96mnoyfz/51606434920692.pdf ##REPLACE##</WebsiteLink>
  </Website>
  </Supplier>
- <ProductAvailability>99</ProductAvailability>
- <UnpricedItemType>04</UnpricedItemType>
+ <ProductAvailability>20</ProductAvailability>
+ <UnpricedItemType>01</UnpricedItemType>
  </SupplyDetail>
  <SupplyDetail>
  <Supplier>
  <SupplierRole>09</SupplierRole>
- <SupplierName>University of Michigan Press</SupplierName>
+ <SupplierName>mediastudies.press</SupplierName>
  <Website>
  <WebsiteRole>01</WebsiteRole>
  <WebsiteDescription>Publisher's website: web shop</WebsiteDescription>
- <WebsiteLink>https://www.fulcrum.org/concern/monographs/x920fz70g</WebsiteLink>
+ <WebsiteLink>https://checkoutpage.co/checkout/mediastudiespress/our-masters-voice-advertising ##REPLACE##</WebsiteLink>
  </Website>
  </Supplier>
- <ProductAvailability>99</ProductAvailability>
- <UnpricedItemType>04</UnpricedItemType>
+ <ProductAvailability>20</ProductAvailability>
+ <UnpricedItemType>01</UnpricedItemType>
  </SupplyDetail>
  </ProductSupply>
  </Product>
