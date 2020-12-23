@@ -1,145 +1,197 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<ONIXMessage xmlns="http://ns.editeur.org/onix/3.0/reference" release="3.0">
- <Header>
-   <Sender>
-     <SenderName>mediastudies.press</SenderName>
-     <EmailAddress>press@mediastudies.press</EmailAddress>
-   </Sender>
-   <SentDateTime>20201211 ##REPLACE##</SentDateTime>
- </Header>
- <Product>
-   <RecordReference>9781951399009 ##REPLACE##</RecordReference>
-   <NotificationType>03</NotificationType>
-   <RecordSourceType>00</RecordSourceType>
-   <ProductIdentifier>
-     <ProductIDType>01</ProductIDType>
-     <IDValue>9781951399009 ##REPLACE##</IDValue>
-   </ProductIdentifier>
-   <DescriptiveDetail>
-     <ProductComposition>00</ProductComposition>
-     <ProductForm>EB</ProductForm>
-     <ProductFormDetail>E107</ProductFormDetail>
-     <PrimaryContentType>10</PrimaryContentType>
-     <EpubLicense>
-       <EpubLicenseName>Attribution-NonCommercial 4.0 International</EpubLicenseName>
-       <EpubLicenseExpression>
-         <EpubLicenseExpressionType>02</EpubLicenseExpressionType>
-         <EpubLicenseExpressionLink>https://creativecommons.org/licenses/by-nc/4.0/</EpubLicenseExpressionLink>
-       </EpubLicenseExpression>
-       </EpubLicense>
- <TitleDetail>
-   <TitleType>01</TitleType>
-   <TitleElement>
-     <TitleElementLevel>01</TitleElementLevel>
-       <TitleText>Our Master's Voice ##REPLACE##</TitleText>
-       <Subtitle>Advertising ##REPLACE OR DELETE##</Subtitle>
-     </TitleElement>
-   </TitleDetail>
- <TitleDetail>
- <Contributor>
-   <SequenceNumber>1</SequenceNumber>
-   <ContributorRole>A01</ContributorRole>
-   <NamesBeforeKey>James ##REPLACE##</NamesBeforeKey>
-   <KeyNames>Rorty##REPLACE##</KeyNames>
- </Contributor>
- <Contributor>
-   <SequenceNumber>1</SequenceNumber>
-   <ContributorRole>A24</ContributorRole>
-   <NameIdentifier>
-     <NameIDType>21</NameIDType>
-     <IDValue>0000-0002-3674-1930 ##REPLACE OR DELETE##</IDValue>
-   </NameIdentifier>
-   <NamesBeforeKey>Jefferson ##REPLACE##</NamesBeforeKey>
-   <KeyNames>Pooley ##REPLACE##</KeyNames>
- </Contributor>
- <Language>
-   <LanguageRole>01</LanguageRole>
-   <LanguageCode>eng</LanguageCode>
- </Language>
- <Extent>
-   <ExtentType>00</ExtentType>
-   <ExtentValue>318 ##REPLACE PAGE NUMBER##</ExtentValue>
-   <ExtentUnit>03</ExtentUnit>
- </Extent>
- <Subject>
-   <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
-   <SubjectCode>JFDV ##REPLACE CODE##</SubjectCode>
- </Subject>
- <Subject>
-   <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
-   <SubjectCode>GTC ##REPLACE CODE##</SubjectCode>
- </Subject>
-  <Subject>
-   <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
-   <SubjectCode>KJSA ##REPLACE CODE##</SubjectCode>
- </Subject>
- <Subject>
-   <SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
-   <SubjectHeadingText>advertising & society; communication studies; advertising ##REPLACE##</SubjectHeadingText>
- </Subject>
- <Audience>
-   <AudienceCodeType>01</AudienceCodeType>
-   <AudienceCodeValue>06</AudienceCodeValue>
- </Audience>
- </DescriptiveDetail>
- <CollateralDetail>
-   <TextContent>
-   <TextType>03</TextType>
-   <ContentAudience>00</ContentAudience>
-   <Text language="eng">“I was an ad-man once,” James Rorty writes in this classic dissection of the advertising industry. Steeped in Rorty’s leftist politics, Our Master’s Voice presents advertising as the linchpin of a capitalist economy that it also helps justify. The book set off tremors when it was published in 1934, perhaps because its author so decisively repudiated his former profession. But Rorty and his spirited takedown of publicity were all but forgotten a decade later. The book is a neglected masterpiece, republished in this mediastudies.press edition with a new introduction by Jefferson Pooley. ##REPLACE##</Text>
-   </TextContent>
- </CollateralDetail>
- <PublishingDetail>   <Publisher>
-     <PublishingRole>01</PublishingRole>
-     <PublisherName>mediastudies.press</PublisherName>
-   </Publisher>
-<CityOfPublication>Bethlehem, PA</CityOfPublication>
- <PublishingStatus>00</PublishingStatus>
- <PublishingDate>
-   <PublishingDateRole>01</PublishingDateRole>
-   <Date dateformat="05">2020 ##REPLACE##</Date>
-  </PublishingDate>
- </PublishingDetail>
- <ProductIdentifier>
-    <ProductIDType>15</ProductIDType>
-    <IDValue>9781951399009 ##REPLACE##</IDValue>
- </ProductIdentifier>
- <ProductIdentifier>
-   <ProductIDType>15</ProductIDType>
-   <IDValue>9781951399016 ##REPLACE##</IDValue>
- </ProductIdentifier>
- <ProductIdentifier>
-   <ProductIDType>06</ProductIDType>
-   <IDValue>10.21428/3f8575cb.dbba9917 ##REPLACE##</IDValue>
- </ProductIdentifier>
- <ProductSupply>
- <SupplyDetail>
- <Supplier>
- <SupplierRole>11</SupplierRole>
- <SupplierName>mediastudies.press</SupplierName>
- <Website>
- <WebsiteRole>01</WebsiteRole>
- <WebsiteDescription>Publisher's website: download the
- title</WebsiteDescription>
- <WebsiteLink>https://assets.pubpub.org/96mnoyfz/51606434920692.pdf ##REPLACE##</WebsiteLink>
- </Website>
- </Supplier>
- <ProductAvailability>20</ProductAvailability>
- <UnpricedItemType>01</UnpricedItemType>
- </SupplyDetail>
- <SupplyDetail>
- <Supplier>
- <SupplierRole>09</SupplierRole>
- <SupplierName>mediastudies.press</SupplierName>
- <Website>
- <WebsiteRole>01</WebsiteRole>
- <WebsiteDescription>Publisher's website: web shop</WebsiteDescription>
- <WebsiteLink>https://checkoutpage.co/checkout/mediastudiespress/our-masters-voice-advertising ##REPLACE##</WebsiteLink>
- </Website>
- </Supplier>
- <ProductAvailability>20</ProductAvailability>
- <UnpricedItemType>01</UnpricedItemType>
- </SupplyDetail>
- </ProductSupply>
- </Product>
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">
+	<Header>
+		<Sender>
+			<SenderName>mediastudies.press</SenderName>
+			<ContactName>Jefferson Pooley, +1 484 695 9033</ContactName>
+			<EmailAddress>press@mediastudies.press</EmailAddress>
+		</Sender>
+		<Addressee>
+			<AddresseeName>BooksBooksBooks.com</AddresseeName>
+		</Addressee>
+		<MessageNumber>2</MessageNumber>
+		<SentDateTime>20201221 ##REPLACE##</SentDateTime>
+		<MessageNote>Sample message</MessageNote>
+	</Header>
+	<!-- product record 1 of 1 in message -->
+	<Product>
+		<RecordReference>9781951399023 ##REPLACE PRINT WITH ISBN##</RecordReference>
+		<NotificationType>03</NotificationType>
+		<RecordSourceType>00</RecordSourceType>
+		<RecordSourceName>mediastudies.oress</RecordSourceName>
+		<ProductIdentifier>
+ 			<ProductIDType>01</ProductIDType>
+ 			<IDValue>9781951399023 ##REPLACE PRINT WITH ISBN##</IDValue>
+ 		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9781951399023 ##REPLACE PRINT WITH ISBN##</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>15</ProductIDType>
+			<IDValue>9781951399030 ##REPLACE WITH E-ISBN##</IDValue>
+		</ProductIdentifier>
+		<ProductIdentifier>
+			<ProductIDType>06</ProductIDType>
+			<IDValue>10.32376/3f8575cb.2e69e142 ##REPLACE WITH DOI</IDValue> 
+		</ProductIdentifier>
+		<DescriptiveDetail>
+			<ProductComposition>00</ProductComposition>
+			<ProductForm>EB</ProductForm>
+			<ProductFormDetail>E107</ProductFormDetail>
+			<PrimaryContentType>10</PrimaryContentType>
+            <EpubLicense>
+            	<EpubLicenseName>Attribution-NonCommercial 4.0 International</EpubLicenseName>
+       			<EpubLicenseExpression>
+         			<EpubLicenseExpressionType>02</EpubLicenseExpressionType>
+         			<EpubLicenseExpressionLink>https://creativecommons.org/licenses/by-nc/4.0/</EpubLicenseExpressionLink>
+       				</EpubLicenseExpression>
+       		</EpubLicense>
+			<!--<Collection>
+				<!--<CollectionType>10</CollectionType>
+				<!--<TitleDetail>
+					<!--<TitleType>01</TitleType>
+					<!--<TitleElement>
+						<!--<SequenceNumber>2</SequenceNumber>
+						<!--<TitleElementLevel>02</TitleElementLevel>
+						<!--<TitlePrefix textcase="01">The</TitlePrefix>
+						<!--<TitleWithoutPrefix textcase="01">Martin Beck series</TitleWithoutPrefix>
+					<!--</TitleElement>
+					<!--<TitleElement>
+						<!--<SequenceNumber>3</SequenceNumber>
+						<!--<TitleElementLevel>01</TitleElementLevel>
+						<!--<PartNumber>1</PartNumber>
+					<!--</TitleElement>
+				<!--</TitleDetail>
+			<!--</Collection>
+			<!--<TitleDetail>
+				<!--<TitleType>01</TitleType>
+				<!--<TitleElement>
+					<!--<SequenceNumber>1</SequenceNumber>
+					<!--<TitleElementLevel>01</TitleElementLevel>
+					<!--<NoPrefix/>
+					<!--<TitleWithoutPrefix textcase="01">Roseanna</TitleWithoutPrefix>
+				<!--</TitleElement>
+			<!--</TitleDetail>
+			<TitleDetail>
+   				<TitleType>01</TitleType>
+   				<TitleElement>
+     				<TitleElementLevel>01</TitleElementLevel>
+       				<TitleText>Liberty and the News ##REPLACE##</TitleText>
+     			</TitleElement>
+   			</TitleDetail>
+			<Contributor>
+				<SequenceNumber>1</SequenceNumber>
+				<!-- MAIN AUTHOR>
+				<ContributorRole>A01</ContributorRole>
+				<!--<NameIdentifier>
+     				<!--<NameIDType>21</NameIDType>
+     				<!--<IDValue>0000-0002-3674-1930 ##REPLACE WITH ORCID GRAY OUT OTHERWISE##</IDValue>
+   				<!--</NameIdentifier>
+				<NamesBeforeKey>Walter ##REPLACE##</NamesBeforeKey>
+				<KeyNames>Lippmann ##REPLACE##</KeyNames>
+			</Contributor>
+			<Contributor>
+				<SequenceNumber>2</SequenceNumber>
+				<!-- INTRODCUTION BY>
+				<ContributorRole>A24<</ContributorRole>
+				<!--<NameIdentifier>
+     				<!--<NameIDType>21</NameIDType>
+     				<!--<IDValue>0000-0002-3674-1930 ##REPLACE WITH ORCID GRAY OUT OTHERWISE##</IDValue>
+   				<!--</NameIdentifier>
+				<NamesBeforeKey>Sue Curry ##REPLACE##</NamesBeforeKey>
+				<KeyNames>Jansen ##REPLACE##</KeyNames>
+			</Contributor>
+			<!--<NoEdition/>
+			<Language>
+				<LanguageRole>01</LanguageRole>
+				<LanguageCode>eng</LanguageCode>
+			</Language>
+			<Extent>
+				<ExtentType>00</ExtentType>
+				<ExtentValue>47 ##REPLACE PAGE TOTAL##</ExtentValue>
+				<ExtentUnit>03</ExtentUnit>
+			</Extent>
+			<Subject>
+			<!-- BIC CODES>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectCode>KNTJ ##REPLACE##</SubjectCode>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectCode>JPHV ##REPLACE##</SubjectCode>
+			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+				<SubjectCode>JFD ##REPLACE##</SubjectCode>
+			</Subject>
+			<Subject>
+   				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+   				<SubjectCode>GTC ##REPLACE##</SubjectCode>
+ 			</Subject>
+			<Subject>
+				<SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+				<SubjectHeadingText>press and journalism; political structures: democracy; media studies; communication studies ##REPLACE##</SubjectHeadingText>
+			</Subject>
+			<Audience>
+				<AudienceCodeType>01</AudienceCodeType>
+				<AudienceCodeValue>06</AudienceCodeValue>
+			</Audience>
+		</DescriptiveDetail>
+		<CollateralDetail>
+			<TextContent>
+				<TextType>03</TextType>
+				<ContentAudience>00</ContentAudience>
+				<Text language="eng">Liberty and the News was published a century ago, the young Walter Lippmann’s fifth book. The slim volume merits a fresh read in our post-truth moment. “In an exact, sense,” Lippmann writes, “the present crisis of western democracy is a crisis in journalism.” For Lippmann, liberty constitutes a method, not a series of prohibitions and permissions. The book’s aim is to identify and examine potential reforms to boost the reliability of news—a project as relevant today as it is unfinished. Liberty and the News is republished in this mediastudies.press edition with a new introduction by Sue Curry Jansen. ##REPLACE##S</Text>
+			</TextContent>
+		</CollateralDetail>
+		<PublishingDetail>
+			<Imprint>
+				<ImprintName>mediastudies.press</ImprintName>
+			</Imprint>
+			<Publisher>
+				<PublishingRole>01</PublishingRole>
+				<PublisherName>mediastudies.press</PublisherName>
+				<Website>
+					<WebsiteRole>01</WebsiteRole>
+					<WebsiteLink>https://mediastudies.press</WebsiteLink>
+				</Website>
+			</Publisher>
+			<CityOfPublication>Bethlehem</CityOfPublication>
+			<CountryOfPublication>US</CountryOfPublication>
+			<PublishingStatus>00</PublishingStatus>
+			<PublishingDate>
+				<PublishingDateRole>01</PublishingDateRole>
+				<Date dateformat="00">2020 ##REPLACE##</Date>
+			</PublishingDate>
+		</PublishingDetail>
+		<ProductSupply>
+ 			<SupplyDetail>
+ 				<Supplier>
+ 					<SupplierRole>11</SupplierRole>
+ 					<SupplierName>mediastudies.press</SupplierName>
+ 					<Website>
+ 						<WebsiteRole>01</WebsiteRole>
+ 						<WebsiteDescription>Publisher's website: download the title</WebsiteDescription>
+ 						<WebsiteLink>https://assets.pubpub.org/9kdthkm3/11608597697268.pdf ##REPLACE##</WebsiteLink>
+ 					</Website>
+ 				</Supplier>
+ 				<ProductAvailability>99</ProductAvailability>
+ 				<UnpricedItemType>04</UnpricedItemType>
+ 			</SupplyDetail>
+ 			<SupplyDetail>
+ 				<Supplier>
+ 					<SupplierRole>09</SupplierRole>
+ 					<SupplierName>mediastudies.press</SupplierName>
+ 					<Website>
+ 						<WebsiteRole>01</WebsiteRole>
+ 						<WebsiteDescription>Publisher's website: web shop</WebsiteDescription>
+ 						<WebsiteLink>https://checkoutpage.co/checkout/mediastudiespress/liberty-and-the-news ##REPLACE##</WebsiteLink>
+ 					</Website>
+ 				</Supplier>
+ 				<ProductAvailability>99</ProductAvailability>
+ 				<UnpricedItemType>04</UnpricedItemType>
+ 			</SupplyDetail>
+ 		</ProductSupply>
+	</Product>
 </ONIXMessage>
