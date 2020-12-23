@@ -43,32 +43,32 @@
        				</EpubLicenseExpression>
        		</EpubLicense>
        		
-			<!--<Collection>
-				<!--<CollectionType>10</CollectionType>
-				<!--<TitleDetail>
-					<!--<TitleType>01</TitleType>
-					<!--<TitleElement>
-						<!--<SequenceNumber>2</SequenceNumber>
-						<!--<TitleElementLevel>02</TitleElementLevel>
-						<!--<TitlePrefix textcase="01">The</TitlePrefix>
-						<!--<TitleWithoutPrefix textcase="01">Martin Beck series</TitleWithoutPrefix>
-					<!--</TitleElement>
-					<!--<TitleElement>
-						<!--<SequenceNumber>3</SequenceNumber>
-						<!--<TitleElementLevel>01</TitleElementLevel>
-						<!--<PartNumber>1</PartNumber>
-					<!--</TitleElement>
-				<!--</TitleDetail>
-			<!--</Collection>
-			<!--<TitleDetail>
-				<!--<TitleType>01</TitleType>
-				<!--<TitleElement>
-					<!--<SequenceNumber>1</SequenceNumber>
-					<!--<TitleElementLevel>01</TitleElementLevel>
-					<!--<NoPrefix/>
-					<!--<TitleWithoutPrefix textcase="01">Roseanna</TitleWithoutPrefix>
-				<!--</TitleElement>
-			<!--</TitleDetail>
+			<!--<Collection>-->
+				<!--<CollectionType>10</CollectionType>-->
+				<!--<TitleDetail>-->
+					<!--<TitleType>01</TitleType>-->
+					<!--<TitleElement>-->
+						<!--<SequenceNumber>2</SequenceNumber>-->
+						<!--<TitleElementLevel>02</TitleElementLevel>-->
+						<!--<TitlePrefix textcase="01">The</TitlePrefix>-->
+						<!--<TitleWithoutPrefix textcase="01">Martin Beck series</TitleWithoutPrefix>-->
+					<!--</TitleElement>-->
+					<!--<TitleElement>-->
+						<!--<SequenceNumber>3</SequenceNumber>-->
+						<!--<TitleElementLevel>01</TitleElementLevel>-->
+						<!--<PartNumber>1</PartNumber>-->
+					<!--</TitleElement>-->
+				<!--</TitleDetail>-->
+			<!--</Collection>-->
+			<!--<TitleDetail>-->
+				<!--<TitleType>01</TitleType>-->
+				<!--<TitleElement>-->
+					<!--<SequenceNumber>1</SequenceNumber>-->
+					<!--<TitleElementLevel>01</TitleElementLevel>-->
+					<!--<NoPrefix/>-->
+					<!--<TitleWithoutPrefix textcase="01">Roseanna</TitleWithoutPrefix>-->
+				<!--</TitleElement>-->
+			<!--</TitleDetail>-->
 			
 			<TitleDetail>
    				<TitleType>01</TitleType>
@@ -79,27 +79,27 @@
    			</TitleDetail>
 			<Contributor>
 				<SequenceNumber>1</SequenceNumber>
-				<!-- MAIN AUTHOR>
+				<!-- MAIN AUTHOR>-->
 				<ContributorRole>A01</ContributorRole>
-				<!--<NameIdentifier>
-     				<!--<NameIDType>21</NameIDType>
-     				<!--<IDValue>0000-0002-3674-1930 ##REPLACE WITH ORCID GRAY OUT OTHERWISE##</IDValue>
-   				<!--</NameIdentifier>
+				<!--<NameIdentifier>-->
+     				<!--<NameIDType>21</NameIDType>-->
+     				<!--<IDValue>0000-0002-3674-1930 ##REPLACE WITH ORCID GRAY OUT OTHERWISE##</IDValue>-->
+   				<!--</NameIdentifier>-->
 				<NamesBeforeKey>Walter ##REPLACE##</NamesBeforeKey>
 				<KeyNames>Lippmann ##REPLACE##</KeyNames>
 			</Contributor>
 			<Contributor>
 				<SequenceNumber>2</SequenceNumber>
-				<!-- INTRODCUTION BY>
+				<!-- INTRODUCTION BY>-->
 				<ContributorRole>A24</ContributorRole>
-				<!--<NameIdentifier>
-     				<!--<NameIDType>21</NameIDType>
-     				<!--<IDValue>0000-0002-3674-1930 ##REPLACE WITH ORCID GRAY OUT OTHERWISE##</IDValue>
-   				<!--</NameIdentifier>
+				<!--<NameIdentifier>-->
+     				<!--<NameIDType>21</NameIDType>-->
+     				<!--<IDValue>0000-0002-3674-1930 ##REPLACE WITH ORCID GRAY OUT OTHERWISE##</IDValue>-->
+   				<!--</NameIdentifier>-->
 				<NamesBeforeKey>Sue Curry ##REPLACE##</NamesBeforeKey>
 				<KeyNames>Jansen ##REPLACE##</KeyNames>
 			</Contributor>
-			<!--<NoEdition/>
+			<!--<NoEdition/>-->
 			<Language>
 				<LanguageRole>01</LanguageRole>
 				<LanguageCode>eng</LanguageCode>
@@ -110,7 +110,7 @@
 				<ExtentUnit>03</ExtentUnit>
 			</Extent>
 			<Subject>
-			<!-- BIC CODES>
+			<!-- BIC CODES>-->
 				<SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
 				<SubjectCode>KNTJ ##REPLACE##</SubjectCode>
 			</Subject>
