@@ -6,12 +6,7 @@
 			<ContactName>Jefferson Pooley, +1 484 695 9033</ContactName>
 			<EmailAddress>press@mediastudies.press</EmailAddress>
 		</Sender>
-		<Addressee>
-			<AddresseeName>BooksBooksBooks.com</AddresseeName>
-		</Addressee>
-		<MessageNumber>2</MessageNumber>
 		<SentDateTime>20201221 ##REPLACE##</SentDateTime>
-		<MessageNote>Sample message</MessageNote>
 	</Header>
 	<!-- product record 1 of 1 in message -->
 	<Product>
@@ -47,6 +42,7 @@
          			<EpubLicenseExpressionLink>https://creativecommons.org/licenses/by-nc/4.0/</EpubLicenseExpressionLink>
        				</EpubLicenseExpression>
        		</EpubLicense>
+       		
 			<!--<Collection>
 				<!--<CollectionType>10</CollectionType>
 				<!--<TitleDetail>
@@ -73,6 +69,7 @@
 					<!--<TitleWithoutPrefix textcase="01">Roseanna</TitleWithoutPrefix>
 				<!--</TitleElement>
 			<!--</TitleDetail>
+			
 			<TitleDetail>
    				<TitleType>01</TitleType>
    				<TitleElement>
@@ -94,7 +91,7 @@
 			<Contributor>
 				<SequenceNumber>2</SequenceNumber>
 				<!-- INTRODCUTION BY>
-				<ContributorRole>A24<</ContributorRole>
+				<ContributorRole>A24</ContributorRole>
 				<!--<NameIdentifier>
      				<!--<NameIDType>21</NameIDType>
      				<!--<IDValue>0000-0002-3674-1930 ##REPLACE WITH ORCID GRAY OUT OTHERWISE##</IDValue>
