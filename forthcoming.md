@@ -10,7 +10,6 @@
 * *Creativity: Process and Community* [Public Domain*
 
 
-
 ## 2022
 
 * *Franklin Ford Collection* [Public Domain]
