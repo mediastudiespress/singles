@@ -9,7 +9,7 @@
 * *Communication Conduct in an Island Community* [Public Domain]
 * *Creativity: Process and Community* [Public Domain]
 
-
 ## 2022
 
 * *Franklin Ford Collection* [Public Domain]
+* *Data & Society: An Open Reader* [Open Reader]
