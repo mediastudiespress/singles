@@ -1,6 +1,5 @@
-# Scanned book PDF to PubPub: Processing steps
+# Public domain scanned book PDF to PubPub
 
-*msp workflow*
 
 - [ ] Obtain the best-quality scan as possible
 - [ ] Run OCR with either [Adobe Acrobat Pro](https://acrobat.adobe.com/us/en/acrobat.html) or [Abbyy FineReader](https://pdf.abbyy.com)
