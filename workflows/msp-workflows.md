@@ -1,6 +1,6 @@
 # msp workflows
 
-*Questions? email [us](mailto:press@mediastudies.press)
+*Questions? email [us](mailto:press@mediastudies.press)*
 
 ***
 
