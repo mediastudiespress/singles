@@ -6,7 +6,7 @@
 
 ## Single
 
-* [Scanned chapter PDF to PubPub](/scanned-chapter-pdf-to-pubpub.md)
+* [Scanned chapter PDF to PubPub](/workflows/scanned-chapter-pdf-to-pubpub.md)
 
 ## Chapter
 
