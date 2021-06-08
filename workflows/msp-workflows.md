@@ -6,6 +6,8 @@
 
 ## Single
 
+* [Scanned chapter PDF to PubPub](/scanned-chapter-pdf-to-pubpub.md)
+
 ## Chapter
 
 ***
