@@ -1,4 +1,6 @@
-# Open reader add outbound link
+# Add outbound link
+
+#openreader #chapter #ingestion
 
 - [ ] see this template [template](https://www.mediastudies.press/pub/authorlastname-firstsubstantivetitle/draft)
 - [ ] create new Pub

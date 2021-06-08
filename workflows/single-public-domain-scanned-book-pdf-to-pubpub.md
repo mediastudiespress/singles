@@ -1,4 +1,6 @@
-# Public domain scanned book PDF to PubPub
+# Scanned chapter PDF to PubPub
+
+#chapter #publicdomain #ingestion
 
 
 - [ ] Obtain the best-quality scan as possible

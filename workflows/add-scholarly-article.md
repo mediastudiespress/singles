@@ -1,4 +1,6 @@
-# Open reader add scholarly article
+# Add scholarly article
+
+#openreader #chapter #ingestion
 
 ## Create the empty Pub
 

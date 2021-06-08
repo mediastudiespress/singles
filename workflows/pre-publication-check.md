@@ -1,4 +1,6 @@
-# Open reader pre-publication/new major version checks
+# pre-publication/new major version checks
+
+#openreader #single #publish
 
 - [ ] Check (and update, if necessary) the DOIs
 - [ ] Proofread each entry, with special attention to anything new
