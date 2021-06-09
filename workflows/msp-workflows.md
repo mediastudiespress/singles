@@ -8,6 +8,7 @@
 
 
 * [Pre-publication/new major version checks](/workflows/pre-publication-check.md)
+* [Create new Book Collection](/workflows/create-new-book-collection.md)
 
 ## Chapter
 
@@ -38,6 +39,7 @@
 * [Scanned chapter PDF to PubPub](/workflows/scanned-chapter-pdf-to-pubpub.md)
 * [Add scholarly article](/workflows/add-scholarly-article.md)
 * [Add outbound link](/workflows/add-outbound-link.md)
+* [Create new Book Collection](/workflows/create-new-book-collection.md)
 
 ## 3. Editing
 
