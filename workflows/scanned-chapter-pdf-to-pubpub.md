@@ -4,7 +4,7 @@
 
 - [ ] Obtain the best-quality scan as possible
 - [ ] Run OCR with either [Adobe Acrobat Pro](https://acrobat.adobe.com/us/en/acrobat.html) or [Abbyy FineReader](https://pdf.abbyy.com)
-- [ ] Open up the OCRd PDF in Adobe Acrobat Pro
+- [ ] Open up the OCRd PDF in Adobe Acrobat Pro. Or run the [Extract text PDF Shortcut](https://www.icloud.com/shortcuts/7d29852c83c740079fbb02df350c6d34)
 - [ ] From the File menu, select Export --> Text (plain). You will be prompted to save the new file. Note that the export can take a long time
 - [ ] The next step is to correct the text. This is easiest to do in Drafts  for iOS or macOS (using Markdown formatting). You can open the text alongside the PDF.
 - [ ] Remove any front matter or material from previous chapters: You are just correcting the text for the one chapter
