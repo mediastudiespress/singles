@@ -1,4 +1,4 @@
-# pre-publication/new major version checks
+# Pre-publication/new major version checks
 
 #openreader #single #publish
 
