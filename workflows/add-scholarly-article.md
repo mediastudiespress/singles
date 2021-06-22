@@ -36,35 +36,21 @@
 - [ ] remove table to add back in later
 - [ ] from the [template](https://www.mediastudies.press/pub/template-scholarly/draft), copy and paste the REPRINT footer, and update.
 
-## References
+## References and footnotes
 
-- [ ] if you are using the built-in citations, open up the Word document in a separate window
+- [ ] if you are using PubPub's built-in citations, open up the Word document in a separate window
 - [ ] find and replace with " -" 
 - [ ] in each case copy and paste the citation into the Rich Text window. (You will probably need to enter in author, year, in the Inline Format dropdown menu, and it's useful to copy and paste from text.)
 - [ ] check the citations at the footer of the document for any duplicates, broken links, extra spaces, etc
 
-<br>
+## Tables & figures
 
--- add and modify below-- 
+- [ ] add any tables/figures; if some can't be fit or remade, screen capture them and paste them
 
-<br>
+## Update collection & Airtable
 
-- [ ] capitalize first three words
-- [ ] add the "continue reading" and "outbound link" info (including metered paywall, if applicable), to the bottom, with this [template](https://www.mediastudies.press/pub/authorlastname-firstsubstantivetitle/draft)
-
-
-
-
-
-
-
-
-
-
-
-
-
-- [ ] look over the page for any typos
-- [ ] publish, navigate to the Collection dashboard and drag to the proper place in the order
+- [ ] navigate to the Collection dashboard and drag to the proper place in the order
 - [ ] navigate to the Collection page and place in the expected placement
-- [ ] add the authors and paper/chapter to the Process Airtable
+- [ ] modify the Collection layout/page if necessary
+- [ ] add the authors and paper/chapter to the [Process Airtable](x-icabmobile://x-callback-url/open?url=https://airtable.com/tblqaFC7NIu8c0kQW/viwJ3ppGlE1CZBsE2?blocks=hide) and move to Manager edit
+- [ ] Make sure to designate each author as `author (single - OA license)`
