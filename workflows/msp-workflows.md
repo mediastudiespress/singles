@@ -15,6 +15,7 @@
 * [Scanned chapter PDF to PubPub](/workflows/scanned-chapter-pdf-to-pubpub.md)
 * [Add scholarly article](/workflows/add-scholarly-article.md)
 * [Add outbound link](/workflows/add-outbound-link.md)
+* [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
 
 ***
 
@@ -40,6 +41,7 @@
 * [Add scholarly article](/workflows/add-scholarly-article.md)
 * [Add outbound link](/workflows/add-outbound-link.md)
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
+* [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
 
 ## 3. Editing
 
