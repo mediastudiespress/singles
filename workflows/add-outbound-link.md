@@ -24,3 +24,4 @@
 - [ ] look over the page for any typos
 - [ ] publish, navigate to the Collection dashboard and drag to the proper place in the order
 - [ ] navigate to the Collection page and place in the expected placement
+- [ ] go to [Process](x-icabmobile://x-callback-url/open?url=https://airtable.com/tblqaFC7NIu8c0kQW/viwmFAzlPEXfq7Us4?blocks=hide) and add the Pub/Chapter, author(s) (Single - Outbound link) and move to Manager Review or Review (optional) on the Kanban
