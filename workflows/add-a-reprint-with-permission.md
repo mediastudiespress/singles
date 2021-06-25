@@ -1,6 +1,6 @@
 # Add reprint with permission
 
-#chapter #ingestion
+#chapter #ingestion #openreader
 
 - [ ] see this template [template](https://www.mediastudies.press/pub/authorlastname-firstsubstantivetitle/draft)
 - [ ] navigate to Collection, and create new Pub

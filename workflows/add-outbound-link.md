@@ -3,7 +3,7 @@
 #openreader #chapter #ingestion
 
 - [ ] see this template [template](https://www.mediastudies.press/pub/authorlastname-firstsubstantivetitle/draft)
-- [ ] create new Pub
+- [ ] Navigate to Collection, and create new Pub
 - [ ] add title and author
 - [ ] copy and paste first two paragraphs, followed by ellipses | be sure to add links in original, if any
 - [ ] capitalize first three words
