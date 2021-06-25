@@ -15,7 +15,7 @@
 * [Scanned chapter PDF to PubPub](/workflows/scanned-chapter-pdf-to-pubpub.md)
 * [Add scholarly article](/workflows/add-scholarly-article.md)
 * [Add outbound link](/workflows/add-outbound-link.md)
-* [Add reprint with permission](/workflows/add-a-reprint-with-permission.md)
+* [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
 
 ***
@@ -25,7 +25,7 @@
 * [Pre-publication/new major version checks](/workflows/pre-publication-check.md)
 * [Add scholarly article](/workflows/add-scholarly-article.md)
 * [Add outbound link](/workflows/add-outbound-link.md)
-* [Add reprint with permission](/workflows/add-a-reprint-with-permission.md)
+* [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 
 ## Public domain
 
@@ -42,7 +42,7 @@
 * [Scanned chapter PDF to PubPub](/workflows/scanned-chapter-pdf-to-pubpub.md)
 * [Add scholarly article](/workflows/add-scholarly-article.md)
 * [Add outbound link](/workflows/add-outbound-link.md)
-* [Add reprint with permission](/workflows/add-a-reprint-with-permission.md)
+* [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
 
