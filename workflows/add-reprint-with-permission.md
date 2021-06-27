@@ -14,7 +14,6 @@
 - [ ] add in the publication date in Custom publication date
 - [ ] upload the cover for Preview image
 - [ ] upload the Background image 
-- [ ] change the license to CC BY-NC
 - [ ] change the tint and text style (Readers: tint: Dark | Text style: Light)
 - [ ] save changes
 - [ ] go to the Connections pane
