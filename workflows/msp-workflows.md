@@ -7,7 +7,6 @@
 ## Single
 
 
-* [Pre-publication/new major version checks](/workflows/pre-publication-check.md)
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
 
 ## Chapter
@@ -17,6 +16,7 @@
 * [Add outbound link](/workflows/add-outbound-link.md)
 * [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
+* [Pre-publication/new major version checks](/workflows/pre-publication-check.md)
 
 ***
 

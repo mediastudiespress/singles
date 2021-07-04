@@ -1,14 +1,10 @@
 # Pre-publication/new major version checks
 
-#openreader #single #publish
+#openreader #chapter #publish
 
-- [ ] Check (and update, if necessary) the DOIs
+- [ ] Check (and update, if necessary) the DOI
+- [ ] Check the url (lastname-firstsubstantivetitlewor), preview image, and custom date
 - [ ] Proofread each entry, with special attention to anything new
-- [ ] Check all the meta data and make sure pub urls are good, and follow the lastname-firstsubstantivetitleword pattern
-- [ ] Check any metered paywalls for Outbound Links
-- [ ] Check links on Connected Articles
-- [ ] Check Copyright badges
-- [ ] Check any newly nominated texts
-- [ ] Considerr any abridgment
-- [ ] write to the authors
-- [ ] button?
+- [ ] Check the metered paywalls if an Outbound Links
+- [ ] Check links on Connections
+- [ ] Check Copyright badge
