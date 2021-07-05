@@ -2,11 +2,11 @@
 
 #openreader #chapter #publish
 
-- [ ] Check (and update, if necessary) the DOI
+- [ ] Check (and update, probably) the DOI. You may need to do the initial minting
 - [ ] Check the url (lastname-firstsubstantivetitlewor), preview image, and custom date
 - [ ] Check three-word capitalization
 - [ ] Proofread each entry, with special attention to anything new
 - [ ] Copy and paste into Pages for spell check
-- [ ] Check the metered paywalls if an Outbound Links
+- [ ] Check the metered paywalls if an Outbound Link
 - [ ] Check links on Connections
 - [ ] Check Copyright badge
