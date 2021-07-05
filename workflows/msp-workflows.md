@@ -17,6 +17,7 @@
 * [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
 * [Pre-publication/new major version checks](/workflows/pre-publication-check.md)
+* [Check and update doi](/workflows/check-and-update-doi.md)
 
 ***
 
@@ -26,12 +27,16 @@
 * [Add scholarly article](/workflows/add-scholarly-article.md)
 * [Add outbound link](/workflows/add-outbound-link.md)
 * [Add reprint with permission](/workflows/add-reprint-with-permission.md)
+* [Check and update doi](/workflows/check-and-update-doi.md)
 
 ## Public domain
 
 * [Scanned chapter PDF to PubPub](/workflows/scanned-chapter-pdf-to-pubpub.md)
+* [Check and update doi](/workflows/check-and-update-doi.md)
 
 ## History of media studies
+
+* [Check and update doi](/workflows/check-and-update-doi.md)
 
 ***
 
@@ -52,7 +57,8 @@
 
 ## 5. Publish
 
-* [Pre-publication/new major version checks](/workflows/pre-publication-check.md)
+* [Pre-publication check](/workflows/pre-publication-check.md)
+* [Check and update doi](/workflows/check-and-update-doi.md)
 
 ## 6. Distribution
 
