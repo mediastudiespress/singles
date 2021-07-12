@@ -6,8 +6,8 @@
 
 ## Single
 
-
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
+* [Add single to Amazon](/workflows/add-single-to-amazon.md)
 
 ## Chapter
 
@@ -61,5 +61,7 @@
 * [Check and update doi](/workflows/check-and-update-doi.md)
 
 ## 6. Distribution
+
+* [Add single to Amazon](/workflows/add-single-to-amazon.md)
 
 ## 7. Marketing
