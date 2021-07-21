@@ -9,6 +9,7 @@
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
 * [Add single to Amazon](/workflows/add-single-to-amazon.md)
 * [Add single to Github](/workflows/add-single-to-github.md)
+* [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 
 ## Chapter
 
@@ -29,6 +30,7 @@
 * [Add outbound link](/workflows/add-outbound-link.md)
 * [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
+* [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 
 ## Public domain
 
@@ -60,6 +62,7 @@
 
 * [Pre-publication check](/workflows/pre-publication-check.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
+* [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 
 ## 6. Distribution
 
