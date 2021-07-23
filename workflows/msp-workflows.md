@@ -10,6 +10,7 @@
 * [Add single to Amazon](/workflows/add-single-to-amazon.md)
 * [Add single to Github](/workflows/add-single-to-github.md)
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
+* [Marketing an open reader](/workflows/marketing-an-open-reader.md)
 
 ## Chapter
 
@@ -31,6 +32,7 @@
 * [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
+* [Marketing an open reader](/workflows/marketing-an-open-reader.md)
 
 ## Public domain
 
@@ -70,3 +72,5 @@
 * [Add single to Github](/workflows/add-single-to-github.md)
 
 ## 7. Marketing
+
+* [Marketing an open reader](/workflows/marketing-an-open-reader.md)
