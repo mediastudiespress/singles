@@ -11,6 +11,7 @@
 * [Add single to Github](/workflows/add-single-to-github.md)
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 * [Marketing an open reader](/workflows/marketing-an-open-reader.md)
+* [Add open reader to DOAB](/workflows/add-open-reader-to-doab.md)
 
 ## Chapter
 
@@ -33,6 +34,7 @@
 * [Check and update doi](/workflows/check-and-update-doi.md)
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 * [Marketing an open reader](/workflows/marketing-an-open-reader.md)
+* [Add open reader to DOAB](/workflows/add-open-reader-to-doab.md)
 
 ## Public domain
 
@@ -70,6 +72,7 @@
 
 * [Add single to Amazon](/workflows/add-single-to-amazon.md)
 * [Add single to Github](/workflows/add-single-to-github.md)
+* [Add open reader to DOAB](/workflows/add-open-reader-to-doab.md)
 
 ## 7. Marketing
 
