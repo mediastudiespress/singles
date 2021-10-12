@@ -41,10 +41,6 @@
 * [Scanned chapter PDF to PubPub](/workflows/scanned-chapter-pdf-to-pubpub.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
 
-## History of media studies
-
-* [Check and update doi](/workflows/check-and-update-doi.md)
-
 ***
 
 ## 1. Development
