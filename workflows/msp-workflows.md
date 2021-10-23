@@ -12,6 +12,7 @@
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 * [Marketing an open reader](/workflows/marketing-an-open-reader.md)
 * [Add open reader to DOAB](/workflows/add-open-reader-to-doab.md)
+* [Send out proposal for review](/workflows/send-out-proposal-for-review.md)
 
 ## Chapter
 
@@ -24,6 +25,10 @@
 * [Check and update doi](/workflows/check-and-update-doi.md)
 
 ***
+
+## Media manifold
+
+* [Send out proposal for review](/workflows/send-out-proposal-for-review.md)
 
 ## Open reader
 
@@ -44,6 +49,8 @@
 ***
 
 ## 1. Development
+
+* [Send out proposal for review](/workflows/send-out-proposal-for-review.md)
 
 ## 2. Ingestion
 
