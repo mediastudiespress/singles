@@ -15,6 +15,8 @@
 * [Send out proposal for review](/workflows/send-out-proposal-for-review.md)
 * [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
 * [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
+* [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
+* [Create front matter Pub](/workflows/create-front-matter-pub.md)
 
 ## Chapter
 
@@ -64,6 +66,8 @@
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
 * [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
 * [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
+* [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
+* [Create front matter Pub](/workflows/create-front-matter-pub.md)
 
 ## 3. Editing
 
