@@ -13,6 +13,8 @@
 * [Marketing an open reader](/workflows/marketing-an-open-reader.md)
 * [Add open reader to DOAB](/workflows/add-open-reader-to-doab.md)
 * [Send out proposal for review](/workflows/send-out-proposal-for-review.md)
+* [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
+* [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
 
 ## Chapter
 
@@ -60,6 +62,8 @@
 * [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
+* [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
+* [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
 
 ## 3. Editing
 
