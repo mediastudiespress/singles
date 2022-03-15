@@ -17,6 +17,7 @@
 * [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
 * [Create front matter Pub](/workflows/create-front-matter-pub.md)
+* [Prepare the LaTeX](/workflows/prepare-the-latex.md)
 
 ## Chapter
 
@@ -72,6 +73,8 @@
 ## 3. Editing
 
 ## 4. Typesetting
+
+* [Prepare the LaTeX](/workflows/prepare-the-latex.md)
 
 ## 5. Publish
 
