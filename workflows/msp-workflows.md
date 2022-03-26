@@ -18,6 +18,7 @@
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
 * [Create front matter Pub](/workflows/create-front-matter-pub.md)
 * [Prepare the LaTeX](/workflows/prepare-the-latex.md)
+* [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)  
 
 ## Chapter
 
@@ -75,6 +76,7 @@
 ## 4. Typesetting
 
 * [Prepare the LaTeX](/workflows/prepare-the-latex.md)
+* [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
 
 ## 5. Publish
 
