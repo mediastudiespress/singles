@@ -13,7 +13,7 @@
 - [ ] Navigate to the PubPub Collection page -> Layout and add the jpg image. Adjust width as appropriate.
 - [ ] Crop a text-free 1200px x 800px image from the cover to serve as the preview and, depending, the background image. Save as acronym-preview.png and copy to Working Copy /cover directory
 - [ ] Upload the new image to the Collection "Preview image" and each Pub's "Preview image" and "Background image"
-- [ ] In Front Matter on PubPub, credit cover designer and the CC-licensed image, according to older examples
+- [ ] In Front Matter on PubPub, credit cover designer and the CC-licensed image, according to older examples; do the same at the base of the Collection layout
 - [ ] On Overleaf, do the same
 - [ ] Upload the jpg and png to Airtable in the Marketing view
 - [ ] Copy over the InDesign file to Working Copy /cover
