@@ -6,3 +6,4 @@
 - [ ] Add the new single to the Singles drop -down in the main Menu Bar
 - [ ] Navigate to [Toth](https://thoth.pub/admin/dashboard), and change Work Status to "Active". Check the Toth catalog
 - [ ] Change the chapters to "Active" as well 
+- [ ] Change publication date, if necessary, on [Bowker](https://www.myidentifiers.com/isbn_dashboard)
