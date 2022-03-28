@@ -20,7 +20,8 @@
 * [Prepare the LaTeX](/workflows/prepare-the-latex.md)
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
 * [Set up cover file](/workflows/set-up-cover-file.md)
-* [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md) 
+* [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md)
+* [Preliminary publish (PubPub and Toth)](/workflows/preliminary-publish-(pubpub-and-toth).md) 
 
 ## Chapter
 
@@ -90,7 +91,8 @@
 * [Pre-publication check](/workflows/pre-publication-check.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
-* [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md)  
+* [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md)
+* [Preliminary publish (PubPub and Toth)](/workflows/preliminary-publish-(pubpub-and-toth).md) 
 
 ## 7. Distribution
 
