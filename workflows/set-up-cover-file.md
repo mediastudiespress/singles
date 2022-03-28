@@ -8,6 +8,7 @@
 - [ ] Optional: send the cover to the author for their approval
 - [ ] If the book will be printed, fill in the required information on the back cover. Save the text as back-cover-text.md in the single's Cover directory 
 - [ ] Export the front and back cover as individual pages in png, jpg, and pdf formats
+- [ ] follow [these directions](https://helpx.adobe.com/acrobat/kb/Change-PDF-page-size-in-MAC.html) to convert pdf to 8.5 by 11
 - [ ] If printing, open the png and jpg in Preview, and change size to640x1024, and save to /cover as acronym-cover-640x1024-png (etc.). If not printing, consider resolution and size, and save to /cover as acronym-cover-png (etc.)
 - [ ] Copy the path to the png file, and paste in the Cover URL for the [Toth](https://thoth.pub/admin/dashboard) Book record
 - [ ] Navigate to the PubPub Collection page -> Layout and add the jpg image. Adjust width as appropriate.
