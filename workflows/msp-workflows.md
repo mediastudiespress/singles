@@ -103,3 +103,4 @@
 ## 8. Marketing
 
 * [Marketing an open reader](/workflows/marketing-an-open-reader.md)
+* [Blog post](/workflows/blog-post.md)
