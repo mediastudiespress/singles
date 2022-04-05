@@ -9,4 +9,5 @@
 - [ ] Add Contributor at the button, with the author(s)
 - [ ] Add Language, re English, at the bottom
 - [ ] Add Publications: Print (print ISBN), Epub, Mobi, PDF, and HTML (eISBN)
+- [ ] Be sure to include a marketing description in the Long Abstract listing; many distribution sites (e.g., Project MUSE and OAPEN) use that from the ONIX file
 - [ ] Copy the url to the Work to the "Thoth Work url" listings on the Singles Airtable
