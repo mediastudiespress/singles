@@ -7,3 +7,4 @@
 - [ ] fill out the form
 - [ ] copy the url and add it to the [Listings & downloads Airtable](https://airtable.com/appPjI0eV14CIXQLh/tblnzCOtlepm5AvFS/viwApIryc4XK0bA57?blocks=hide)
 - [ ] navigate to the mediastudies.press listing, and add to Front Matter (if that exists) and the bottom of the Collection page
+- [ ] navigate to [Thoth](https://thoth.pub/admin/), go to the PDF publication, and add Location
