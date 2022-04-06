@@ -25,7 +25,8 @@
 * [Assign and enter marketing codes](/workflows/assign-and-enter-marketing-codes.md) 
 * [Upload to Project MUSE](/workflows/upload-to-project-muse.md) 
 * [Post to OAPEN](/workflows/post-to-oapen.md)
-* [Post to Internet Archive](/workflows/post-to-internet-archive.md) 
+* [Post to Internet Archive](/workflows/post-to-internet-archive.md)
+* [Add to OpenLibrary](/workflows/add-to-openlibrary.md) 
 
 ## Chapter
 
@@ -106,7 +107,8 @@
 * [Assign and enter marketing codes](/workflows/assign-and-enter-marketing-codes.md)
 * [Upload to Project MUSE](/workflows/upload-to-project-muse.md)
 * [Post to OAPEN](/workflows/post-to-oapen.md)
-* [Post to Internet Archive](/workflows/post-to-internet-archive.md) 
+* [Post to Internet Archive](/workflows/post-to-internet-archive.md)
+* [Add to OpenLibrary](/workflows/add-to-openlibrary.md)
 
 ## 8. Marketing
 
