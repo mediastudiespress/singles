@@ -24,6 +24,7 @@
 * [Preliminary publish (PubPub and Toth)](/workflows/preliminary-publish-(pubpub-and-toth).md)
 * [Assign and enter marketing codes](/workflows/assign-and-enter-marketing-codes.md) 
 * [Upload to Project MUSE](/workflows/upload-to-project-muse.md) 
+* [Post to OAPEN](/workflows/post-to-oapen.md) 
 
 ## Chapter
 
@@ -102,7 +103,8 @@
 * [Add single to Github](/workflows/add-single-to-github.md)
 * [Add open reader to DOAB](/workflows/add-open-reader-to-doab.md)
 * [Assign and enter marketing codes](/workflows/assign-and-enter-marketing-codes.md)
-* [Upload to Project MUSE](/workflows/upload-to-project-muse.md) 
+* [Upload to Project MUSE](/workflows/upload-to-project-muse.md)
+* [Post to OAPEN](/workflows/post-to-oapen.md) 
 
 ## 8. Marketing
 
