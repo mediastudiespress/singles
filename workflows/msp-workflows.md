@@ -26,7 +26,8 @@
 * [Upload to Project MUSE](/workflows/upload-to-project-muse.md) 
 * [Post to OAPEN](/workflows/post-to-oapen.md)
 * [Post to Internet Archive](/workflows/post-to-internet-archive.md)
-* [Add to OpenLibrary](/workflows/add-to-openlibrary.md) 
+* [Add to OpenLibrary](/workflows/add-to-openlibrary.md)
+* [Add any new listing url to records](/workflows/add-any-new-listing-url-to-records.md) 
 
 ## Chapter
 
@@ -109,6 +110,7 @@
 * [Post to OAPEN](/workflows/post-to-oapen.md)
 * [Post to Internet Archive](/workflows/post-to-internet-archive.md)
 * [Add to OpenLibrary](/workflows/add-to-openlibrary.md)
+* [Add any new listing url to records](/workflows/add-any-new-listing-url-to-records.md) 
 
 ## 8. Marketing
 
