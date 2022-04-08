@@ -28,7 +28,8 @@
 * [Post to Internet Archive](/workflows/post-to-internet-archive.md)
 * [Add to OpenLibrary](/workflows/add-to-openlibrary.md)
 * [Add any new listing url to records](/workflows/add-any-new-listing-url-to-records.md)
-* [Create standalone back cover](/workflows/create-standalone-back-cover.md) 
+* [Create standalone back cover](/workflows/create-standalone-back-cover.md)
+* [Upload to Libgen](/workflows/upload-to-libgen.md) 
 
 ## Chapter
 
@@ -112,7 +113,8 @@
 * [Post to OAPEN](/workflows/post-to-oapen.md)
 * [Post to Internet Archive](/workflows/post-to-internet-archive.md)
 * [Add to OpenLibrary](/workflows/add-to-openlibrary.md)
-* [Add any new listing url to records](/workflows/add-any-new-listing-url-to-records.md) 
+* [Add any new listing url to records](/workflows/add-any-new-listing-url-to-records.md)
+* [Upload to Libgen](/workflows/upload-to-libgen.md)
 
 ## 8. Marketing
 
