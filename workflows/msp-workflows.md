@@ -42,6 +42,7 @@
 * [Pre-publication/new major version checks](/workflows/pre-publication-check.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
+* [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md) 
 
 ***
 
@@ -94,7 +95,8 @@
 ## 5. Cover
 
 * [Set up cover file](/workflows/set-up-cover-file.md)
-* [Create standalone back cover](/workflows/create-standalone-back-cover.md) 
+* [Create standalone back cover](/workflows/create-standalone-back-cover.md)
+* [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
 
 ## 6. Publish
 
@@ -116,7 +118,8 @@
 * [Add to OpenLibrary](/workflows/add-to-openlibrary.md)
 * [Add any new listing url to records](/workflows/add-any-new-listing-url-to-records.md)
 * [Upload to Libgen](/workflows/upload-to-libgen.md)
-* [Create print PDF](/workflows/create-print-pdf.md) 
+* [Create print PDF](/workflows/create-print-pdf.md)
+* [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
 
 ## 8. Marketing
 
