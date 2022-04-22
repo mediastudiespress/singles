@@ -24,3 +24,5 @@
 - [ ] Add the ePub and Mobi to the landing page
 - [ ] Create a "release" on Github, in the Singles repository. Use the example of previous releases, and attach the three files
 - [ ] Change the PDF download and add the buttons for ePub and Mobi on the landing page. Test the downloads.
+- [ ] Add the urls to the [Airtable](x-icabmobile://x-callback-url/open?url=https://airtable.com/appPjI0eV14CIXQLh/tblnzCOtlepm5AvFS/viwApIryc4XK0bA57?blocks=hide)
+- [ ] Navigate to Toth, and add a Publication under ePub and Mobi, with the landing page url and the direct Github links entered

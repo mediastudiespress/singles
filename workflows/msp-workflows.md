@@ -31,7 +31,9 @@
 * [Create standalone back cover](/workflows/create-standalone-back-cover.md)
 * [Upload to Libgen](/workflows/upload-to-libgen.md) 
 * [Create print PDF](/workflows/create-print-pdf.md)
-* [Create ePub and Mobi versions](/workflows/create-epub-and-mobi-versions.md) 
+* [Create ePub and Mobi versions](/workflows/create-epub-and-mobi-versions.md)
+* [Add ePub to Apple Books](/workflows/add-epub-to-apple-books.md)
+* [Add ePub to Google Books](/workflows/add-epub-to-google-books.md)
 
 ## Chapter
 
@@ -122,6 +124,8 @@
 * [Upload to Libgen](/workflows/upload-to-libgen.md)
 * [Create print PDF](/workflows/create-print-pdf.md)
 * [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
+* [Add ePub to Apple Books](/workflows/add-epub-to-apple-books.md)
+* [Add ePub to Google Books](/workflows/add-epub-to-google-books.md) 
 
 ## 8. Marketing
 
