@@ -30,7 +30,8 @@
 * [Add any new listing url to records](/workflows/add-any-new-listing-url-to-records.md)
 * [Create standalone back cover](/workflows/create-standalone-back-cover.md)
 * [Upload to Libgen](/workflows/upload-to-libgen.md) 
-* [Create print PDF](/workflows/create-print-pdf.md) 
+* [Create print PDF](/workflows/create-print-pdf.md)
+* [Create ePub and Mobi versions](/workflows/create-epub-and-mobi-versions.md) 
 
 ## Chapter
 
@@ -104,7 +105,8 @@
 * [Check and update doi](/workflows/check-and-update-doi.md)
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 * [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md)
-* [Preliminary publish (PubPub and Toth)](/workflows/preliminary-publish-(pubpub-and-toth).md) 
+* [Preliminary publish (PubPub and Toth)](/workflows/preliminary-publish-(pubpub-and-toth).md)
+* [Create ePub and Mobi versions](/workflows/create-epub-and-mobi-versions.md) 
 
 ## 7. Distribution
 
