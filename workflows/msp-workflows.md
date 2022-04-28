@@ -34,7 +34,8 @@
 * [Create ePub and Mobi versions](/workflows/create-epub-and-mobi-versions.md)
 * [Add ePub to Apple Books](/workflows/add-epub-to-apple-books.md)
 * [Add ePub to Google Books](/workflows/add-epub-to-google-books.md)
-* [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md) 
+* [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md)
+* [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)
 
 ## Chapter
 
@@ -132,4 +133,5 @@
 
 * [Marketing an open reader](/workflows/marketing-an-open-reader.md)
 * [Blog post](/workflows/blog-post.md)
-* [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md) 
+* [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md)
+* [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)  
