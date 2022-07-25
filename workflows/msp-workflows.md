@@ -37,6 +37,7 @@
 * [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md)
 * [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)
 * [Monthly metrics](/workflows/monthly-metrics.md)
+* [Update once MUSE is published](/workflows/update-once-muse-is-published.md) 
 
 ## Chapter
 
@@ -128,7 +129,8 @@
 * [Create print PDF](/workflows/create-print-pdf.md)
 * [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
 * [Add ePub to Apple Books](/workflows/add-epub-to-apple-books.md)
-* [Add ePub to Google Books](/workflows/add-epub-to-google-books.md) 
+* [Add ePub to Google Books](/workflows/add-epub-to-google-books.md)
+* [Update once MUSE is published](/workflows/update-once-muse-is-published.md) 
 
 ## 8. Marketing
 
