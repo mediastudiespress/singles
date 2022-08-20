@@ -1,6 +1,6 @@
 {
   books(
-    publishers:”4ab3bec2-c491-46d4-8731-47a5d9b33cc5”
+    publishers: "4ab3bec2-c491-46d4-8731-47a5d9b33cc5"
     workStatus: ACTIVE
     order: {
        field: TITLE
