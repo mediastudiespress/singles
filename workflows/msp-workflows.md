@@ -49,7 +49,8 @@
 * [Pre-publication/new major version checks](/workflows/pre-publication-check.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
-* [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md) 
+* [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
+* [Send chapter to copy-editor](/workflows/send-off-chapter-to-copy-editor.md)
 
 ***
 
@@ -93,6 +94,8 @@
 * [Create front matter Pub](/workflows/create-front-matter-pub.md)
 
 ## 3. Editing
+
+* [Send chapter to copy-editor](/workflows/send-off-chapter-to-copy-editor.md)
 
 ## 4. Typesetting
 
