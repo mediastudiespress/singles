@@ -4,6 +4,10 @@
 
 ***
 
+## Organization
+
+* [Agenda for Board meeting](/workflows/agenda-for-board-meeting.md)
+
 ## Single
 
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
