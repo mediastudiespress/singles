@@ -9,7 +9,8 @@
 * [Agenda for Board meeting](/workflows/agenda-for-board-meeting.md)
 * [Create annual plan](/workflows/create-annual-plan.md)
 * [Create budget](/workflows/create-budget.md) 
-* [Create Board report](/workflows/create-board-report.md) 
+* [Create Board report](/workflows/create-board-report.md)
+* [Create and send invoice](/workflows/create-and-send-invoice.md)   
 
 ## Single
 
