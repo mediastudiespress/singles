@@ -10,7 +10,8 @@
 * [Create annual plan](/workflows/create-annual-plan.md)
 * [Create budget](/workflows/create-budget.md) 
 * [Create Board report](/workflows/create-board-report.md)
-* [Create and send invoice](/workflows/create-and-send-invoice.md)   
+* [Create and send invoice](/workflows/create-and-send-invoice.md)
+* [Pay honorarium to reviewer](/workflows/pay-honorarium-to-reviewer.md)     
 
 ## Single
 
