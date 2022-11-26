@@ -117,16 +117,19 @@
 * [Create standalone back cover](/workflows/create-standalone-back-cover.md)
 * [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
 
-## 6. Publish
+## 6. Pre-publication 
+
+* [Preliminary publish (PubPub and Toth)](/workflows/preliminary-publish-(pubpub-and-toth).md)
+
+## 7. Publish
 
 * [Pre-publication check](/workflows/pre-publication-check.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 * [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md)
-* [Preliminary publish (PubPub and Toth)](/workflows/preliminary-publish-(pubpub-and-toth).md)
 * [Create ePub and Mobi versions](/workflows/create-epub-and-mobi-versions.md) 
 
-## 7. Distribution
+## 8. Distribution
 
 * [Add single to Amazon](/workflows/add-single-to-amazon.md)
 * [Add single to Github](/workflows/add-single-to-github.md)
@@ -144,7 +147,7 @@
 * [Add ePub to Google Books](/workflows/add-epub-to-google-books.md)
 * [Update once MUSE is published](/workflows/update-once-muse-is-published.md) 
 
-## 8. Marketing
+## 9. Marketing
 
 * [Marketing an open reader](/workflows/marketing-an-open-reader.md)
 * [Blog post](/workflows/blog-post.md)
