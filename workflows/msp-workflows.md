@@ -47,6 +47,7 @@
 * [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)
 * [Monthly metrics](/workflows/monthly-metrics.md)
 * [Update once MUSE is published](/workflows/update-once-muse-is-published.md) 
+* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)  
 
 ## Chapter
 
@@ -120,6 +121,7 @@
 * [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
 * [Create front matter Pub](/workflows/create-front-matter-pub.md)
+* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md) 
 
 ## 7. Publish
 
@@ -153,3 +155,4 @@
 * [Blog post](/workflows/blog-post.md)
 * [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md)
 * [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)  
+* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md) 
