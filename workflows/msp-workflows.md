@@ -47,7 +47,8 @@
 * [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)
 * [Monthly metrics](/workflows/monthly-metrics.md)
 * [Update once MUSE is published](/workflows/update-once-muse-is-published.md) 
-* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)  
+* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
+* [Select background header and preview image](/workflows/select-background-header-and-preview-image.md) 
 
 ## Chapter
 
@@ -121,7 +122,8 @@
 * [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
 * [Create initial home [page](/workflows/create-initial-home-page.md)
-* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md) 
+* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
+* [Select background header and preview image](/workflows/select-background-header-and-preview-image.md) 
 
 ## 7. Publish
 
