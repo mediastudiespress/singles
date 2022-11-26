@@ -12,8 +12,10 @@
 - [ ] Put in the expected publication date, with "Forthcoming" for Title Status
 - [ ] Select Target Audience
 - [ ] For Book Price, select the button "Write for Info"
-- [ ] If there will be a print book, claim a second ISBN, copying it to the Drafts, with "Print" and "Paperback" as the options.
-- [ ] Run [Singles Card](shortcuts://run-shortcut?name=Singles%20Card), and add the two ISBNs
-- [ ] Go to the Collection settings, and copy the *ebook* ISBN into the ISBN
-- [ ] Using the "Deposit" button, after adding the ISBN and other fields, generate a DOI and add to the Airtable [Singles Card](shortcuts://run-shortcut?name=Singles%20Card), including the "DOI url" field
-- [ ] If you haven't already, copy the Collection url into the URL field in [Singles Card](shortcuts://run-shortcut?name=Singles%20Card); also copy the Short description and Author bio from the Drafts into the listing 
+- [ ] claim a second ISBN for html, copying it to Drafts, with “E-book” and “Digital online” and blank
+- [ ] If there will be an ePub, claim a third ISBN, copying it to Drafts, with “Ebook” and “Electronic book text” and “EPUB”
+- [ ] If there will be a print book, claim a third ISBN, copying it to the Drafts, with "Print" and "Paperback" as the options.
+- [ ] Run [Singles Card](shortcuts://run-shortcut?name=Singles%20Card), and add the four ISBNs
+- [ ] Go to the Collection settings, and copy the *html* ISBN into the ISBN field
+- [ ] Using the "Deposit" button, after adding the ISBN and other fields, generate a DOI and add to the Airtable [Singles Card](shortcuts://run-shortcut?name=Singles%20Card), including the "DOI url" field. If a DOI already exists, select the “Re-deposit to Crossref button,” after checking the other metadata.
+- [ ] If you haven't already, copy the doi and doi (url) and Collection url into the URL field in [Singles Card](shortcuts://run-shortcut?name=Singles%20Card); also copy the Short description and Author bio from the Drafts into the listing 
