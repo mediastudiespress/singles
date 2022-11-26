@@ -1,6 +1,6 @@
 # Add forthcoming listing to Thoth
 
-#single #ingestion
+#single #pre-publication
 
 - [ ] Navigate to the [Thoth login page](https://thoth.pub/login)
 - [ ] Go to "Works" and select the green "New" button in upper right

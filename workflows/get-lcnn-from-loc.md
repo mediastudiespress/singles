@@ -1,6 +1,6 @@
 # Get LCCN from LOC
 
-#single #ingestion
+#single #pre-publication
 
 - [ ] Navigate to the [LOC PrePub Book Link login](https://locexternal.servicenowservices.com/pub)
 - [ ] Select Request LCCN 

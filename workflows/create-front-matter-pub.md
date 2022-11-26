@@ -1,6 +1,6 @@
 # Create front matter Pub
 
-#single #ingestion
+#single #pre-publication
 
 - [ ] Create New Pub called Front Matter, with author(s)
 - [ ] Go to "Pub Settings" and change link with "-front-matter" suffix

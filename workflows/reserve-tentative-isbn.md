@@ -1,6 +1,6 @@
 # Reserve tentative ISBN
 
-#single #ingestion
+#single #pre-publication
 
 - [ ] Navigate to the [Bowker login](https://www.myidentifiers.com/myid_sign_in?destination=)
 - [ ] Navigate to ["My Identifiers"](https://www.myidentifiers.com/isbn_dashboard)
