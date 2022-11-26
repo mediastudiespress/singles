@@ -25,7 +25,7 @@
 * [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
 * [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
-* [Create front matter Pub](/workflows/create-front-matter-pub.md)
+* [Create initial home [page](/workflows/create-initial-home-page.md)
 * [Prepare the LaTeX](/workflows/prepare-the-latex.md)
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
 * [Set up cover file](/workflows/set-up-cover-file.md)
@@ -120,7 +120,7 @@
 * [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
 * [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
-* [Create front matter Pub](/workflows/create-front-matter-pub.md)
+* [Create initial home [page](/workflows/create-initial-home-page.md)
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md) 
 
 ## 7. Publish
