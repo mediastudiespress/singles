@@ -62,6 +62,7 @@
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
 * [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
 * [Send chapter to copy-editor](/workflows/send-off-chapter-to-copy-editor.md)
+* [Create individual original pdf chapters in Github](/workflows/create-individual-original-pdf-chapters-in-github.md) 
 
 ***
 
@@ -84,6 +85,7 @@
 
 * [Scanned chapter PDF to PubPub](/workflows/scanned-chapter-pdf-to-pubpub.md)
 * [Check and update doi](/workflows/check-and-update-doi.md)
+* [Create individual original pdf chapters in Github](/workflows/create-individual-original-pdf-chapters-in-github.md) 
 
 ***
 
@@ -99,6 +101,7 @@
 * [Add reprint with permission](/workflows/add-reprint-with-permission.md)
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
+* [Create individual original pdf chapters in Github](/workflows/create-individual-original-pdf-chapters-in-github.md) 
 
 ## 3. Editing
 
