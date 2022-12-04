@@ -48,7 +48,8 @@
 * [Monthly metrics](/workflows/monthly-metrics.md)
 * [Update once MUSE is published](/workflows/update-once-muse-is-published.md) 
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
-* [Select background header and preview image](/workflows/select-background-header-and-preview-image.md) 
+* [Select background header and preview image](/workflows/select-background-header-and-preview-image.md)
+* [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md)  
 
 ## Chapter
 
@@ -111,6 +112,7 @@
 
 * [Prepare the LaTeX](/workflows/prepare-the-latex.md)
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
+* [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md) 
 
 ## 5. Cover
 
