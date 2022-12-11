@@ -25,7 +25,7 @@
 * [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
 * [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
-* [Create initial home [page](/workflows/create-initial-home-page.md)
+* [Create initial home page](/workflows/create-initial-home-page.md)
 * [Prepare the LaTeX](/workflows/prepare-the-latex.md)
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
 * [Set up cover file](/workflows/set-up-cover-file.md)
@@ -40,7 +40,7 @@
 * [Create standalone back cover](/workflows/create-standalone-back-cover.md)
 * [Upload to Libgen](/workflows/upload-to-libgen.md) 
 * [Create print PDF](/workflows/create-print-pdf.md)
-* [Create ePub and Mobi versions](/workflows/create-epub-and-mobi-versions.md)
+* [Create ePub version](/workflows/create-epub-version.md)
 * [Add ePub to Apple Books](/workflows/add-epub-to-apple-books.md)
 * [Add ePub to Google Books](/workflows/add-epub-to-google-books.md)
 * [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md)
@@ -126,7 +126,7 @@
 * [Add forthcoming listing to Thoth](/workflows/add-forthcoming-listing-to-thoth.md)
 * [Reserve tentative ISBN](/workflows/reserve-tentative-isbn.md)
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
-* [Create initial home [page](/workflows/create-initial-home-page.md)
+* [Create initial home page](/workflows/create-initial-home-page.md)
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
 * [Select background header and preview image](/workflows/select-background-header-and-preview-image.md) 
 
@@ -136,7 +136,7 @@
 * [Check and update doi](/workflows/check-and-update-doi.md)
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 * [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md)
-* [Create ePub and Mobi versions](/workflows/create-epub-and-mobi-versions.md) 
+* [Create ePub version](/workflows/create-epub-version.md)
 
 ## 8. Distribution
 
