@@ -49,7 +49,8 @@
 * [Update once MUSE is published](/workflows/update-once-muse-is-published.md) 
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
 * [Select background header and preview image](/workflows/select-background-header-and-preview-image.md)
-* [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md)  
+* [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md)
+* [Create Kindle ebook](/workflows/create-kindle-ebook.md) 
 
 ## Chapter
 
@@ -154,7 +155,8 @@
 * [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
 * [Add ePub to Apple Books](/workflows/add-epub-to-apple-books.md)
 * [Add ePub to Google Books](/workflows/add-epub-to-google-books.md)
-* [Update once MUSE is published](/workflows/update-once-muse-is-published.md) 
+* [Update once MUSE is published](/workflows/update-once-muse-is-published.md)
+* [Create Kindle ebook](/workflows/create-kindle-ebook.md)
 
 ## 9. Marketing
 
