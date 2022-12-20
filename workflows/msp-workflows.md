@@ -50,7 +50,8 @@
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
 * [Select background header and preview image](/workflows/select-background-header-and-preview-image.md)
 * [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md)
-* [Create Kindle ebook](/workflows/create-kindle-ebook.md) 
+* [Create Kindle ebook](/workflows/create-kindle-ebook.md)
+* [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md) 
 
 ## Chapter
 
@@ -164,4 +165,5 @@
 * [Blog post](/workflows/blog-post.md)
 * [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md)
 * [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)  
-* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md) 
+* [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
+* [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md) 
