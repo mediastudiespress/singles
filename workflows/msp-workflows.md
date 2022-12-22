@@ -51,7 +51,8 @@
 * [Select background header and preview image](/workflows/select-background-header-and-preview-image.md)
 * [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md)
 * [Create Kindle ebook](/workflows/create-kindle-ebook.md)
-* [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md) 
+* [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md)
+* [Fix post-publication typos](/workflows/fix-post-publication-typos.md) 
 
 ## Chapter
 
@@ -158,6 +159,7 @@
 * [Add ePub to Google Books](/workflows/add-epub-to-google-books.md)
 * [Update once MUSE is published](/workflows/update-once-muse-is-published.md)
 * [Create Kindle ebook](/workflows/create-kindle-ebook.md)
+* [Fix post-publication typos](/workflows/fix-post-publication-typos.md) 
 
 ## 9. Marketing
 
