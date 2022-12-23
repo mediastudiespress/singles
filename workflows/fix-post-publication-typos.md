@@ -29,9 +29,10 @@
 
 - [ ] Github (/pdfs)
 - [ ] Github (release)
+- [ ] Google Books
 - [ ] Project MUSE
 - [ ] Internet Archive
-- [ ] Libgen
+- [ ] Libgen (may not be possible)
 - [ ] OAPEN/DOAB
 
 ## HTML
