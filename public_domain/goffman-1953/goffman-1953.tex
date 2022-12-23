@@ -1,20 +1,23 @@
-\documentclass[openany,nobib]{tufte-book}
+\documentclass[twoside,symmetric,nobib,justified]{tufte-book}
 
-\hypersetup{colorlinks=true,allcolors=[RGB]{97,15,11}}
+%\hypersetup{colorlinks=true,allcolors=[RGB]{97,15,11}}
 
 % For print version
-    % 1. change document class \documentclass[twoside,symmetric [?],justified]
-    % 2. change full width
-        %\begin{fullwidth}
-        %\end{fullwidth}
-    % 3. get rid of margin notes & implement endnotes | replace footnote \usepackage{endnotes}
-        %\endnote{text here}
-        %\theendnotes
-    % 4. geometry %\usepackage{geometry}
-        %\geometry{paperheight=8.5in,paperwidth=5.5in,top=.5in,right=0.5in,left=0.5in,bottom=.75in,includehead,includemp} 
-    %5. remove hyperlinks and comment out \hypersetup above      
-    %6. change title font sizes
-    %7. (figure out how to change the endnote formatting)
+    %1. change document class \documentclass[twoside,nobib]
+    %2. remove hyperlinks, including DOIs and comment out \hypersetup above      
+
+\geometry{
+  % showframe,
+  paperwidth=8.5in,
+  paperheight=11in,
+  left=0.93in,
+  right=0.6in,
+  top=.62in,
+  bottom=.62in,
+  includemp,
+  includehead,
+  % The text width and height are calculated automatically.
+}
 
 
 %%
@@ -251,25 +254,46 @@
 % Front matter
 \frontmatter\pagenumbering{roman}\setcounter{page}{3}
 
-% ONE full title page
+%r1 ONE full title page
 \begin{fullwidth}
 
 
 \maketitle
 
 
-% TWO copyright page
+%v1 TWO copyright page
 \newpage
+
+    
+
+
+
+
+\newgeometry{
+  % showframe,
+  paperwidth=8.5in,
+  paperheight=11in,
+  left=0.93in,
+  right=0.93in,
+  top=.62in,
+  bottom=.62in,
+  includemp,
+  includehead,
+  % The text width and height are calculated automatically.
+}
+\begin{fullwidth}
 
 ~\vfill
 \thispagestyle{empty}
+
 \setlength{\parindent}{0pt}
+
 \setlength{\parskip}{\baselineskip}
-\emph{Communication Conduct in an Island Community}, originally deposited in 1953 at the \smallcaps{University of Chicago}, is in the public domain.
+\emph{Communication Conduct in an Island Community}, originally deposited in 1953 at the \smallcaps{University of\\ Chicago}, is in the public domain.
 
 \par Published by \smallcaps{mediastudies.press} in the \smallcaps{Public Domain} series
 
-\par Original formatting, spelling, and citation styles retained throughout, with occasional {[}\emph{sic}{]} to indicate an uncorrected error.
+\par Original formatting, spelling, and citation styles retained throughout, with occasional {[}\emph{sic}{]} to indicate\\an uncorrected error.
 
 \href{http://mediastudies.press}{mediastudies.press} | 414 W. Broad St., Bethlehem, PA 18018, USA
 
@@ -290,6 +314,10 @@
 \par \smallcaps{Library of Congress Control Number} 2022951441
 
 \par\textit{Edition 1 published in December 2022}
+
+\restoregeometry
+
+\end{fullwidth}
 
 % THREE dissertation page
 \newpage
@@ -321,7 +349,7 @@ Philosophy}\par}
 
 \end{center}
 
-\end{fullwidth}
+
 
 % BLANK PAGE
 
@@ -331,7 +359,6 @@ Philosophy}\par}
 
 % TOC
 
-\begin{fullwidth}
 
 \newpage
 \thispagestyle{empty}
@@ -344,11 +371,12 @@ Philosophy}\par}
 \vspace{.75in}
 
 \setlength{\parindent}{25pt}
-{\fontsize{14}{12}\selectfont{\hyperref[ch:The Cradle: Introduction to the mediastudies.press edition]{The Cradle: Introduction to the mediastudies.press edition}\hfill x\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:The Cradle: Introduction to the mediastudies.press edition]{The Cradle: Introduction to the mediastudies.press edition}\hfill xi\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Introduction]{Introduction}\hfill 4\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Introduction]{Introduction}\hfill 5\par}}
+
 
 \vspace{.5in}
 
@@ -356,7 +384,7 @@ Philosophy}\par}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter I: Dixon]{Chapter I: Dixon}\hfill 11\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter I: Dixon]{Chapter I: Dixon}\hfill 13\par}}
 
 \vspace{.5in}
 
@@ -364,7 +392,7 @@ Philosophy}\par}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter II: Social Order and Social Interaction]{Chapter II: Social Order and Social Interaction}\hfill 23\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter II: Social Order and Social Interaction]{Chapter II: Social Order and Social Interaction}\hfill 25\par}}
 
 \vspace{.5in}
 
@@ -372,27 +400,29 @@ Philosophy}\par}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter III: Linguistic Behavior]{Chapter III: Linguistic Behavior}\hfill 31\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter III: Linguistic Behavior]{Chapter III: Linguistic Behavior}\hfill 33\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter IV: Expressive Behavior]{Chapter IV: Expressive Behavior}\hfill 35\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter IV: Expressive Behavior]{Chapter IV: Expressive Behavior}\hfill 38\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter V: The Management of Information About Oneself]{Chapter V: The Management of Information About Oneself}\hfill 46\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter V: The Management of Information About Oneself]{Chapter V: The Management of Information About Oneself}\hfill 47\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter VI: Indelicate Communication]{Chapter VI: Indelicate Communication}\hfill 56\par}}
-
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter VI: Indelicate Communication]{Chapter VI: Indelicate Communication}\hfill 57\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter VII: Sign Situations]{Chapter VII: Sign Situations}\hfill 60\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter VII: Sign Situations]{Chapter VII: Sign Situations}\hfill 61\par}}
 
+\end{fullwidth}
 
-\pagebreak
+\newpage
+
+\begin{fullwidth}
 
 \thispagestyle{empty}
 
@@ -402,31 +432,31 @@ Philosophy}\par}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter VIII: Introduction]{Chapter VIII: Introduction}\hfill 66\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter VIII: Introduction]{Chapter VIII: Introduction}\hfill 69\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter IX: Social Occasion]{Chapter IX: Social Occasion}\hfill 77\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter IX: Social Occasion]{Chapter IX: Social Occasion}\hfill 79\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter X: Accredited Participation and Interplay]{Chapter X: Accredited Participation and Interplay}\hfill 83\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter X: Accredited Participation and Interplay]{Chapter X: Accredited Participation and Interplay}\hfill 85\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XI: Expression During Interplay]{Chapter XI: Expression During Interplay}\hfill 89\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XI: Expression During Interplay]{Chapter XI: Expression During Interplay}\hfill 91\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XII: Interchange of Messages]{Chapter XII: Interchange of Messages}\hfill 98\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XII: Interchange of Messages]{Chapter XII: Interchange of Messages}\hfill 99\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XIII: Polite Interchanges]{Chapter XIII: Polite Interchanges}\hfill 105\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XIII: Polite Interchanges]{Chapter XIII: Polite Interchanges}\hfill 107\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XIV: The Organization of Attention]{Chapter XIV: The Organization of Attention}\hfill 114\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XIV: The Organization of Attention]{Chapter XIV: The Organization of Attention}\hfill 116\par}}
 
 \vspace{.25in}
 
@@ -438,7 +468,7 @@ Philosophy}\par}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XVII: Dual Participation]{Chapter XVII: Dual Participation}\hfill 132\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XVII: Dual Participation]{Chapter XVII: Dual Participation}\hfill 131\par}}
 
 \vspace{.5in}
 
@@ -456,51 +486,60 @@ Philosophy}\par}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XX: Faulty Persons]{Chapter XX: Faulty Persons}\hfill 148\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XX: Faulty Persons]{Chapter XX: Faulty Persons}\hfill 147\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XXI: Involvement Poise]{Chapter XXI: Involvement Poise}\hfill 156\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XXI: Involvement Poise]{Chapter XXI: Involvement Poise}\hfill 155\par}}
 
 \vspace{.25in}
 
-\pagebreak
+\end{fullwidth}
+
+\newpage
+
+
 
 \thispagestyle{empty}
 
 \vspace*{.1in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XXII: On Projected Selves]{Chapter XXII: On Projected Selves}\hfill 171\par}}
+\begin{fullwidth}
+
+
+
+{\hspace{11.5pt}\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XXII: On Projected Selves]{Chapter XXII: On Projected Selves}\hfill 170\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XXIII: The Management of Projected Selves]{Chapter XXIII: The Management of Projected Selves}\hfill 190\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Chapter XXIII: The Management of Projected Selves]{Chapter XXIII: The Management of Projected Selves}\hfill 185\par}}
 
 
 \vspace{.5in}
 
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Interpretations and Conclusions]{Interpretations and Conclusions}\hfill 198\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Interpretations and Conclusions]{Interpretations and Conclusions}\hfill 193\par}}
 
 \vspace{.25in}
 
-{\fontsize{14}{12}\selectfont{\hyperref[ch:Bibliography]{Bibliography}\hfill 210\par}}
+{\fontsize{14}{12}\selectfont{\hyperref[ch:Bibliography]{Bibliography}\hfill 203\par}}
 
 \end{fullwidth}
 
-
+\begin{fullwidth}
 
 % THE CRADLE: INTRODUCTION TO THE MEDIASTUDIES.PRESS EDITION
 \chapter[THE CRADLE: INTRODUCTION TO THE MEDIASTUDIES.PRESS EDITION]{The Cradle: Introduction to the mediastudies.press\\ edition}
 \label{ch:The Cradle: Introduction to the mediastudies.press edition}
 \chaptermark{THE CRADLE: INTRODUCTION TO THE MEDIASTUDIES.PRESS EDITION}
 
-\emph{\smallcap{\LARGE{Yves Winkin}}}
+\end{fullwidth}
+
+\noindent\emph{\smallcap{\LARGE{Yves Winkin}}}
 
 \vspace{0.5in}
 
-\newthought{Erving Goffman's dissertation}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.21a77b51}{doi}}is the Rosetta stone for his entire work,
+\newthought{Erving Goffman's dissertation} is the Rosetta stone for his entire work,
 which, as time goes by, appears to be more and more groundbreaking. Why
 was \emph{Communication Conduct in an Island Community} not published
 earlier? Why did commentators not exploit it more systematically? Why
@@ -513,6 +552,8 @@ none too pleased, according to legend. Seventy years later, the piece
 appears luminous, extraordinarily mature, as if Goffman were already a
 fully professional sociologist from day one.\footnote{Special thanks to
   Wendy Leeds-Hurwitz for her graceful editing job.}
+
+\vspace{.25in}
 
 \hypertarget{maybe-he-was-a-spy-goffman-in-unst-19491951}{%
 \section[Maybe He Was a Spy: Goffman in Unst
@@ -706,7 +747,7 @@ impersonal settings of modern life.\footnote{Michael Schudson,
   \emph{Theory and Society} 13 (1984): 640.}
 \end{quote}
 
-\newpage\noindent Schudson could not have known that Goffman cultivated a close
+\noindent Schudson could not have known that Goffman cultivated a close
 relationship with one ``special informant,'' the postman James (Jimmy)
 Johnson, who was sixty-six in 1950. He was Claire Auntie's uncle.
 According to his nephew Bob Anderson, Claire's brother, he was
@@ -1014,11 +1055,11 @@ XVII borrows the notion of ``away'' from Bateson and Mead's
 \emph{Balinese Character}: ``The participant keeps his face more or less
 in a position to convey attention signs to the speaker, but his thoughts
 and eyes turn inward or come to focus on some object in the
-room.''\footnote{\emph{CC}, 232--33; Gregory Bateson and Margaret Mead,
-  \emph{Balinese Character: A Photographic Analysis} (New York: New York
-  Academy of Sciences, 1942).}
+room.''\textsuperscript{39}
 
-All in all, those chapters lead to the notion of ``involvement,''
+All\marginnote{\textsuperscript{39}\setcounter{footnote}{39} \emph{CC}, 232--33; Gregory Bateson and Margaret Mead,
+  \emph{Balinese Character: A Photographic Analysis} (New York: New York
+  Academy of Sciences, 1942).} in all, those chapters lead to the notion of ``involvement,''
 developed in the dissertation's fifth and last part, but also in several
 later papers, such as Chapter III of \emph{Behavior in Public Places}
 (1963) or Chapter 10 of \emph{Frame Analysis} (1974).\footnote{Goffman,
@@ -1190,11 +1231,16 @@ generation of Goffman scholars is invited to get to work.
 \begin{fullwidth}
 \maketitle
 
+\end{fullwidth}
 
 
 
 % THREE dissertation page
 \newpage
+
+\begin{fullwidth}
+    
+
 \thispagestyle{empty}
 \setlength{\parindent}{10pt}
 
@@ -1223,13 +1269,13 @@ Philosophy}\par}
 
 \end{center}
 
-
+\end{fullwidth}
 
 % Simmel quote
 \newpage
 \thispagestyle{empty}
 
-
+\begin{fullwidth}
 
 
 ~\vfill
@@ -1285,8 +1331,7 @@ mysterious.}
 \label{ch:Introduction}
 \chaptermark{INTRODUCTION}
 
-\newthought{This is a report}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.778546a7}{doi}}on a study of conversational interaction. It is based
+\newthought{This is a report} on a study of conversational interaction. It is based
 on twelve months of field work carried on between December, 1949, and
 May, 1951, in a small community in Great Britain.\footnote{I am very
   grateful to the Department of Social Anthropology and the Committee on
@@ -1462,7 +1507,7 @@ relatively wide range of interaction that occurs in a community,
 provided the two reasons for seeking an isolated community as a
 convenient place in which to study social interaction.
 
-\newpage While these several checks upon observation were available, it was not,
+While these several checks upon observation were available, it was not,
 of course, claimed that statements made in this study have the kind of
 reliability that is to be found in counts that are made of durable
 physical objects that other students can go back and recount. Since this
@@ -1521,6 +1566,10 @@ communication conduct of the islanders, or in order to make explicit the
 assumptions which seemed to underlie some of these identifications of
 regularities.
 
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+
 % Part One
 
 \newpage
@@ -1546,8 +1595,7 @@ regularities.
 \label{ch:Chapter I: Dixon}
 \chaptermark{CHAPTER I: DIXON}
 
-\newthought{More than a hundred}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.4b831ce5}{doi}}miles off the coast of Britain there is a cluster of
+\newthought{More than a hundred} miles off the coast of Britain there is a cluster of
 islands containing about twenty thousand inhabitants. These persons are
 supported by a poor economy of small-scale sheep farming and fishing.
 Less than ten per cent of the five hundred square miles of land on the
@@ -2089,15 +2137,16 @@ way getting two different views of the same process.
 
 \end{center}
 
-\end{fullwidth}
+
 
 % CHAPTER II: SOCIAL ORDER AND SOCIAL INTERACTION
 \chapter[CHAPTER II: SOCIAL ORDER AND SOCIAL INTERACTION]{Chapter II: Social Order and Social Interaction}
 \label{ch:Chapter II: Social Order and Social Interaction}
 \chaptermark{CHAPTER II: SOCIAL ORDER AND SOCIAL INTERACTION}
 
-\newthought{In the study of}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.9e2c6ac1}{doi}}social life, it is common to take as a basic model the
+\end{fullwidth}
+
+\newthought{In the study of} social life, it is common to take as a basic model the
 concept of social order and to analyze concrete behavior by focusing on
 the ways in which it conforms to and deviates from this model. In the
 present study, I assume that conversational interactions between
@@ -2113,6 +2162,8 @@ conversational interaction is suggested below. In this and in other
 chapters dealing with the conceptual framework, conversation in Western
 society is assumes as the data for which the framework is to be
 relevant.
+
+\vspace{0.25in}
 
 \hypertarget{the-model}{%
 \section{The Model}\label{the-model}}
@@ -2217,8 +2268,6 @@ occurrence of embarrassment marks a point of confusion and
 disorientation; participants sense a false note in the situation.
 Embarrassed participants are said to be flustered, ill at ease, or to
 have lost countenance.
-
-\newpage
 
 \begin{quote}
 \begin{enumerate}
@@ -2433,6 +2482,10 @@ present is a special problem and is not dealt with in this study.
 The use of the social order model in studying conversational interaction
 is inadequate in certain other ways, to be considered later.
 
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+
 % Part Three
 
 \newpage
@@ -2457,8 +2510,7 @@ is inadequate in certain other ways, to be considered later.
 \label{ch:Chapter III: Linguistic Behavior}
 \chaptermark{CHAPTER III: LINGUISTIC BEHAVIOR}
 
-\newthought{In common sense usage,}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.a6e896ec}{doi}}the term ``communication'' seems to be used
+\newthought{In common sense usage,} the term ``communication'' seems to be used
 chiefly to refer to the transmission of information by means of
 configurations of language signs, either spoken or written. This kind of
 sign behavior has certain general characteristics:
@@ -2514,8 +2566,14 @@ sign behavior has certain general characteristics:
   actor who sends the message and of the conditions under which the
   message is sent.\footnote{Recipients almost always qualify the
     information in a message by observations concerning the state of the
-    sender, his calmness, nervousness, seriousness, social
-    qualifications, and the like. Strictly speaking, these qualifying
+    sender, his calmness, nervousness, seriousness, soc-}
+\end{enumerate}
+\end{quote}
+
+No doubt the most important kinds of linguistic behavior consist of
+spoken and written communication. There are, of course, clear cut
+examples of linguistic behavior which involve performances of other
+kinds. The Morse\newpage\noindent code and the semaphore\marginnote{ial qualifications, and the like. Strictly speaking, these qualifying
     sources of information pertain to the response of the recipient, not
     to the content of the message. Qualifying information does not
     officially provide us with biographical material concerning the
@@ -2523,14 +2581,7 @@ sign behavior has certain general characteristics:
     qualifying information are not linguistic signs and do not have an
     object of reference; they are natural signs or expressions and are
     an intrinsic part of the very thing about which they convey
-    information.}
-\end{enumerate}
-\end{quote}
-
-No doubt the most important kinds of linguistic behavior consist of
-spoken and written communication. There are, of course, clear cut
-examples of linguistic behavior which involve performances of other
-kinds. The Morse code and the semaphore system provide cases in point.
+    information.} system provide cases in point.
 These are, as Sapir suggested, language transfers, and anything that can
 officially be expressed by means of spoken words can be conveyed by
 them.
@@ -2653,7 +2704,7 @@ an open way, a practice which is still observed in a few small Bergand
 communities. Mass impression is often a weakened form of linguistic
 communication because recipients are usually not obliged to accept
 responsibility for having received the message, although this is not
-always the case.\footnote{Recently we have been witnessing a series of
+always\newpage\noindent the case.\footnote{Recently we have been witnessing a series of
   conflicts concerning the use of certain bounded spaces for this kind
   of communication. Legal questions have arise as to whether advertisers
   have the right to make use of the sky above a city for skywriting, the
@@ -2684,8 +2735,7 @@ of banns is another case in point.\footnote{Ruesch and Bateson
 \label{ch:Chapter IV: Expressive Behavior}
 \chaptermark{CHAPTER IV: EXPRESSIVE BEHAVIOR}
 
-\newthought{Whenever an individual acts}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.17a480e0}{doi}}in any way, we can assume that something
+\newthought{Whenever an individual acts} in any way, we can assume that something
 about him is conveyed, even if it is only the fact that he did not act
 in a given way. In the style of the act, in the manner in which the act
 is performed, in the relation of the act to the context in which it
@@ -2786,9 +2836,7 @@ raise our eyebrows \emph{in order to} summon the waiter. The difference
 lies in the degree to which anticipated consequences enter in as a
 steering factor. All instrumental activity is also expressive, as we
 view it, but not all expressive activity is necessarily instrumental.
-All behavior is considered to be at least 
-
-\newpage expressive, as viewed by the
+All behavior is considered to be at least expressive, as viewed by the
 other and as apprehended and scored by the observer.\footnote{Robert F.
   Bales, \emph{Interaction Process Analysis} (Cambridge, Mass.:
   Addison-Wesley Press, 1950), pp.~50--51.}
@@ -2949,22 +2997,13 @@ When we examine instances of emotional expression, we frequently find
 that these signs are not iconic and do not portray or delineate by their
 structure the structure of their reference. Since these signs are
 symptoms, not symbols, they frequently form a highly differentiated part
-of the causal complex that gave rise to them.\footnote{Apparently there
-  is some ground for claiming that emotional expressions are vestigial
-  remains of acts and states once useful to the organism as an
-  adaptation to crises. See Charles Darwin, \emph{Expression of the
-  Emotions in Man and Animals} (London: John Murray, 1872).} One also
+of the causal complex that gave rise to them.\textsuperscript{14} One also
 finds that it is not helpful to refer to these expressions as
 ``instinctive.'' By now it is well understood that the same group of
 persons uses the same expression, e.g., tears, in quite different
 emotional contexts, and that there are very great differences from group
 to group as to where, how, and how much the emotions will be
-expressed.\footnote{These differences have been well described in Weston
-  Labarre, ``The Cultural Basis of Emotions and Gestures,'' \emph{J. of
-  Personality}, XVI, 49--68. A model empirical study is found in David
-  Efron, \emph{Gesture and Environment} (New York: King's Crown Press,
-  1941), where a description is given of differences in conversational
-  gestures between Italians and Jews in New York.} In referring to
+expressed.\textsuperscript{15} In referring to
 expressive behavior as forming a collective texture, Blumer suggests
 that:
 
@@ -2972,7 +3011,16 @@ that:
 \ldots{} expressive behavior is regularized by social codes much as is
 language or conduct. There seems to be as much justification and
 validity to speak of an affective structure or pattern of meanings.
-Almost every stabilized social situation in the life of a group imposes
+Almost every stabilized social\newpage\noindent situation\marginnote{\textsuperscript{14} Apparently there
+  is some ground for claiming that emotional expressions are vestigial
+  remains of acts and states once useful to the organism as an
+  adaptation to crises. See Charles Darwin, \emph{Expression of the
+  Emotions in Man and Animals} (London: John Murray, 1872).} in\marginnote{\textsuperscript{15}\setcounter{footnote}{15} These differences have been well described in Weston
+  Labarre, ``The Cultural Basis of Emotions and Gestures,'' \emph{J. of
+  Personality}, XVI, 49--68. A model empirical study is found in David
+  Efron, \emph{Gesture and Environment} (New York: King's Crown Press,
+  1941), where a description is given of differences in conversational
+  gestures between Italians and Jews in New York.} the life of a group imposes
 some scheme of affective conduct on individuals, whose conformity to it
 is expected. At a funeral, in a church, in the convivial group, in the
 polite assemblage, in the doctor's office, in the theater, at the dinner
@@ -3028,6 +3076,8 @@ in which a way as to make it a reliable index and are more ally obliged
 to act in such a way as to confirm the fiction that emotional response
 is an unguarded instinctive response to the situation.
 
+\enlargethispage{\baselineskip}
+
 We see, then, that if we focus our attention on emotional behavior, we
 shall arrive at too narrow a conception of the concept of
 ``expression.'' Some further, and even more fundamental, limitations are
@@ -3040,9 +3090,7 @@ behavior.
 produced may themselves be to the producer of the sign or to other
 persons signals of the state of the producer of the sign. This is a
 common situation, and such signs can be called expressive signs. A sign
-on
-
-\newpage this usage is \emph{expressive} if the fact of its production is
+on this usage is \emph{expressive} if the fact of its production is
 itself a sign to its interpreter of something about the producer of the
 sign.\footnote{Charles Morris, \emph{Signs, Language, and Behavior} (New
   York: Prentice-Hall, 1946), pp.~67--68.}
@@ -3185,13 +3233,7 @@ individuals\marginnote{\textsuperscript{25}\setcounter{footnote}{25} An example 
   care that management must take not to talk with one worker more than
   with another, lest this be taken as an expression of favoritism (see
   p.~10, the section on ``Communication and Favoritism''). They also
-  consider the fact that ``one-way'' communication may express one kind
-  of social evaluation or relationships, and ``two-way'' communication
-  another relationships.} actively cooperate with one another.\footnote{A group of
-  sociologists influenced by the work of E. D. Chapple have stressed,
-  perhaps too much so, the expressive overtones usually found in
-  situations where one worker must habitually initiate action of a
-  purely instrumental kind to another worker.} Many of these
+  con-} actively cooperate with one another.\textsuperscript{26} Many of these
 requirements of organization provide vehicles which are employed as
 signs expressive of the valuation that the members of the organization
 make of one another. These valuations pertain to matters such as
@@ -3202,7 +3244,15 @@ least to some degree---on physical grounds alone---from the performance
 those present have come to expect of the task in general and of the
 individual in particular. Inescapable deviations of this kind provide a
 ready sign for conveying the attitude of the performer to those for whom
-and among whom the performance occurs.\footnote{An important body of
+and among whom the performance occurs.\textsuperscript{27}
+
+Finally,\marginnote{sider the fact that ``one-way'' communication may express one kind
+  of social evaluation or relationships, and ``two-way'' communication
+  another relationships.} acts\marginnote{\textsuperscript{26} A group of
+  sociologists influenced by the work of E. D. Chapple have stressed,
+  perhaps too much so, the expressive overtones usually found in
+  situations where one worker must habitually initiate action of a
+  purely instrumental kind to another worker.} which\marginnote{\textsuperscript{27}\setcounter{footnote}{27} An important body of
   data illustrating this possibility is found in the literature on
   restriction of output, as, for example, Donald Roy, ``Quota
   Restriction and Goldbricking in a Machine Shope,'' \emph{Amer. J.
@@ -3218,9 +3268,7 @@ and among whom the performance occurs.\footnote{An important body of
   tendency for a given task performance to take on a ``project value''
   having to do with early experiences of the actor is illustrated in D.
   D. Bond, \emph{The Love and Fear of Flying} (New York: International
-  Universities Press, 1952).}
-
-Finally, acts which are traditionally taken, in a particular situation,
+  Universities Press, 1952).} are traditionally taken, in a particular situation,
 as expressive of the conceptions that persons have of one another can
 themselves take on an extra superimposed layer of expressive
 significance. Thus, for example, ceremonies such as greetings and
@@ -3309,6 +3357,8 @@ We are now in a position to summarize the characteristics of expressive
 behavior. In doing this a contrast will be made with the
 characteristics, as previously reported, of linguistic behavior.
 
+\enlargethispage{\baselineskip}
+
 \begin{enumerate}
 \item
   Expressive behavior provides information that cannot be precisely
@@ -3360,10 +3410,14 @@ characteristics, as previously reported, of linguistic behavior.
 \end{enumerate}
 
 
+
+    
 % CHAPTER V: THE MANAGEMENT OF INFORMATION ABOUT ONESELF
-\chapter[CHAPTER V: THE MANAGEMENT OF INFORMATION ABOUT ONESELF]{Chapter V: The Management of Information About\\ Oneself}
+\chapter[CHAPTER V: THE MANAGEMENT OF INFORMATION ABOUT ONESELF]{Chapter V: The Management of\\Information About Oneself}
 \label{ch:Chapter V: The Management of Information About Oneself}
 \chaptermark{CHAPTER V: THE MANAGEMENT OF INFORMATION ABOUT ONESELF}
+
+
 
 \begin{quote}
 There are some additional qualifications necessary, in the practical
@@ -3380,8 +3434,8 @@ must be your grammar.\footnote{\emph{Letters of Lord Chesterfield to His
   Son}, Everyman's ed. (New York: Dutton, 1929), p.~41.}
 \end{quote}
 
-\newthought{In social life,}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.a475d25e}{doi}}an actor commonly finds that very basic ends, of both an
+
+\newthought{In social life,} an actor commonly finds that very basic ends, of both an
 ultimate and intermediate kind, are furthered by gathering information
 about those with whom he interacts, es­pecially information about the
 conceptions that these persons have of themselves and of him. With
@@ -3408,6 +3462,8 @@ sources of information, linguistic and expressive, that are available to
 them, since it is appreciated that the subject's linguistic version of
 the situation may be a highly biassed {[}\emph{sic}{]} one. Thus, we are
 given advice of the following kind:
+
+\newpage
 
 \begin{quote}
 When you talk with the patient, you should listen, first, for what he
@@ -3437,7 +3493,7 @@ movements.\footnote{Frieda Fromm-Reichmann, ``Notes on the Development
 \end{quote}
 
 \noindent But, of course, this kind of detective work goes on constantly in
-non-professional situations; in every interaction, each participant is
+non-profess- ional situations; in every interaction, each participant is
 both patient and doctor. In Ichheiser's terminology, sources of
 \emph{expression} of one person comes to be sources of \emph{impression}
 of him for other persons.\footnote{Gustav Ichheiser provides a clear
@@ -3480,18 +3536,18 @@ misinformation, inadequate information, or unserious
 information.\footnote{Professional rules in service trades sometimes
   explic­itly deal with the degree to which different kinds of
   mis-communications are officially permissible. See, for example, E. C.
-  Hughes, ``Study of a Secular Institution: the Chicago Real Estate
+  Hughes,}
+
+Misinformation may be communicated by linguistic signs. This may be
+called deceit. In immediate communication, deceit does not occur
+frequently except under special circumstances, as in the ``white lie.''
+Persons who\marginnote{``Study of a Secular Institution: the Chicago Real Estate
   Board,'' (Unpublished Ph. D. dissertation, Department or Sociolo­gy,
   University of Chicago, 1928), p.~85: ``The line between
   misrepresentation and truth is hard to draw. The code deals with three
   types of questions regarding truth, (1) over-statement, (2)
   understatement of unfavorable facts, and (3) silence regarding
-  significant facts which have not been asked for.''}
-
-Misinformation may be communicated by linguistic signs. This may be
-called deceit. In immediate communication, deceit does not occur
-frequently except under special circumstances, as in the ``white lie.''
-Persons who practise more serious deceit, e.g., the ``bare-faced lie,''
+  significant facts which have not been asked for.''} practise more serious deceit, e.g., the ``bare-faced lie,''
 and who are detected, place them­selves in an almost indefensible
 position. Misinformation may be conveyed by expressive signs. This may
 be called feigning. Feigning occurs quite regularly, partly because the
@@ -3771,15 +3827,15 @@ concealing things from him.\footnote{Perhaps here it should also be
   noted that in circles conversant with Freudian doctrine, ``slips'' are
   taken, jokingly or otherwise, as a revelation of ``real'' feelings;
   since slips are apparently in no way subject to conscious control,
-  they may con­vey embarrassing information, or what is taken to be
-  embarrassing information. The doctrine that slips are ``significant''
-  adds new hazards to the concealer, gives new power to the searcher.}
+  they may con­vey embarrassing information, or}
 For example, a crofter's wife has admitted to me (and I have also
 observed) that in order to find out whether a guest ``really'' likes the
 food he is being served, she does not listen to his words of praise,
 which courtesy demands of him, but observes the rapidity with which he
 raises the food to his mouth and the zest with which he chews it. Such
-cues to the attitude of an actor are extremely difficult to distort.
+cues to the attitude of an actor are extremely difficult\marginnote{what is taken to be
+  embarrassing information. The doctrine that slips are ``significant''
+  adds new hazards to the concealer, gives new power to the searcher.} to distort.
 Extreme applications of this game of concealment and search, operating
 at an institutionalized level, are found in the application of modern
 projective testing and the use of laboratory police methods.
@@ -3880,7 +3936,7 @@ expressive component of communication and that the latter itself
 contains a host of messages which differ among themselves in the degree
 to which they approach what we usually think of as active communication.
 
-\newpage It has been suggested that both sender and recipient can be made
+It has been suggested that both sender and recipient can be made
 explicitly responsible for a linguistic message, the sender for having
 transmitted it and the recipient for having received it. Playing in and
 around this major theme, there are many variations and melodies, which
@@ -3935,8 +3991,7 @@ Often innuendo is conveyed by statements made
 
 \enlargethispage{\baselineskip}
 
-\newthought{It was suggested that}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.08d178df}{doi}}the actor, as a participant in the game of
+\newthought{It was suggested that} the actor, as a participant in the game of
 concealment and search, exerts self-control over in­formation about
 himself which he provides to others. Whether properly or improperly,
 whether he is or is not detected in his effort, the actor guides some of
@@ -3944,7 +3999,7 @@ his communications by an appre­ciation of their likely effect upon the
 persons who receive them, this appreciation being guided in turn by the
 indications that recipients make of the response a proposed line of
 action will evoke from them. Spontaneous expression of feelings is
-partly inhibited and appropriate feelings are, in part, conveyed.
+partly inhibited and approriate feelings are, in part, conveyed.
 Ac­commodation, working acceptance, and tentative harmony are the usual
 result. If a working acceptance cannot be managed, embarrassment,
 ill-ease, and confusion are often the result. With­drawal, conflict, or
@@ -4108,8 +4163,7 @@ a kind of bluff.
 \label{ch:Chapter VII: Sign Situations}
 \chaptermark{CHAPTER VII: SIGN SITUATIONS}
 
-\newthought{When persons are in}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.eba9bbba}{doi}}each other's immediate presence, and especially when
+\newthought{When persons are in} each other's immediate presence, and especially when
 they are engaged together in conversational interaction, important
 informational conditions obtain. Each participant is in a position to
 convey information about himself both linguistically and expressively,
@@ -4318,7 +4372,7 @@ considerateness.
 
 A case may be made for the view that the best model for an object to
 which we give consideration is not a person at all, but a sacred idol,
-image, or god.\footnote{This general view I base on Emile Durkheim,
+image,\newpage\noindent or god.\footnote{This general view I base on Emile Durkheim,
   \emph{The Elementary Forms of the Religious Life}, trans. J. W. Swain
   (New York: Macmillan, 1926), pp.~240--272.} It is to such sacred
 objects that we show in extreme what we show to persons. We feel that
@@ -4336,7 +4390,9 @@ not have as much sacred power or \emph{mana} as do idols, and hence need
 not be treated with as much ceremony. An idol is to a person as a rite
 is to etiquette.
 
-
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
 % Part One
 
 \newpage
@@ -4361,8 +4417,7 @@ is to etiquette.
 \label{ch:Chapter VIII: Introduction}
 \chaptermark{CHAPTER VIII: INTRODUCTION}
 
-\newthought{At this point it}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.18454129}{doi}}seems proper to provide a more systematic statement of
+\newthought{At this point it} seems proper to provide a more systematic statement of
 some of the assumptions and definitions which underlie some of the terms
 and usages appearing in the first three parts. At the same time it is
 also necessary to provide some very elementary definitions as a
@@ -4488,7 +4543,7 @@ signs must be ``meaningful'' to the recipient. These conditions are
 imposed by the extra-social characteristics of the human condition, yet
 these conditions must be satisfied by habitual social arrangements.
 
-\newpage In all communication situations the possibility arises that the
+In all communication situations the possibility arises that the
 recipient will not correctly interpret or understand the message that is
 conveyed to him. Whenever a relayer and/or a courier are involved as
 mediated agents in the conveyance of a message, additional opportunities
@@ -4545,7 +4600,7 @@ easily deal with the other kind of treatment.
 
 Interaction between persons who are immediately present to each other
 possesses some crucial communication characteristics. One of these
-characteristics---the ``non-deniable'' nature of messages---has already
+character- istics---the ``non-deniable'' nature of messages---has already
 been mentioned; others will be considered later. None the less, the
 criterion of immediate presence provides a heuristic delimitation of
 scope, not an analytical one. From the point of view of communication,
@@ -4572,20 +4627,13 @@ is dependent upon a complex set of interdependent elements.\footnote{The
   conical-shaped stress to zones of communication, with the source of
   impulse at the apex of the cone. This directional effect is especially
   apparent in the case of visual signs, since they are propagated by
-  waves that are lateral, not spherical. \textbar{} Some important
+  waves that are lateral, not spherical. Some important
   sign-vehicles involve facial expressions which can be ``read'' only if
   all parts of the surface of the face are seen in relation to one
   another. In such cases the apex of the cone is very narrow, so that
-  the communication zone is effectively reduced to a narrow cylinder.
-  This is also the case where the source of impulse is set into the face
-  and shielded more than ordinary sources of impulse, as in the case of
-  eye expressions. \textbar{} In the case of relatively intense sound
-  impulses, the angle of propagation approximately describes a circular,
-  and the length of the cone can be taken as the radius of a sphere
-  within which reception of the sign-impulse is possible. With sounds
-  that are less intense, the effectiveness of the body as a barrier
-  apparently varies with the frequency of the sound as well as with its
-  intensity.}
+  the communica-}
+
+\enlargethispage{\baselineskip}
 
 In considering the factors which influence the shape of communication
 zones, we must also consider the factors which influence the
@@ -4601,7 +4649,16 @@ practicability of certain kinds of tact. In general, the factors which
 influence the shape of a zone and the receptivity of a recipient play an
 important role in habitual communication arrangements.
 
-Communication zones possess an obvious characteristic: as the distance
+Communication\marginnote{tion zone is effectively reduced to a narrow cylinder.
+  This is also the case where the source of impulse is set into the face
+  and shielded more than ordinary sources of impulse, as in the case of
+  eye expressions. In the case of relatively intense sound
+  impulses, the angle of propagation approximately describes a circular,
+  and the length of the cone can be taken as the radius of a sphere
+  within which reception of the sign-impulse is possible. With sounds
+  that are less intense, the effectiveness of the body as a barrier
+  apparently varies with the frequency of the sound as well as with its
+  intensity.} zones possess an obvious characteristic: as the distance
 between source of impulse and recipient increases, the ability of the
 recipient to receive the message gradually decreases. There is an
 obvious limit to this.
@@ -4926,8 +4983,7 @@ everyone else.
 \label{ch:Chapter IX: Social Occasion}
 \chaptermark{CHAPTER IX: SOCIAL OCCASION}
 
-\newthought{In Dixon, as, apparently,}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.387f8616}{doi}}elsewhere in English-speaking society, the
+\newthought{In Dixon, as, apparently,} elsewhere in English-speaking society, the
 term ``social occasion'' is often given to events such as a
 whist-social, a picnic, a public political meeting, etc. When we examine
 events of this kind, we can isolate a set of common characteristics:
@@ -5163,7 +5219,7 @@ the other hand, daily dinner in a Dixon household involves the same
 participants in the same activity at the same place, but little social
 recognition seems to be given to the series as a series.
 
-\newpage In the research reported in this study, social occasions and series of
+In the research reported in this study, social occasions and series of
 occasions were not, as such, the focus of attention. The concept of
 social occasion has been considered because it is helpful to give some
 attention to what one is not, specifically, studying in order to speak
@@ -5178,13 +5234,16 @@ night downtown that is not appropriate Tuesday afternoon in the factory,
 and that permissible behavior on New Year's Eve may everywhere be a
 little different from what is considered permissible at other times.
 
+\begin{fullwidth}
+    
+
 % CHAPTER X: ACCREDITED PARTICIPATION AND INTERPLAY
 \chapter[CHAPTER X: ACCREDITED PARTICIPATION AND INTERPLAY]{Chapter X: Accredited Participation and Interplay}
 \label{ch:Chapter X: Accredited Participation and Interplay}
 \chaptermark{CHAPTER X: ACCREDITED PARTICIPATION AND INTERPLAY}
+\end{fullwidth}
 
-\newthought{When two or more}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.6c0c9ce2}{doi}}persons are engaged in linguistic communication with
+\newthought{When two or more} persons are engaged in linguistic communication with
 one another, in Dixon and apparently elsewhere in Western society, there
 is a tendency for each participant to extend to himself and to all other
 participants the like privilege of ``accredited'' attendance. Briefly,
@@ -5296,15 +5355,7 @@ It is possible,\marginnote{\textsuperscript{5}\setcounter{footnote}{5} A stateme
   appropriate behavior. Such specific tones of behavior are in all cases
   indicative of an ethos. They are expressions of a standardised system
   of emotional attitudes. In this case the men have temporarily adopted
-  a definite set of sentiments toward the rest of the world, a definite
-  attitude toward reality, and they will joke about subjects which at
-  another time they would treat with seriousness. If one of the men
-  suddenly intrudes a sincere or realist remark it will be received with
-  no enthusiasm---perhaps with a moment's silence and a slight feeling
-  that the sincere person has committed a solecism. On another occasion
-  the same group of persons may adopt a different ethos; they may talk
-  realistically and sincerely. Then if the blunderer makes a flippant
-  joke it will fall flat and feel like a solecism.''} presumably, for the thoughts and visual attention of
+  a definite set} presumably, for the thoughts and visual attention of
 recipients to come together into a focus in order to receive a single
 message from a speaker, and then for this common orientation to break
 down completely once the message has been received. Apparently, however,
@@ -5317,7 +5368,15 @@ fluctuation (within limits) in the number of accredited participants. As
 one participant ceases to play the role of sender and falls back into
 being merely a recipient, another participant takes on the role of
 sender. The definition of the situation that provided the context for
-one message is maintained and provides a context for the next message.
+one message is maintained and provides a context for the next message.\marginnote{of sentiments toward the rest of the world, a definite
+  attitude toward reality, and they will joke about subjects which at
+  another time they would treat with seriousness. If one of the men
+  suddenly intrudes a sincere or realist remark it will be received with
+  no enthusiasm---perhaps with a moment's silence and a slight feeling
+  that the sincere person has committed a solecism. On another occasion
+  the same group of persons may adopt a different ethos; they may talk
+  realistically and sincerely. Then if the blunderer makes a flippant
+  joke it will fall flat and feel like a solecism.''}
 The focus of visual attention in a sense is also maintained, for while
 it passes from one speaker to another, it tends to pass to a single
 speaker. We may refer to the total communication which occurs on the
@@ -5355,6 +5414,8 @@ objects which can serve in this capacity but in no other relevant one.
 During informal conversation, for example, the focus of attention may
 momentarily pass to infants, or animal pets, or even to cultural
 artificers.
+
+\enlargethispage{\baselineskip}
 
 2. A group of persons may play together the role of a single affective
 sender. Choral singing at a church social provides an example.
@@ -5398,6 +5459,8 @@ when persons come to be on increasingly informal terms, suggests that a
 record of their speech would show changes in rules regarding
 interruption:
 
+\vspace{0.125in}
+
 \begin{quote}
 Such a record of the timing of their conversation will show that at
 first they are quite polite. Neither interrupts, both wait for the other
@@ -5413,7 +5476,7 @@ interviews to a relatively constant value.\footnote{George A. Miller,
 receiver talk at the same time, the interplay usually becomes
 disorganized.
 
-\newpage 4. It has been suggested that interruptions may occur but that some
+4. It has been suggested that interruptions may occur but that some
 limitation will exist concerning them. As a fourth qualification to the
 original definition of interplay, another basic possibility must be
 mentioned. When one sender terminates his message, it may happen that no
@@ -5528,13 +5591,20 @@ in front of an audience. In such cases, the audience may tend to focus
 its attention on an interplay of staged messages instead of upon a
 single message.
 
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+
+
+    
 % CHAPTER XI: EXPRESSION DURING INTERPLAY
-\chapter[CHAPTER XI: EXPRESSION DURING INTERPLAY]{Chapter XI: Expression During Interplay}
+\chapter[CHAPTER XI: EXPRESSION DURING INTERPLAY]{Chapter XI: Expression During\\Interplay}
 \label{ch:Chapter XI: Expression During Interplay}
 \chaptermark{CHAPTER XI: EXPRESSION DURING INTERPLAY}
 
-\newthought{In an earlier part}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.1dc2eaf1}{doi}}of this study, it was suggested that communication,
+
+
+\newthought{In an earlier part} of this study, it was suggested that communication,
 seen as a physical process, provides many events that are well adapted
 to serve as expressions, witting or unwitting, especially expressions of
 the evaluative judgment that participants make of one another. As one
@@ -5551,6 +5621,8 @@ expression in interplay will be considered.
 1. One source of expression during interplay is to be
 found in the manner in which recipients attend to the sender.
 Chesterfield's view of this matter is interesting:
+
+\vspace{0.125in}
 
 \begin{quote}
 There is nothing so brutally shocking, nor so little forgiven, as a
@@ -5645,7 +5717,10 @@ have quite frequently employed this factor as an index of a rather
 complex variable, namely, ``informal status within the
 group.''\footnote{Leon Festinger and John Thibaut, ``Interpersonal
   Communication in Small Groups,'' \emph{Theory and Experiment in Social
-  Communication}, by Leon Festinger and Others (Ann Arbor: Edwards
+  Communication}, by Leon Festinger and} The drawback of this approach is that often participants
+also realize that attention quota is a significant expression and
+attempt to increase or decrease the number or length\newpage\noindent of the messages
+they\marginnote{Others (Ann Arbor: Edwards
   Bros., 1952), pp.~37--49, especially p.~44, claim to have shown that a
   large volume of communication may be directed to and originate from a
   participant who violently disagrees with other participants. Attention
@@ -5656,14 +5731,13 @@ group.''\footnote{Leon Festinger and John Thibaut, ``Interpersonal
   1953), p.~131, cogently argues that the supposition that high
   attention quota is related to status is at least a good working
   assumption, for it causes us to examine critically any deviation from
-  this rule.} The drawback of this approach is that often participants
-also realize that attention quota is a significant expression and
-attempt to increase or decrease the number or length of the messages
-they send, in an effort to control the impression that they feel their
+  this rule.} send, in an effort to control the impression that they feel their
 actions give. Perhaps a less famous expression of rank within the
 interplay, such as the quote of time or times during which a given
 participant is the addressed recipient, would provide a more reliable
-index.\footnote{There are, of course, many other expressions of
+index.\textsuperscript{8}
+
+In any\marginnote{\textsuperscript{8}\setcounter{footnote}{8} There are, of course, many other expressions of
   differential evaluation within an interplay, some of these stressing
   the rank of the participant within the interplay and some stressing
   more the rank of the participant in the wider social world. For
@@ -5674,9 +5748,7 @@ index.\footnote{There are, of course, many other expressions of
   be made to resolve the sign tension by allowing the first of the
   respondents to have the floor. In Dixon, when two persons start to
   answer a third and appear to have started at exactly the same time, a
-  brief moment of disorganization follows, often terminated in laughter.}
-
-In any case, it is convenient to think of the granting of attention as a
+  brief moment of disorganization follows, often terminated in laughter.} case, it is convenient to think of the granting of attention as a
 kind of indulgence, for in this way we can better appreciate that esteem
 for the sender is merely one of the reasons we might have for granting
 him our attention.
@@ -5748,6 +5820,8 @@ have to rely on his own personality and general status as a warrant for
 the attention he receives and can therefore accept with impunity the
 attention of many persons.
 
+\enlargethispage{\baselineskip}
+
 During informal interplay in Dixon, when the sender in one small
 conversational cluster suddenly received the attention of members of a
 neighboring cluster, embarrassment frequently resulted and the sender
@@ -5785,7 +5859,13 @@ attention indulgence.
 a person's entrance into or initiation of an interplay and in his manner
 of leaving or terminating it.\footnote{There are analogous rules for
   guiding initiation and entrance, withdrawal and termination in the
-  case of social occasions. For example, in some social circles in our
+  case of social occasions. For example, in some social circles}
+An illustration may be taken from an early American etiquette book,
+where conduct with respect to conversational clusters at parties is
+considered:
+
+\begin{quote}
+If\marginnote{in our
   society it is felt that early leavetaking is a possible affront to
   those remaining, and there is a formalized rule that no one may leave
   until the highest-ranking person makes a visible move to do so. In
@@ -5793,13 +5873,7 @@ of leaving or terminating it.\footnote{There are analogous rules for
   the relationship between a particular guest at a party and his host,
   the longer it is proper for him to stay, and that guests on more
   distance terms with the host ought to leave in time to give more
-  intimately related guests an opportunity of being alone with the host.}
-An illustration may be taken from an early American etiquette book,
-where conduct with respect to conversational clusters at parties is
-considered:
-
-\begin{quote}
-If a lady and gentleman are conversing together at an evening party, it
+  intimately related guests an opportunity of being alone with the host.} a lady and gentleman are conversing together at an evening party, it
 would be a rudeness for another person to go up and interrupt them by
 introductions a new topic of conversation. If you are sure that there is
 nothing of a particular and private interest passing between them, you
@@ -5850,17 +5924,7 @@ be especially true of sender and recipient.\footnote{Since a sender
   this communication arrangement ``talking into the air.'' On the
   island, when an individual wished to expression an opinion which eh
   could not quite bring himself to convey to an addressed recipient, he
-  would sometimes address his remark to the kitchen cat, or to a small
-  child, or ``into the air'' in a ruminative, editorializing and
-  inwardly directed spirit. Similarly, on the island as elsewhere in
-  Wester society, a closely related pair of persons, such as husband and
-  wife, will sometimes wait for the presence of a third person before
-  voicing criticism or approval of the other member of the pair. A third
-  person can be used as an addressed recipient and be told things that
-  the talked-about member of the pair can accept as an unaddressed
-  recipient but not as an addressed recipient. The presence of this kind
-  of leeway is one of the factors which distinguishes three-person
-  interplay from two-person interplay.}
+  would sometimes address his remark to the kitchen cat, or}
 
 Since joint participation makes persons available to each other it is
 not surprising that we find that rules exist for determining who may
@@ -5884,11 +5948,21 @@ society, such as informal social parties, give all those present, by
 virtue of their presence, the right to enter or be called into any
 interplay in progress or to initiate interplay with anyone present.
 
-In Dixon, as in many other rural regions in Western society, all adults
+\newpage In\marginnote{to a small
+  child, or ``into the air'' in a ruminative, editorializing and
+  inwardly directed spirit. Similarly, on the island as elsewhere in
+  Western society, a closely related pair of persons, such as husband and
+  wife, will sometimes wait for the presence of a third person before
+  voicing criticism or approval of the other member of the pair. A third
+  person can be used as an addressed recipient and be told things that
+  the talked-about member of the pair can accept as an unaddressed
+  recipient but not as an addressed recipient. The presence of this kind
+  of leeway is one of the factors which distinguishes three-person
+  interplay from two-person interplay.} Dixon, as in many other rural regions in Western society, all adults
 of like sex have the right and obligation of momentarily entering into
-interplay with each other when passing on the road or field.\footnote{The
-  few exceptions to this rule are considered later in another context.}
-These interplays are required to be positively toned and accommodative.
+interplay with each other when passing on the road or field.\textsuperscript{15}
+These interplays are required to\marginnote{\textsuperscript{15}\setcounter{footnote}{15} The
+  few exceptions to this rule are considered later in another context.} be positively toned and accommodative.
 A difficulty frequently arose, therefore, between persons who are
 antagonistic to one another. To enter into interaction with an enemy
 tended to call forth more accommodation than one wanted. To refuse to
@@ -6015,8 +6089,7 @@ spontaneous reaction.
 \label{ch:Chapter XII: Interchange of Messages}
 \chaptermark{CHAPTER XII: INTERCHANGE OF MESSAGES}
 
-\newthought{In terms of the}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.3bc11117}{doi}}framework of this study, the minimal concrete unit of
+\newthought{In terms of the} framework of this study, the minimal concrete unit of
 communication consists of the sign behavior of a sender during the whole
 period of time through which a focus of attention is continually
 directed at him. This unit of communication may be called a ``natural
@@ -6189,15 +6262,7 @@ interchange.\footnote{This concept derives in part from Chapple's
   which took place only between two persons on our record. The first
   action was initiation, the second was response; together the two
   actions established an initial, simple unit of interaction. We could
-  label such a simple interaction''a.'' It might have been merely a
-  single exchange such as greetings in passing, e.g., A: ``Hello B,'' B:
-  ``Hello yourself,: or it might have continued for some time with many
-  exchanges between the two. The measure of the time from its initiation
-  in an act of A's to the last response in the last act of B's for the
-  time gave the''duration'' of an event. Speaking in general terms, an
-  event terminates with a change of two, or with the entrance of a third
-  person upon the scene, to whom the others, or one of them, act or
-  respond.''}
+  label such a simple interaction ''a.'' It might have been merely}
 
 An interchange may involve several persons but ordinarily it is
 restricted to two persons who alternately take the role of sender and
@@ -6211,11 +6276,18 @@ formally-organized interplays of the actor-audience kind, the audience
 not only limits itself to conveying a few kinds of recognized messages
 but also comes to serve for the performer as a single addressed
 recipient. We thus tend to get interchanges between two actors, one of
-whom is the whole audience.\footnote{This can be very clearly seen in
-  the question and answer interchanges between a revivalist preacher and
-  his congregation.}
+whom is the whole audience.\textsuperscript{7}
 
-After a particular interchange is completed, certain communication
+\newpage After\marginnote{a single exchange such as greetings in passing, e.g., A: ``Hello B,'' B:
+  ``Hello yourself,: or it might have continued for some time with many
+  exchanges between the two. The measure of the time from its initiation
+  in an act of A's to the last response in the last act of B's for the
+  time gave the''duration'' of an event. Speaking in general terms, an
+  event terminates with a change of two, or with the entrance of a third
+  person upon the scene, to whom the others, or one of them, act or
+  respond.''} a\marginnote{\textsuperscript{7}\setcounter{footnote}{7} This can be very clearly seen in
+  the question and answer interchanges between a revivalist preacher and
+  his congregation.} particular interchange is completed, certain communication
 behaviors are possible: two other participants may provide the
 subsequent interchange of the interplay; the same participants may
 initiate a new interchange; one of the original participants may
@@ -6236,7 +6308,11 @@ applies to both participants.\footnote{It may be noted that this
   evokes from the confessor. In this way the confessant is less likely
   to feel restrained in the presence of the confessor from talking of
   things which ordinarily constitute improper topics of conversation.
-  Simi-}
+  Similarly, in disciplinary and highly structured situations, where
+  superordinates may be required to look straight ahead and not into the
+  eyes of the sender. Third-person forms of address, found in extremely
+  ritual situations, are perhaps attempts to deny the fact that
+  face-to-face interaction is actually in progress.}
 
 The unit of the interchanges has been considered so far chiefly in
 reference to its physical characteristics, namely, a rapid exchange of
@@ -6246,11 +6322,7 @@ explanatory principles having to do, first, with communication as a
 ritual system, and, secondly, with communication as an informational
 system.
 
-\newpage Explicitly\marginnote{larly, in disciplinary and highly structured situations, where
-  superordinates may be required to look straight ahead and not into the
-  eyes of the sender. Third-person forms of address, found in extremely
-  ritual situations, are perhaps attempts to deny the fact that
-  face-to-face interaction is actually in progress.} or indirectly, any message involves, or may be taken by
+Explicitly or indirectly, any message involves, or may be taken by
 participants to involve, an evaluation or judgment of all persons who
 receive it. Hence the sender necessarily runs the risk of giving offense
 to the image that his recipients have of themselves and of him or to the
@@ -6265,6 +6337,8 @@ not be taken as a sign that someone has been offended. A silence
 \emph{during} an interchange usually conveys the fact that the
 recipients cannot frame a reply that is workable consistent with their
 own valuations and the valuations projected by the sender.
+
+\enlargethispage{\baselineskip}
 
 In Chapter VII it was suggested that a ritual model might well be
 fruitful in the study of interaction. Instead of employing a
@@ -6300,7 +6374,7 @@ every instance of social interaction.\footnote{R. E. Park, \emph{op.
   cit}. , p.~182.}
 \end{quote}
 
-\newpage\noindent By employing this model we can see that an interplay is not a continuous
+\noindent By employing this model we can see that an interplay is not a continuous
 flow of communication; it proceeds by discontinuous jerks or steps, an
 interchange at a time.
 
@@ -6342,7 +6416,7 @@ understand one another, not that they agree with what they understand.
 And, in fact, many working acceptances seem to be limited to a meager
 consensus of this kind.
 
-We have attempted to account for the fact that an interplay proceeds by
+\newpage We have attempted to account for the fact that an interplay proceeds by
 steps, an interchange at a time, by reference to two factors, a ritual
 factor and an informational factor. Taken together, these two factors
 seem to supply a partial explanation for why an interchange takes the
@@ -6436,8 +6510,7 @@ concerned with the interchange of concrete messages.
 \label{ch:Chapter XIII: Polite Interchanges}
 \chaptermark{CHAPTER XIII: POLITE INTERCHANGES}
 
-\newthought{In Dixon, as apparently}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.05fe323e}{doi}}in other Bergand communities, there are many
+\newthought{In Dixon, as apparently} in other Bergand communities, there are many
 occasions when persons make a special effort to show respect and concern
 for each other. If a person become sick, neighbors offer to help out,
 and all the adult members of the community will make a point of asking
@@ -6467,24 +6540,31 @@ here.\footnote{While in general it did seem that islanders showed
   demonstrations of considerateness cannot be taken, in themselves, as
   evidence of mutual regard. For example, if tradition makes islanders
   sensitive to high standards of mutual concern, and at the same time
-  islanders have come to feel dislike for one another, then elaborate}
+  islanders have come to feel dislike for one another, then elaborate politeness may merely represent an effort to conceal or hold back real
+  hostilities that are considered to be improper. On much the same
+  grounds, Bales has argued that gestures of solidarity shown during
+  interaction may be evidence not of deep solidarity but of the concern
+  shown by participants that breakdown of the interaction is threatened
+  and that}
 
 \hypertarget{road-salutations}{%
 \subsection{Road Salutations}\label{road-salutations}}
 
 There are no sidewalks in Dixon, and anyone going to or from a center of
 organized social activity is usually obliged to travel part of the way
-on roads. These roads are never very crowded. Therefore when\marginnote{politeness may merely represent an effort to conceal or hold back real
-  hostilities that are considered to be improper. On much the same
-  grounds, Bales has argued that gestures of solidarity shown during
-  interaction may be evidence not of deep solidarity but of the concern
-  shown by participants that breakdown of the interaction is threatened
-  and that something must be done to bolster it. See his discussion of
-  what he calls the ``flip-flop'' problem, \emph{Interaction Process
-  Analysis}, pp.~117--118.} persons
+on roads. These roads are never very crowded. Therefore when persons
 pass each other during the day, whether on foot, bicycle, cart, motor
 bicycle, or car, they cannot convincingly act as if the other has not
-been seen.\footnote{One exception is allowed by the islanders. When a
+been seen.\textsuperscript{2} The overlooking of someone cannot be rationalized as
+having arisen from accident or communication barriers; overlooking can
+only be taken as an expression of the attitude of the overlooker to the
+overlooked.
+
+Adult residents of the island who pass each other on the road,
+regardless of the community, class, or the sex from which they come,
+whether they are personally\marginnote{something must be done to bolster it. See his discussion of
+  what he calls the ``flip-flop'' problem, \emph{Interaction Process
+  Analysis}, pp.~117--118.} acquainted\marginnote{\textsuperscript{2}\setcounter{footnote}{2} One exception is allowed by the islanders. When a
   car passes a pedestrian going the same way, it is appreciated that the
   task of driving on a curving, narrow road may constitute a legitimate
   excuse for not turning from the steering wheel to salute the
@@ -6492,14 +6572,7 @@ been seen.\footnote{One exception is allowed by the islanders. When a
   cars in Dixon---approximately fourteen---that when two cars pass each
   other going in opposite directions in the night, it is assumed that
   drivers can identify each other, and honking of the horn is a required
-  salutation.} The overlooking of someone cannot be rationalized as
-having arisen from accident or communication barriers; overlooking can
-only be taken as an expression of the attitude of the overlooker to the
-overlooked.
-
-Adult residents of the island who pass each other on the road,
-regardless of the community, class, or the sex from which they come,
-whether they are personally acquainted or ``know of'' each other, or
+  salutation.} or ``know of'' each other, or
 neither, or obliged to enter into interplay with one another. Minimally
 this consists of a momentary meeting of the eyes in the exchange of an
 nod or verbal salutation, with no other interruption of their current
@@ -6907,7 +6980,7 @@ to be shocked at why they had just heard, phrases such as, ``My
 feeder,'' ``Such o ting,'' would be chorused in response. If a point of
 view had been voiced that recipients could not agree with, they would
 guardedly respond with, for example, ``There's something in what you
-say,'' or ``I donna kin.'' A few of the island's favorite terminative
+say,'' or ``I donna kin.'' A few\newpage\noindent of the island's favorite terminative
 echoes are given below, following instances of interchanges in which
 they were employed.
 
@@ -6928,13 +7001,16 @@ Hotel maid, speaking about scullery boy having stayed out till six
 o'clock. ``It's no right now, is it.'' Cook: ``Past spaekin about.''
 \end{quote}
 
+
+    
 % CHAPTER XIV: THE ORGANIZATION OF ATTENTION
-\chapter[CHAPTER XIV: THE ORGANIZATION OF ATTENTION]{Chapter XIV: The Organization of Attention}
+\chapter[CHAPTER XIV: THE ORGANIZATION OF ATTENTION]{Chapter XIV: The Organization of\\Attention}
 \label{ch:Chapter XIV: The Organization of Attention}
 \chaptermark{CHAPTER XIV: THE ORGANIZATION OF ATTENTION}
 
-\newthought{We have considered the}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.03040491}{doi}}interplay and some of the units of interaction
+
+
+\newthought{We have considered the} interplay and some of the units of interaction
 which may occur within it once accredited participation has been
 established. Let us now return to consider some of the structural
 characteristics of interplay as such.
@@ -6975,7 +7051,7 @@ recipient's eyes in the direction of the sender. In other words, before
 a potential sender launches into his message he may signify a request
 for clearance and wait for clearance to be given him before proceeding.
 
-Where interplay is limited to a few persons who are not at the moment
+\newpage Where interplay is limited to a few persons who are not at the moment
 related to each other in such a way as to make offense or
 misunderstanding likely, a potential sender may not wait for an actual
 reply to his request for clearance but merely mark the point where it
@@ -6991,6 +7067,8 @@ authorization from the chairman.\footnote{Clearance signs can also be
   originally requested. So, too, the receipt in the case of financial
   transactions serves as lasting proof for the sender that his financial
   communication has been received.}
+
+\enlargethispage{\baselineskip}
 
 It will be apparent that the ability to refuse, overlook, or postpone a
 request for clearance gives the potential recipient an important way of
@@ -7023,7 +7101,14 @@ meeting,\footnote{H. S. Elliott provides an example of this in his
   represented and, on the other hand, restrain the inveterate talker and
   keep him from monopolizing the discussion. Just to look encouragingly
   toward those who are not taking part and not to look toward the ones
-  who want to participate in essentially is a help.} or an unofficial
+  who want to participate in essentially is a help. Frequently the
+  expression of the face indicates that a person is on the point of
+  taking part and just recognizing this desire will bring timid ones
+  into the discussion. Sometimes the chairman may call upon certain ones
+  by name. If a person persists in monopolizing the discussion he may
+  find it necessary to restrain the talkative member. He can do this
+  easily by tactfully saying, ``Wait a minute, Mr.~- - -, we want to
+  hear what Mr.~- - - thinks about this question!''} or an unofficial
 right, as in the case of an ``informal leader'' during
 interplay.\textsuperscript{6}
 
@@ -7044,33 +7129,8 @@ except, of course, as a means of distinguishing addressed recipients
 from unaddressed recipients. Attention signs from recipients to a
 recognized sender seem to play a more important role. They act as an
 ``informative feedback,'' telling the sender of the effect of his
-message in time for him to modify his behavior in a direction calculated\marginnote{Frequently the
-  expression of the face indicates that a person is on the point of
-  taking part and just recognizing this desire will bring timid ones
-  into the discussion. Sometimes the chairman may call upon certain ones
-  by name. If a person persists in monopolizing the discussion he may
-  find it necessary to restrain the talkative member. He can do this
-  easily by tactfully saying, ``Wait a minute, Mr.~- - -, we want to
-  hear what Mr.~- - - thinks about this question!''}
-to\marginnote{\textsuperscript{6} W. F. White, ``Small Groups, Large Organizations,''
-  in Rohrer and Sherif, eds., \emph{Social Psychology at the Crossroads}
-  (New York: Harper, 1951), pp.~297--312, provides on p. 300 an
-  illustration of how an informal leader can serve as a sort of
-  sanctioned for those who should take over the focus of attention.
-  ``Several men are standing in the club room in groups of two, two, and
-  three. Individual X comes in and the three little groups immediately
-  reform into one larger group, with the seven men remaining silent
-  while X talks, and each man seeking to get the attention of X before
-  he himself speaks.''} obtain\marginnote{\textsuperscript{7}\setcounter{footnote}{7} This is apparently not a universal practice. An
-  early report on the Northwest Coast Amazons claims that: ``When an
-  Indian talks he sits down, no conversation is ever carried on when the
-  speakers are standing unless it be a serious difference of opinion is
-  under discussion; nor when he speaks does the Indian look at the
-  person addressed, any more than the latter watches the speaker. Both
-  look at some outside objects. This is the attitude also of the Indian
-  when addressing more than one listener, so that he appears to be
-  talking to someone not visibly present.'' See Thomas Whiffen,
-  \emph{The North-West Amazons} (London: Constable, 1915), p.~254.}
+message in time for him to modify his behavior in a direction calculated
+to obtain
  a desired response from recipients. These signs also warn a
 sender if there is a danger that the focus of attention is about to
 break up or pass on to a new sender.
@@ -7080,12 +7140,30 @@ important role in the organization of interplay. These signs, especially
 attention signs, provide the sender with a continuous indication of the
 stability of the communication structure. They constitute what Ruesch
 and Bateson refer to as communication about communication, or
-``metacommunication.''\footnote{Ruesch and Bateson, \emph{op. cit.},
-  pp.~23--24.}
+``metacommunication.''\textsuperscript{8}
 
 It is customary for a sender to close his message with a gesture or
 speech inflection conveying the fact that the message has ended and that
-the sender is now ready to relinquish his role and himself become a
+the sender is now\marginnote{\textsuperscript{6} W. F. White, ``Small Groups, Large Organizations,''
+  in Rohrer and Sherif, eds., \emph{Social Psychology at the Crossroads}
+  (New York: Harper, 1951), pp.~297--312, provides on p. 300 an
+  illustration of how an informal leader can serve as a sort of
+  sanctioned for those who should take over the focus of attention.
+  ``Several men are standing in the club room in groups of two, two, and
+  three. Individual X comes in and the three little groups immediately
+  reform into one larger group, with the seven men remaining silent
+  while X talks, and each man seeking to get the attention of X before
+  he himself speaks.''} ready\marginnote{\textsuperscript{7} This is apparently not a universal practice. An
+  early report on the Northwest Coast Amazons claims that: ``When an
+  Indian talks he sits down, no conversation is ever carried on when the
+  speakers are standing unless it be a serious difference of opinion is
+  under discussion; nor when he speaks does the Indian look at the
+  person addressed, any more than the latter watches the speaker. Both
+  look at some outside objects. This is the attitude also of the Indian
+  when addressing more than one listener, so that he appears to be
+  talking to someone not visibly present.'' See Thomas Whiffen,
+  \emph{The North-West Amazons} (London: Constable, 1915), p.~254.} to\marginnote{\textsuperscript{8}\setcounter{footnote}{8} Ruesch and Bateson, \emph{op. cit.},
+  pp.~23--24.} relinquish his role and himself become a
 recipient. These termination-of-message signs may sometimes be used by a
 recipient as evidence that clearance has been given to him. The most
 clearcut sign of this kind, perhaps, is the intonation and word-order we
@@ -7097,7 +7175,17 @@ employ when we ask a question.\footnote{As Bales points out, in ``The
   effectiveness of this sign depends upon the addressed recipient
   accepting the obligation and responsibility of the role that is being
   proferred him. During informal conversation, recipients usually accept
-  this obligation so automatically}
+  this obligation so automatically that they seldom realize that an
+  obligation has been fulfilled---although, of course, they may give a
+  false answer, or an insufficient answer, or an unserious answer.
+  However, at formal meetings, a guest speaker may request questions
+  from the floor at the end of his speech, and he and the chairman may
+  expect that a period of questions and answers will follow, and yet no
+  one in the audience may take up the role of sender which the guest
+  speaker has, by his request for questions, attempted to relinquish. At
+  such times we can see more clearly that our ordinary willingness to
+  make at least some answer to a question is the fulfillment of an
+  obligation. It is interesting to note that high-placed political figures who}
 
 It is to be noted that clearance signs which signify the termination of
 a message may be distinguished in practice from those clearance signs
@@ -7132,34 +7220,7 @@ position that is more favorable than the position held by any of the
 other participants. During informal interplay in Dixon there was a
 certain amount of surreptitious (and even unconscious) jockeying for
 favorable sending positions, while, on the other hand, participants
-frequently\marginnote{that they seldom realize that an
-  obligation has been fulfilled---although, of course, they may give a
-  false answer, or an insufficient answer, or an unserious answer.
-  However, at formal meetings, a guest speaker may request questions
-  from the floor at the end of his speech, and he and the chairman may
-  expect that a period of questions and answers will follow, and yet no
-  one in the audience may take up the role of sender which the guest
-  speaker has, by his request for questions, attempted to relinquish. At
-  such times we can see more clearly that our ordinary willingness to
-  make at least some answer to a question is the fulfillment of an
-  obligation. It is interesting to note that high-placed political
-  figures who are asked questions by newsmen may find themselves in the
-  dilemma of giving no answer and thus failing to fulfill the obligation
-  of communicators, or giving an ambiguous answer those subtle
-  expressive overtones may be examined for implications that are
-  embarrassing. The dilemma is sometimes resolved by the curt phrase,
-  ``No comment,'' by which the individual can acknowledge the fact that
-  a question has been put to him, that he has correctly received it, and
-  that he accepts, in general, the role and obligations of communicator} arranged\marginnote{\textsuperscript{10}\setcounter{footnote}{10} In mediated
-  communication, clear differences can sometimes be found between signs
-  which terminate a message and signs which terminate an interplay. In
-  one-way wireless communication, for example, a word such as ``over''
-  may be given as a sign that a message has ended and that the other
-  participant has clearance, and a word such as ``out'' may be given as
-  a sign that the interplay has been terminated. In the case of wireless
-  communication, the initiation of an interplay may call for signs that
-  are similarly explicit and specific, e.g., ``calling . . ,'' ``come
-  in, . . .''} to sit or stand so as not to block any other
+frequently arranged to sit or stand so as not to block any other
 participant's line of vision too much.
 
 It is apparent that interplays will vary according to the disposition of
@@ -7177,7 +7238,23 @@ At the other extreme we have the ecological arrangement by which all
 participants are in a favorable and more or less equally favorable
 sending position. The typical case is where three or four persons have
 come together and face each other in a circle for the purpose of
-informal conversation. A sending circular of this kind provides the one
+informal conversation. A sending\marginnote{are asked questions by newsmen may find themselves in the
+  dilemma of giving no answer and thus failing to fulfill the obligation
+  of communicators, or giving an ambiguous answer those subtle
+  expressive overtones may be examined for implications that are
+  embarrassing. The dilemma is sometimes resolved by the curt phrase,
+  ``No comment,'' by which the individual can acknowledge the fact that
+  a question has been put to him, that he has correctly received it, and
+  that he accepts, in general, the role and obligations of communicator} circular\marginnote{\textsuperscript{10}\setcounter{footnote}{10} In mediated
+  communication, clear differences can sometimes be found between signs
+  which terminate a message and signs which terminate an interplay. In
+  one-way wireless communication, for example, a word such as ``over''
+  may be given as a sign that a message has ended and that the other
+  participant has clearance, and a word such as ``out'' may be given as
+  a sign that the interplay has been terminated. In the case of wireless
+  communication, the initiation of an interplay may call for signs that
+  are similarly explicit and specific, e.g., ``calling . . ,'' ``come
+  in, . . .''} of this kind provides the one
 important exception to the rule that one participant in an interplay
 usually has the best sending position.\footnote{This point has, of
   course, been recognized in the literature. For example, Elliott,
@@ -7234,8 +7311,7 @@ closely they are packed.
 \label{ch:Chapter XV: Safe Supplies}
 \chaptermark{CHAPTER XV: SAFE SUPPLIES}
 
-\newthought{When an individual enters}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.e0092c28}{doi}}the perceptual range of others, a kind of
+\newthought{When an individual enters} the perceptual range of others, a kind of
 responsibility is placed upon him. Normally he must assume that his
 behavior will be observed and that it will be interpreted as an
 expression of the attitude he has toward those who observe him. In the
@@ -7246,8 +7322,6 @@ society and in others, will not be considered here. In the realm of
 directed communication---for example, conversation---the individual must
 assume that both his messages and his behavior as a recipient will be
 expected to contribute to the maintenance of the working acceptance.
-
-\enlargethispage{\baselineskip}
 
 Once individuals have extended accredited participant status to one
 another and have plunged into conversation, then it is necessary to
@@ -7279,7 +7353,9 @@ of widely different status without this fact prejudicing the social
 distance between them, and to which almost everyone can be expected to
 have the same attitude.\footnote{Malinowski uses the phrase ``phatic
   communion'' to refer to the exchange of gossip and small talk; see
-  Supplement One to Ogden and Richards, \emph{op. cit.}, especially
+  Supplement} In our society, animals, children,\textsuperscript{2} accidents, and the
+weather usually form the object of small talk. In Dixon, the catch---or
+lack thereof---which\marginnote{One to Ogden and Richards, \emph{op. cit.}, especially
   pp.~314--315. Strangers who are close to each other physically but not
   engaged in communication may often fail automatically into momentary
   accredited interaction if an unexpected event occurs that both
@@ -7287,11 +7363,9 @@ have the same attitude.\footnote{Malinowski uses the phrase ``phatic
   attitudes to the event will be similar, while at the same time
   providing some grounds for feeling that the basis of communication
   will not lead to further entangling involvements but will be easily
-  terminated.} In our society, animals, children,\footnote{Animals and
+  terminated.} the\marginnote{\textsuperscript{2}\setcounter{footnote}{2} Animals and
   children that can be gotten to behave for a moment in a human-like
-  fashion are especially useful as a safe supply.} accidents, and the
-weather usually form the object of small talk. In Dixon, the catch---or
-lack thereof---which the two local fishing boats made that day was
+  fashion are especially useful as a safe supply.} two local fishing boats made that day was
 frequently a subject for comment. During the spring, lambs and foals
 were also safe topics, since it was assumed that no one could be
 oblivious to their charm. If anyone on the island had had an accident,
@@ -7337,6 +7411,8 @@ Secondly, it seems to be in the character of small talk that it is
 quickly exhausted; small talk allows for comments, not discussions.
 Hence when persons are to be engaged in conversation for a considerable
 length of time, other safe supplies must be employed.
+
+\enlargethispage{\baselineskip}
 
 2. During informal interplay, participants frequently resort to a topic
 of conversation that is sometimes called \emph{gossip.} This involves
@@ -7473,11 +7549,7 @@ be especially prevalent and especially easy between older women of the
 commoner class and young males of some outside status, possibly because
 a member of one of those groups was in very little competition with a
 member of the other group, and they could hence afford to be on
-sufficiently easy terms with one another to allow for joking.\footnote{For
-  a study of the role of non-competition in the formation of convivial
-  interplay, see Edward Gross, ``Informal Relations and the Social
-  Organization of Work in an Industrial Office,'' (Unpublished Ph. D.
-  dissertation, Department of Sociology, University of Chicago, 1949).}
+sufficiently easy terms with one another to allow for joking.\textsuperscript{8}
 
 5. A safe supply is found in courtesies, especially those involving
 small offerings and assistances. Thus, whenever it is possible for one
@@ -7486,6 +7558,8 @@ to devote many messages to solicitous enquires {[}\emph{sic}{]} after the comfor
 guests and to offerings of food and the like. As has been suggested,
 codified manners provide an island of safety to swim to when in doubt or
 when you want to retreat.
+
+\enlargethispage{\baselineskip}
 
 \vspace{.2in}
 \begin{centering}
@@ -7502,7 +7576,11 @@ that islanders employ two social strategies that are akin to the use of
 safe supplies, being, perhaps, functional alternatives for safe
 supplies, and yet somewhat different from them.
 
-First, there were certain acts of a task-oriented kind, such as eating,
+First,\marginnote{\textsuperscript{8}\setcounter{footnote}{8} For
+  a study of the role of non-competition in the formation of convivial
+  interplay, see Edward Gross, ``Informal Relations and the Social
+  Organization of Work in an Industrial Office,'' (Unpublished Ph. D.
+  dissertation, Department of Sociology, University of Chicago, 1949).} there were certain acts of a task-oriented kind, such as eating,
 smoking, or knitting, which islanders, under certain circumstances,
 allowed to be interspersed between messages, so that the same number of
 messages could be stretched out over a longer period of time without
@@ -7545,13 +7623,16 @@ never gives out.\footnote{Group singing and cooperative participation in
   \emph{inter}actional statement-and-reply character and have not been
   considered in this report.}
 
+\begin{fullwidth}
+
 % CHAPTER XVI: ON KINDS OF EXCLUSION FROM PARTICIPATION
 \chapter[CHAPTER XVI: ON KINDS OF EXCLUSION FROM PARTICIPATION]{Chapter XVI: On Kinds of Exclusion from Participation}
 \label{ch:Chapter XVI: On Kinds of Exclusion from Participation}
 \chaptermark{CHAPTER XVI: ON KINDS OF EXCLUSION FROM PARTICIPATION}
 
-\newthought{In Chapter VIII the}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.6427827e}{doi}}phrase ``in range'' was used to describe the
+\end{fullwidth}
+
+\newthought{In Chapter VIII the} phrase ``in range'' was used to describe the
 position of anyone who was within the zone in which reception of a given
 impulse was possible. In many cases, all those who are in range of a
 particular communication are also its accredited recipients.\footnote{Some
@@ -7598,7 +7679,10 @@ happen to fail to keep his attention withdrawn. Communication
 arrangements of this kind constitute what might be called ``effective
 closure.''\footnote{Participation in an interplay from which one has
   been effectively excluded is apparently in some sense a safe thing to
-  handle. An extreme illustration of this is provided by Morris
+  handle. An extreme illustration of this} Hotel lounges in Bergand very frequently provide the scene
+for this kind of arrangement. The desire to sit close to the fireplace
+(this may almost be considered a tropism in Britain) makes it necessary
+for participants in different\marginnote{is provided by Morris
   Schwartz, ``Social Interaction of a Disturbed Ward of a Hospital,''
   (Unpublished Ph. D. dissertation, Department of Sociology, University
   of Chicago, 1951), p.~94, in reference to the conduct of a
@@ -7606,10 +7690,7 @@ closure.''\footnote{Participation in an interplay from which one has
   to focus on others when she is not involved herself and when she feels
   unobserved in the process. In situations in which this occurs and she
   discovers she is being observed, she quickly turns her attention
-  inward.''} Hotel lounges in Bergand very frequently provide the scene
-for this kind of arrangement. The desire to sit close to the fireplace
-(this may almost be considered a tropism in Britain) makes it necessary
-for participants in different interplays to locate themselves close to
+  inward.''} interplays to locate themselves close to
 one another. Conversation is restricted to innocuous general topics, or
 to domestic ones carried on by brief, affectless allusions that have
 little meaning except to the accredited participants.
@@ -7662,7 +7743,14 @@ participants.\footnote{An exception may be cited. The interplay
   conducted in gesture language by the deaf and dumb provides some
   interesting communication characteristics, and the conventions under
   which it is conducted differ, apparently, in some ways from spoken
-  interplay. For one thing, clearance interchanges seem to be more
+  interplay. For one thing, clearance interchanges seem to be} (In the case
+of two-person interplay, this area would tend to be reduced to the line
+of communication between the two accredited participants; an
+unaccredited participant who intersects this line, blocking the path of
+vision between the two accredited participants, is almost certain to
+cause some embarrassment and to feel some.)
+
+\newpage We\marginnote{more
   difficult to manage, and signs such as tugging at another's arm or
   clothing seem to be more commonly employed. Furthermore, in regions
   where there is a high noise level, intimate and easy spoken
@@ -7677,14 +7765,7 @@ participants.\footnote{An exception may be cited. The interplay
   other. Presumably such communication neither interferes with spoken
   communication that might be going on at the time, nor does it force
   non-participants to listen to messages which they do not wish to hear
-  and for whose reception they have not been accredited.} (In the case
-of two-person interplay, this area would tend to be reduced to the line
-of communication between the two accredited participants; an
-unaccredited participant who intersects this line, blocking the path of
-vision between the two accredited participants, is almost certain to
-cause some embarrassment and to feel some.)
-
-We have described two ways in which a person may find himself excluded
+  and for whose reception they have not been accredited.} have described two ways in which a person may find himself excluded
 from an interplay; he may be physically outside its range, or he may be
 effectively outside its range. A third possibility exists. He may be
 treated\footnote{In the realm of undirected communication, an
@@ -7757,7 +7838,19 @@ not present.\footnote{Bertram Doyle, \emph{The Etiquette of Race
   that they were expected to follow the conversation, their status being
   too low to make illicit overhearing a sociological possibility. As
   non-persons they could also walk into a white church service to give
-  their master a message, without being defined as an interruption. This
+  their master a message, without being defined as an} The young and, increasingly, the very old, may be
+discussed ``to their faces'' in the tone we would ordinarily use for a
+person only if he were not present. Mental patients are often given
+similar non-person treatment.\textsuperscript{9} Finally, there is an
+increasing number of technical personnel who are given this status (and
+take the non-person alignment) at formally organized interplays. Here we
+refer to stenographers, cameramen, reporters, plainclothes guards, and
+technicians of all kinds.
+
+In Dixon, treatment as a non-person occurred in several different kinds
+of situations. Some examples may be given.
+
+1.\marginnote{interruption. This
   is seen today in the rule that a ``good'' personal maid does not rap
   at a door before entering. Another illustration of non-person
   treatment of Negroes is given by Mrs.~Trollope, \emph{Domestic Mappers
@@ -7775,22 +7868,20 @@ not present.\footnote{Bertram Doyle, \emph{The Etiquette of Race
   sleep in the same chamber with himself and his wife. I asked for what
   purpose this nocturnal attendance was necessary? `Good Heaven!' was
   the reply, `if I wanted a glass of water during the night, what would
-  become of me.'\,''} The young and, increasingly, the very old, may be
-discussed ``to their faces'' in the tone we would ordinarily use for a
-person only if he were not present. Mental patients are often given
-similar non-person treatment.\footnote{An illustration of non-person
-  treatment is given by Schwartz in his study} Finally, there is an
-increasing number of technical personnel who are given this status (and
-take the non-person alignment) at formally organized interplays. Here we
-refer to stenographers, cameramen, reporters, plainclothes guards, and
-technicians of all kinds.
-
-In Dixon, treatment as a non-person occurred in several different kinds
-of situations. Some examples may be given.
-
-\enlargethispage{\baselineskip}
-
-1. There was a rule that the doors of the community hall were to be left
+  become of me.'\,''} There\marginnote{\textsuperscript{9}\setcounter{footnote}{9} An illustration of non-person
+  treatment is given by Schwartz in his study of the communication
+  conduct of the mentally ill, \emph{op. cit.}, p.~174: ``The extent to
+  which patients in Class (1) {[}socially most withdrawn{]} become
+  `non-existent' and `do not count' in the eyes of other patients is
+  revealed in the following. Mrs.~Stillman had, according to her
+  statement, `something very confidential and important' to reveal to
+  the investigator. She looked around the ward for a place in which she
+  could talk to him alone. It appeared that the living room was empty,
+  and she invited him to talk there. Upon entering it, she discovered
+  Miss Adams sitting and twirling a thread. Mrs.~Stillman stopped and
+  said, `Oh, Ann's in here,' and then carried on ( with a shrug of the
+  shoulder as if to say `she really doesn't matter') to reveal the
+  confidential matter to the investigator.''} was a rule that the doors of the community hall were to be left
 open during times when functions were being held in the hall and that
 anyone who wandered in at these times had a right to stay if he
 conducted himself ``properly.'' Often, on nights when billiards were
@@ -7815,41 +7906,14 @@ dislike of him. The more complex kind of non-person treatment is
 sometimes called ``the silent treatment'' and in some situations
 constitutes an extremely brutal sanction.
 
-2.\marginnote{of the communication
-  conduct of the mentally ill, \emph{op. cit.}, p.~174: ``The extent to
-  which patients in Class (1) {[}socially most withdrawn{]} become
-  `non-existent' and `do not count' in the eyes of other patients is
-  revealed in the following. Mrs.~Stillman had, according to her
-  statement, `something very confidential and important' to reveal to
-  the investigator. She looked around the ward for a place in which she
-  could talk to him alone. It appeared that the living room was empty,
-  and she invited him to talk there. Upon entering it, she discovered
-  Miss Adams sitting and twirling a thread. Mrs.~Stillman stopped and
-  said, `Oh, Ann's in here,' and then carried on ( with a shrug of the
-  shoulder as if to say `she really doesn't matter') to reveal the
-  confidential matter to the investigator.''} Household\marginnote{\textsuperscript{10}\setcounter{footnote}{10} A further illustration may be quoted from George
+2. Household\marginnote{\textsuperscript{10}\setcounter{footnote}{10} A further illustration may be quoted from George
   Orwell, \emph{Down and Out in Paris and London} (London: Decker am
   Warburg, 1949), pp.~180--181: ``Once the lodging-house was invaded by
   a slumming-party. Paddy and I had been out, and, coming back in the
   afternoon, we heard sounds of music downstairs. We went down to find
   three gentlepeople, sleekly dressed, holding a religious service in
   our kitchen. They were a grave and reverend seignior in a frock coat,
-  a lady sitting at a portable harmonium, and a chinless youth toying
-  with a crucifix. It appeared that they had marched in and started to
-  hold the service, without any kind or invitation whatever. It was a
-  pleasure to see how the lodgers met this intrusion. They did not offer
-  the smallest rudeness to the slummers; they just ignored them. By
-  common consent everyone in the kitchen---a hundred men,
-  perhaps---behaved as though the slummers had not existed. There they
-  stood patiently singing and exhorting, and no more notice was taken of
-  them than if they had been earwigs. The gentleman in the frock coat
-  preached a sermon, but not a word of it was audible; it was drowned in
-  the usual din of songs, oaths and the clattering of pans. Men sat at
-  their meals and card games three feet away from the harmonium,
-  peaceably ignoring it. Presently the slummers gave it up and cleared
-  out, not insulted in any way, but merely disregarded. No doubt they
-  consoled themselves by thinking how brave they had been, `freely
-  venturing into the lowest dens,' etc. etc.''} maids, in Dixon, were recruited from the upper reaches of
+  a lady sitting at a portable harmonium,} maids, in Dixon, were recruited from the upper reaches of
 the crofter class to serve in the homes of the gentry and in the hotel.
 These maids, typically unmarried girls between the ages to fifteen and
 twenty-five, were usually related in more than one capacity to those
@@ -7876,7 +7940,22 @@ or allowing plates to be taken away, those being waited upon would often
 utter a very brief thank-you or extend a small smile to the maid, but no
 interruption in the table conversation would be produced.\textsuperscript{11} Non-interruption was
 facilitated by the presence of table bells and table buzzers, these
-allowing persons at the table to summon a maid without having to
+allowing persons\marginnote{and a chinless youth toying
+  with a crucifix. It appeared that they had marched in and started to
+  hold the service, without any kind or invitation whatever. It was a
+  pleasure to see how the lodgers met this intrusion. They did not offer
+  the smallest rudeness to the slummers; they just ignored them. By
+  common consent everyone in the kitchen---a hundred men,
+  perhaps---behaved as though the slummers had not existed. There they
+  stood patiently singing and exhorting, and no more notice was taken of
+  them than if they had been earwigs. The gentleman in the frock coat
+  preached a sermon, but not a word of it was audible; it was drowned in
+  the usual din of songs, oaths and the clattering of pans. Men sat at
+  their meals and card games three feet away from the harmonium,
+  peaceably ignoring it. Presently the slummers gave it up and cleared
+  out, not insulted in any way, but merely disregarded. No doubt they
+  consoled themselves by thinking how brave they had been, `freely
+  venturing into the lowest dens,' etc. etc.''} at the table to summon a maid without having to
 withdraw even momentarily as sender or recipient in the mealtime
 conversation. Treatment of the maids as non-persons was apparently
 facilitated by obliging them to wear black dresses, pennies, dark shoes,
@@ -7980,8 +8059,7 @@ children's games\\\noindent as an official part of the festivity.
 \label{ch:Chapter XVII: Dual Participation}
 \chaptermark{CHAPTER XVII: DUAL PARTICIPATION}
 
-\newthought{In the previous chapter,}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.a7731302}{doi}}consideration was given to the ways in which
+\newthought{In the previous chapter,} consideration was given to the ways in which
 persons may be excluded from an interplay. We now consider ways in which
 persons who are accredited participants may withdraw from an interplay.
 
@@ -8028,7 +8106,9 @@ interplay while at the same time withdrawing into imaginary places and
 imaginary interplays is found in what Bateson and Mead call
 ``away.''\footnote{See Bateson and Mead, \emph{op cit.}, pp.~68--69. It
   is to be noted that while persons can be away with respect to a
-  conversational interplay, they can also be away with respect to more
+  conversa-} The participant keeps his
+face more or less in a position to convey attention signs to the
+speaker, but his thoughts\marginnote{tional interplay, they can also be away with respect to more
   loosely defined interaction systems, such as social occasions. During
   the community dances, for example , most couples, when they talked at
   all, allowed their talk to be structured by the ethos of the occasion,
@@ -8043,9 +8123,7 @@ imaginary interplays is found in what Bateson and Mead call
   become oblivious to all around her. Pupils in the primary grades
   seemed especially prone to leave the classroom in this fashion and
   suddenly begin to leaf through a reader or twist and untwist the strap
-  of a schoolbag in an abstracted manner.} The participant keeps his
-face more or less in a position to convey attention signs to the
-speaker, but his thoughts and eyes turn inward or come to focus on some
+  of a schoolbag in an abstracted manner.} and eyes turn inward or come to focus on some
 object in the room. Persons who behave in this way are sometimes said to
 be day-dreaming, wool-gathering, or to have gone into a brown study.
 This kind of withdrawal may be rather apparent to the remaining
@@ -8129,7 +8207,7 @@ them attempt to conceal that this is the case and attempt to communicate
 with one another in a surreptitious, furtive, and underhanded
 way.\textsuperscript{3}
 
-\newpage Subordinate\marginnote{\textsuperscript{3}\setcounter{footnote}{3} For completeness, a minor communication arrangement must
+Subordinate\marginnote{\textsuperscript{3}\setcounter{footnote}{3} For completeness, a minor communication arrangement must
   be mentioned. Sometimes a recipient will convey a furtive statement
   and make a careful attempt to ensure that many of those present will
   overhear what he has said and that he has said it furtively. The
@@ -8157,17 +8235,25 @@ the same time convey surreptitious messages which are quite inconsistent
 with the working acceptance of the dominant interplay. Sometimes this
 improper communication behavior is carried on by means of ``cant,'' a
 system of signals which mean one thing to the initiate and another to
-outsiders.\footnote{The ``shill`` or confederate operates in this way.
-  Collusion during divorce trials, where the plaintiff and defendant
-  convey a permissible discord to the judge in order to settle an
-  impermissible one is another case in point.} Usually, however, the
+outsiders.\textsuperscript{5} Usually, however, the
 offenders mange to conceal their offensive behavior by reducing the
 whole subordinate interplay to a quick glance or a ``significant''
 expression of the eyes. A wink is perhaps the standard gesture for
 stabilizing this relationship. In any case, those who participate in the
 furtive interchange enter into collusion with each other and express a
 common, and usually negative, attitude toward the dominant interplay or
-toward certain participants in it.\footnote{An interesting limiting case
+toward certain participants in it.\textsuperscript{6}
+
+An illustration of how subtle the cues which establish a furtive
+interplay can be may be found in the auctions in Dixon:
+
+\begin{quote}
+Household furnishings have a relatively high second-hand value in Dixon
+because the freight charges from Britain to the island are very high.
+The auction sales\marginnote{\textsuperscript{5} The ``shill`` or confederate operates in this way.
+  Collusion during divorce trials, where the plaintiff and defendant
+  convey a permissible discord to the judge in order to settle an
+  impermissible one is another case in point.} that\marginnote{\textsuperscript{6}\setcounter{footnote}{6} An interesting limiting case
   is found in what might be called ``double-talk.'' By means of this
   communication arrangement, persons engage an innocuous conversation
   but phrase their messages in such a way as to convey information about
@@ -8181,15 +8267,13 @@ toward certain participants in it.\footnote{An interesting limiting case
   also found in communications pertaining to questions of law.
   Double-talk permits two persons to make an illicit agreement with each
   other without putting one participant in the vulnerable position of
-  admitting this fact to the other. Police}
-
-An illustration of how subtle the cues which establish a furtive
-interplay can be may be found in the auctions in Dixon:
-
-\begin{quote}
-Household furnishings have a relatively high second-hand value in Dixon
-because the freight charges from Britain to the island are very high.
-The auction sales that are held about once every two months are
+  admitting this fact to the other. Police bribery, for example, is
+  usually regulated through an etiquette which allows each person to act
+  as if no bribe had been made or none had been uttered. The point of
+  interest here is that all the persons in the dominant interplay are
+  also in the furtive one. In double-talk there is no third person. The
+  roles taken by persons in the furtive interplay are a slight upon the
+  roles taken by the \emph{same} persons in the dominant interplay.} are held about once every two months are
 therefore important occasions. A person who bids at these auctions runs
 the risk of showing his neighbors how much money he has. A bidder also
 runs the risk of openly competing with someone who is a relative,
@@ -8212,13 +8296,7 @@ an impermissible attitude toward another person who was
 present.\textsuperscript{7} Sometimes the collusive evaluation was a
 positive or favorable one. Thus, when children between the ages of six
 and about twelve were drawn into adult conversation and behaved in a
-charming way,\marginnote{bribery, for example, is
-  usually regulated through an etiquette which allows each person to act
-  as if no bribe had been made or none had been uttered. The point of
-  interest here is that all the persons in the dominant interplay are
-  also in the furtive one. In double-talk there is no third person. The
-  roles taken by persons in the furtive interplay are a slight upon the
-  roles taken by the \emph{same} persons in the dominant interplay.} the\marginnote{\textsuperscript{7}\setcounter{footnote}{7} In mediated communication arrangements, the temptation
+charming way, the\marginnote{\textsuperscript{7}\setcounter{footnote}{7} In mediated communication arrangements, the temptation
   to enter into collusive interplays is great, partly because it can be
   so easily managed. When person A is in the presence of person B and
   interrupts their interplay to talk over the telephone to person C, or
@@ -8331,6 +8409,10 @@ the pit looks at another outside the pit as if to say, ``Do you see what
 this fellow asks to be done for him?''
 \end{quote}
 
+\newpage
+\thispagestyle{plain} % empty
+\mbox{}
+
 % Part Five
 
 \newpage
@@ -8350,13 +8432,15 @@ this fellow asks to be done for him?''
 
 \end{fullwidth}
 
+
 % CHAPTER XVIII: INTRODUCTION: EUPHORIC AND DYSPHORIC INTERPLAY
 \chapter[CHAPTER XVIII: INTRODUCTION: EUPHORIC AND DYSPHORIC INTERPLAY]{Chapter XVIII: Introduction: Euphoric and Dysphoric Interplay}
 \label{ch:Chapter XVIII: Introduction: Euphoric and Dysphoric Interplay}
 \chaptermark{CHAPTER XVIII: INTRODUCTION: EUPHORIC AND DYSPHORIC INTERPLAY}
 
-\newthought{When persons are in}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.db30da51}{doi}}each other's presence, it is possible that no one
+
+
+\newthought{When persons are in} each other's presence, it is possible that no one
 will be made to feel ill at ease, out of countenance, nonplussed,
 self-conscious, embarrassed, or out of place because of the sheer
 presence of the others or because of the actions of the others. No one
@@ -8384,8 +8468,6 @@ interplay at all is completely euphoric.\footnote{In contrast,
   proper modulation of voice and gestures, and other requirements of
   public seemliness and decorum.}
 
-\enlargethispage{\baselineskip}
-
 When persons engage in interplay (as in any other activity) there is a
 tendency for them to become unselfconsciously, spontaneously, and
 unthinkingly immersed or involved in the proceedings. During any
@@ -8396,7 +8478,10 @@ the interaction.\footnote{It has become common to consider interpersonal
   probable response of the other into consideration. This view seems to
   be implied in G. H. Mead and to have been carefully elaborated into a
   model of feints and strategies and infinite tactical maneuvers by von
-  Neumann. It overlooks the crucial fact that a sender} It would seem that in Dixon the most
+  Neumann. It overlooks the crucial fact that a sender is committed to
+  the expressive component of his communication, this tending to be, in
+  a sense, more of an impulsive response to the situation than a
+  calculated and tactical adjustment to it. By expressing himself spontaneously, the} It would seem that in Dixon the most
 general requirement of euphoric interaction is that no participant act
 in such a way as to disturb or disrupt a proper degree of involvement on
 the part of the other participants. This generalization does not answer
@@ -8406,11 +8491,11 @@ sorts of behavior on the part of one participant throw the other
 participants off balance and make it difficult for them to involve
 themselves spontaneously in the interplay in the way required of them.
 
-Until\marginnote{is committed to
-  the expressive component of his communication, this tending to be, in
-  a sense, more of an impulsive response to the situation than a
-  calculated and tactical adjustment to it. By expressing himself
-  spontaneously, the sender becomes intimately a part of the situation,
+Until now in this study, interplay has been considered from a rather
+mechanical point of view. It has been suggested that orderly interplay
+seems, in Dixon, to have certain functional characteristics: warning
+must be given as to when the interplay is to start, when it is to end,
+and who is to be officially\marginnote{sender becomes intimately a part of the situation,
   instead of merely a rational manipulator of it. In a manner of
   speaking, the character of the sender becomes lodged in and infused
   into his communicative acts, giving these acts a weight and a reality
@@ -8427,11 +8512,7 @@ Until\marginnote{is committed to
   unthinking impulsive aspect of interaction is not a residual category
   that can be appended as a qualification to a rational model of
   communication; the spontaneous unthinking aspect of interaction is a
-  crucial element of interaction.} now in this study, interplay has been considered from a rather
-mechanical point of view. It has been suggested that orderly interplay
-seems, in Dixon, to have certain functional characteristics: warning
-must be given as to when the interplay is to start, when it is to end,
-and who is to be officially included in it; during the interplay, a
+  crucial element of interaction.} included in it; during the interplay, a
 supply of messages must be assured, interruption must be controlled and
 regulated, and a transition from one sender to another must be effected;
 a center of focus must be maintained. When these arrangements did not
@@ -8462,8 +8543,7 @@ as the data seem to call for.
 \label{ch:Chapter XIX: Involvement}
 \chaptermark{CHAPTER XIX: INVOLVEMENT}
 
-\newthought{It has been suggested}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.f205f188}{doi}}that euphoric interplay occurs when no participant
+\newthought{It has been suggested} that euphoric interplay occurs when no participant
 is dislodged, as it were, from a proper degree of unselfconscious
 immersion in the interplay. This, of course, assumes that the
 participants are involved in the first place, that is, that they have to
@@ -8505,7 +8585,9 @@ standardized in the sense that anyone who maintains a degree of
 involvement that departs from the expected is felt to have committed an
 offense and is likely to disrupt the involvement of others.
 
-\newpage In Dixon it seemed that persons who had had much experience with each
+\enlargethispage{\baselineskip}
+
+In Dixon it seemed that persons who had had much experience with each
 other and who knew what to expect of each other could tolerate
 appreciable deviations from the involvement norm without becoming
 improperly involved themselves. Improper involvement that was
@@ -8600,7 +8682,7 @@ finding this funny. Everyone present tactfully adhered to the
 involvement form for games of that type, although no one present was
 caught up in the game spontaneously.
 \end{quote}
-\newpage
+
 \begin{quote}
 During the annual Christmas social games are staged for the very young
 as well as for adults. In one game, called ``Oxford and Cambridge,'' two
@@ -8644,6 +8726,8 @@ way. And yet when either of the two known cheaters wins, everyone makes
 an effort to show enthusiasm and greets the award of a prize to her by
 proper clapping.
 \end{quote}
+
+\enlargethispage{\baselineskip}
 
 2. Lack of concern in the proceedings has been suggested as one type of
 insufficient involvement; another type is to be found when a participant
@@ -8711,7 +8795,7 @@ would do this unless they were more interested than is proper in
 determining the response of others. We call this affectation. In
 Cooley's words, the individual ``\ldots{} seems to be unduly preoccupied
 with what other people think\ldots`` of him; affectation, he says,
-``\ldots{} exists when the passion to influence others seems to\newpage\noindent
+``\ldots{} exists when the passion to influence others seems to
 overbalance the established character and give it an obvious twist or
 pose.``\footnote{Charles H. Cooley, \emph{Human Nature and the Social
   Order} (New York: Scribner's, 1922), p.~196.}
@@ -8798,8 +8882,7 @@ illustrated in Chapter XXII.
 \label{ch:Chapter XX: Faulty Persons}
 \chaptermark{CHAPTER XX: FAULTY PERSONS}
 
-\newthought{It has been suggested}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.549348f7}{doi}}that when all the participants in an interplay are
+\newthought{It has been suggested} that when all the participants in an interplay are
 sufficiently ``caught up'' or spontaneously involved in the proceedings,
 the interaction may be characterized as euphoric. To the degree that
 participants fail to become sufficiently involved, because of too little
@@ -8894,7 +8977,7 @@ lived seemed to be under a kind of interaction cloud; few persons not
 members of these households seemed to enter without first steeling
 themselves for the awkwardness that was to be anticipated.
 
-Among commoners in Dixon, informal conversation is carried on solely in
+\newpage Among commoners in Dixon, informal conversation is carried on solely in
 the community's variations of the Bergand dialect. The dialect is hardly
 intelligible to outsiders, and to them a Bergand version of standard
 English is used. Almost all commoners in Dixon feel constrained in
@@ -8951,7 +9034,7 @@ do others. In a sense they have sacrificed themselves (for whatever
 reason) to the euphoria of interaction, voluntarily withdrawing from
 positions in which they might afford disturbance to the interplay.
 
-Persons with defects of this kind did not, of course, always retreat. A
+\newpage Persons with defects of this kind did not, of course, always retreat. A
 person seemed less likely to do so when he could feel that his defect
 was a superimposed characteristic and not one that he was, in a sense,
 morally responsible for. ``It was two years before I wasn't worried
@@ -9004,11 +9087,7 @@ joke for so long, that persons came to distrust him.\footnote{For
   guests in his home, he would say, with a barely perceptible twinkle,
   ``I'll surely win the next 500,'' conveying almost an admission that
   his interest was insufficiently aroused to make this even a
-  possibility. On another occasion, while talking to the newly arrived
-  doctor and his wife, Bill said, ``I'll be glad when these Bolsheviks
-  are out and we get Britons back in power,'' knowing that everyone but
-  the newly-arrived pair knew he was a local committee man for the
-  Labour Party.} With him, one never knew where one stood, for there was
+  possibility.} With him, one never knew where one stood, for there was
 no easy way to discover whether he was at any given moment serious or
 not. He protected himself from being considered simply mendacious by
 maintaining a gleeful, aggressive air in his communication, ready when
@@ -9027,7 +9106,11 @@ interactional tension occurred. This dysphoria tended to be minimal when
 the gentry acted in their traditional capacity, appearing on the stage
 during a community concert or in specially reserved seats; it tended to
 be quite acute when prolonged informal interplay was necessary between
-gentry and commoner. From the point of view of the interaction that
+gentry and commoner. From\marginnote{On another occasion, while talking to the newly arrived
+  doctor and his wife, Bill said, ``I'll be glad when these Bolsheviks
+  are out and we get Britons back in power,'' knowing that everyone but
+  the newly-arrived pair knew he was a local committee man for the
+  Labour Party.} the point of view of the interaction that
 commoners carried on, the gentry were all faulty persons. This fact
 seems significant enough in the life or the community and significant
 enough for an understanding of interaction there to warrant further
@@ -9198,8 +9281,7 @@ between persons who could not be at ease with each other.
 \label{ch:Chapter XXI: Involvement Poise}
 \chaptermark{CHAPTER XXI: INVOLVEMENT POISE}
 
-\newthought{During interplay in Dixon,}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.9990e006}{doi}}participants tended to set aside such of
+\newthought{During interplay in Dixon,} participants tended to set aside such of
 their attributes and qualifications as were considered irrelevant and to
 interact chiefly on the basis of rights and obligations felt to be
 relevant. Persons expressed in this way that they were not so bound and
@@ -9293,7 +9375,16 @@ approval and esteem.\footnote{Societies of course differ in rules
   not have the sympathy of his group when he fails; rather will he incur
   ridicule. A person with such poor judgment of his powers is termed
   `light and floating' (\emph{chi'ing-fou}) in character; a person
-  serious in his} At the
+  serious in his endeavors but careful in reckoning his abilities and
+  circumspect in his dealings with others is called `sinking and steady'
+  (\emph{ch'en-chuo}) or reliably heavy (\emph{wen-chug}). The former
+  type of personality cannot be trusted, but latter is a good citizen
+  and a trustworthy friend. Now is not easy to gauge one's capacity
+  exactly at every point nor is it possible to foresee the outcome of
+  every venture, so it is wise to underestimate one's value. In this way
+  one will always have the satisfaction of hearing.one's friends deny
+  this inferiority\ldots{} A person `without self-training' is one who
+  shows no consideration for others or is given to boasting.''} At the
 linguistic level, it was felt that persons ought not to ``blow their own
 horn, `` to brag, or in general to convey a message whose purport
 redounded in their favor. At the expressive level, it was felt that
@@ -9305,16 +9396,7 @@ might express something favorable about them.
 In general, when persons were involved in conversation, they made an
 effort to keep the topic of conversation away from anything having to do
 with their own praiseworthy accomplishments. If this topic could not be
-avoided, then there was a tendency for the individual to\marginnote{endeavors but careful in reckoning his abilities and
-  circumspect in his dealings with others is called `sinking and steady'
-  (\emph{ch'en-chuo}) or reliably heavy (\emph{wen-chug}). The former
-  type of personality cannot be trusted, but latter is a good citizen
-  and a trustworthy friend. Now is not easy to gauge one's capacity
-  exactly at every point nor is it possible to foresee the outcome of
-  every venture, so it is wise to underestimate one's value. In this way
-  one will always have the satisfaction of hearing.one's friends deny
-  this inferiority\ldots{} A person `without self-training' is one who
-  shows no consideration for others or is given to boasting.''} minimize and
+avoided, then there was a tendency for the individual to minimize and
 detract from his accomplishment, or to treat it in a joking manner as a
 means of signifying that it was not bo be associated with the self
 involved in participation. The more recent and the more praiseworthy the
@@ -9673,7 +9755,7 @@ contradiction with the expressive behavior of the individual, or when
 acceptance and eagerness were not made a joke of, then dysphoria
 followed.
 
-Interplay during meals was perhaps the time when self-control regarding
+\newpage Interplay during meals was perhaps the time when self-control regarding
 desires was most consistently expressed. When being served food, the
 recipient conveyed the fact that the serving was ample by the use of
 such stock phrases as, ``That's any amount.'' Whens second helping was
@@ -9828,6 +9910,8 @@ was used, the speaker indicated to those around him, partly by the
 patterned equanimity with which the offer was made, that his poise could
 not be threatened by the passage of a valuable from himself to another.
 
+\enlargethispage{\baselineskip}
+
 In the last two sections it was suggested that persons exercise
 self-control in accepting things from others and that persons exercise
 self-control in the attachment which they express to things they already
@@ -9839,7 +9923,7 @@ required between the participants. Each will have to act in such a way
 as to make it possible for the other to show generosity without losing
 too much by it.
 
-\newpage For example, when a person pays a visit to a friend, it is expected that
+For example, when a person pays a visit to a friend, it is expected that
 he will volunteer to leave before he really wants to and before he
 thinks his hosts really want him to leave. It is expected that his hosts
 will remonstrate and coax him to stay.\footnote{The social mechanism
@@ -9905,7 +9989,7 @@ Host: ``I'll just make the turn up here a bit.'' He drives on for
 another quarter mile before dropping his guest.
 \end{quote}
 
-It has been suggested that when two persons compete over some matter
+\newpage It has been suggested that when two persons compete over some matter
 each may ``lean over backwards'' in an effort to show that he is not
 overly involved in the issue. In the case of indulgences, information as
 to which of the two is the less involved in the indulgence can be
@@ -9932,8 +10016,7 @@ interchange, looking deep into his eyes and saying in a serious tone,
 \label{ch:Chapter XXII: On Projected Selves}
 \chaptermark{CHAPTER XXII: ON PROJECTED SELVES}
 
-\newthought{Throughout this study it}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.1d9cdcca}{doi}}has been suggested that when islanders
+\newthought{Throughout this study it} has been suggested that when islanders
 participate together in an interplay, countless events become available
 for aptly expressing the attitudes of the participants, especially the
 attitudes they have towards themselves and towards fellow-participants.
@@ -10014,7 +10097,7 @@ actually feel about the assumptions they have temporarily accepted. If
 the minute social system formed by persons during interplay is to be
 maintained, the definition of the situation must not be destroyed.
 
-\newpage The presence of potential disruptions to the working acceptance, and the
+The presence of potential disruptions to the working acceptance, and the
 constant necessity of avoiding or side-stepping these difficulties, or,
 if they occur, of correcting or compensating for them, seem to be
 crucial conditions under which participants must operate. (While it is
@@ -10333,7 +10416,19 @@ upon.\footnote{Bergson, in a well-known contribution to the theory of
   case, we have an individual who presents himself as someone who is a
   person and then discredits this projected self by behaving like an
   object. In the second case we have an individual who presents himself
-  as a person of a given moral status and then inadvertently.} Frequently this line of adjustment would be
+  as a person of a given moral status and then inadvertently shows that
+  this is not the case. No doubt part of the laughter that is found in
+  such situations arises from the fact that maintenance of a role
+  requires a degree of nervous tension and that sudden breaking of the
+  role acts as a release for this tension---hence the characteristically
+  ``nervous'' quality of some laughter. However it would seem that
+  sometimes laughter in these situations represents an effort to
+  assimilate the self that has been discredited to an unserious self,
+  one whose discrediting is of little moment. The two roles of laughter
+  are frequently separated in situations where the self that has been
+  discredited is too important to be assimilated to an unserious one. In
+  such cases, nervous laughter on the part of participants may be
+  rigor-} Frequently this line of adjustment would be
 initiated by the person who had made the gaffe, especially if he had
 made it against himself. Only certain gaffes, of course, could be
 handled in this way. Some examples of the use, successful or
@@ -10354,25 +10449,9 @@ fall. There is a hushed moment in the kitchen, and then Alice bursts out
 laughing. Jean, the other maid, blushes deeply, looks at Alice, and then
 looks down.
 \end{quote}
-\newpage
+
 \begin{quote}
-Two\marginnote{shows that
-  this is not the case. No doubt part of the laughter that is found in
-  such situations arises from the fact that maintenance of a role
-  requires a degree of nervous tension and that sudden breaking of the
-  role acts as a release for this tension---hence the characteristically
-  ``nervous'' quality of some laughter. However it would seem that
-  sometimes laughter in these situations represents an effort to
-  assimilate the self that has been discredited to an unserious self,
-  one whose discrediting is of little moment. The two roles of laughter
-  are frequently separated in situations where the self that has been
-  discredited is too important to be assimilated to an unserious one. In
-  such cases, nervous laughter on the part of participants may be
-  rigorously repressed and only conveyed by means or collusive looks or
-  by waiting for the offender to leave first. The position could be
-  taken that nervous or spontaneous laughter was a means of saying that
-  the whole situation, and not merely the self of the offender, ought to
-  be defined as unserious} men are on a Sunday visit to the home of a third. Their host is
+Two men are on a Sunday visit to the home of a third. Their host is
 returning from across a loch where he has gone to see how his lambs are
 progressing. He pulls his boat partway up on the shore and looks for a
 rock to lay on top of the painter. His guests, thirty feet away, watch
@@ -10391,7 +10470,11 @@ expectations as to how he would appear.
 On Wednesday night at eight there is to be a community concert at which
 John Landor, the local orator, is to give one of his famous
 extemporaneous speeches. As he is wont to say, he merely gets up on the
-platform and says whatever comes into his mind. {[}He has, incidentally,
+platform and says\newpage\noindent whatever\marginnote{ously repressed and only conveyed by means or collusive looks or
+  by waiting for the offender to leave first. The position could be
+  taken that nervous or spontaneous laughter was a means of saying that
+  the whole situation, and not merely the self of the offender, ought to
+  be defined as unserious.} comes into his mind. {[}He has, incidentally,
 great stage presence and can handle an audience in a very professional
 way.{]} So well known are these speeches that the name he uses on the
 stage is a name often given him off the stage. On the morning after the
@@ -10451,7 +10534,17 @@ blustering.\footnote{A clear example of blustering is given in W. Lloyd
   p.~154. ``Fred Jackson, one of the firm of Jones and Jackson, on the
   other hand, over-participated in the strike with disastrous results to
   himself and interruptions to the negotiations in progress between the
-  manufacturers and striking employees. Here is the story as Nixon,
+  manufacturers and striking employees.} Examples of
+both kinds of situations follow.
+
+\begin{quote}
+The laird's house, ``Alexander Hall,'' a historic landmark in Dixon, is
+built near the shore of the inlet, and the laird has a stone pier from
+which the annual boat races are run and off which the laird moors his
+rowboat. A local thirty-foot fishing boat which an old crofter, Henry
+Johnson, and his two sons operate during the summer months is usually
+moored between this pier and the main Dixon pier, some three hundred
+yards away. The Johnsons decided\newpage\noindent to moor\marginnote{Here is the story as Nixon,
   president of the union, told it to an interviewer (later verified from
   interviews with management): 'One of the manufacturers, Fred Jackson,
   a ``snappy'' young fellow, came into a meeting and slapped a piece of
@@ -10469,17 +10562,14 @@ blustering.\footnote{A clear example of blustering is given in W. Lloyd
   he acted badly when he challenged union leadership. Jackson was under
   the control of higher management and occupied an inferior managerial
   position where he had little freedom to assume command and take
-  leadership. Yet he had learned} Examples of
-both kinds of situations follow.
-
-\begin{quote}
-The laird's house, ``Alexander Hall,'' a historic landmark in Dixon, is
-built near the shore of the inlet, and the laird has a stone pier from
-which the annual boat races are run and off which the laird moors his
-rowboat. A local thirty-foot fishing boat which an old crofter, Henry
-Johnson, and his two sons operate during the summer months is usually
-moored between this pier and the main Dixon pier, some three hundred
-yards away. The Johnsons decided to moor their boat closer inshore this
+  leadership. Yet he had learned from William Pierce when he worked for
+  him how his kind of man should act, and he knew that an owner and
+  manager should assume control. It seems a reasonable hypothesis that
+  the conflict between his beliefs about how a man should act (how
+  Mr.~Pierce would do it) and what he was remitted to do by his status
+  greatly contributed to causing his unfortunate act, an act which
+  materially aided the union. He tried to take command in a situation
+  where it was impossible, and he could only `bluster.'\,''} their boat closer inshore this
 summer, hence closer than usual to the laird's pier. A few nights after
 they moored their boat where they wanted to, Henry Johnson, somewhat in
 his cups at a social, told the following story---a story told and retold
@@ -10508,14 +10598,7 @@ throughout the island, gives a rendition of the song ``Quicksilver.'' He
 affects a cowboy manner, wearing no tie and strumming a guitar. He
 attempts to carry off an informal manner and an American accent. After
 his song he waves his hand and says, ``Cheerio, folks. I'll be back.''
-The audience feels that in addition to a song, the performer was trying\marginnote{from William Pierce when he worked for
-  him how his kind of man should act, and he knew that an owner and
-  manager should assume control. It seems a reasonable hypothesis that
-  the conflict between his beliefs about how a man should act (how
-  Mr.~Pierce would do it) and what he was remitted to do by his status
-  greatly contributed to causing his unfortunate act, an act which
-  materially aided the union. He tried to take command in a situation
-  where it was impossible, and he could only `bluster.'\,''}
+The audience feels that in addition to a song, the performer was trying
 to stage a manner as well. It is felt that whatever he was trying, he
 has not carried it off. Many members of the audience feel embarrassed.
 Some feel that the performer in question has always put on too many
@@ -10679,7 +10762,7 @@ each other sly, furtive looks conveying their attitude on these matters;
 sometimes they cannot trust themselves to do this and carefully cast
 their eyes down. For them, an individual who talks in a serious fashion
 about supernatural powers is not a person at all, and the failure of the
-superstitious speaker\newpage\noindent to realize that he is not behaving as a
+superstitious speaker to realize that he is not behaving as a
 full-fledged person is, for the unbelievers, a laughable rigidity and a
 self-delusion.
 
@@ -10731,6 +10814,8 @@ by the islanders. When outsiders display these shortcomings and at the
 same time express an air of urban assurance and superiority to
 islanders, they become especially laughable to the islanders, although
 of course they are rarely laughed at out loud.
+
+\enlargethispage{\baselineskip}
 
 \hypertarget{unserious-disruptions}{%
 \section{Unserious Disruptions}\label{unserious-disruptions}}
@@ -10957,13 +11042,16 @@ self-control. In another dance, the last figure is danced to an
 ever-increasing tempo until all the dancers lose their balance and
 self-direction.
 
+    
+
+
 % CHAPTER XXIII: THE MANAGEMENT OF PROJECTED SELVES
-\chapter[CHAPTER XXIII: THE MANAGEMENT OF PROJECTED SELVES]{Chapter XXIII: The Management of Projected Selves}
+\chapter[CHAPTER XXIII: THE MANAGEMENT OF PROJECTED SELVES]{Chapter XXIII: The Management of\\Projected Selves}
 \label{ch:Chapter XXIII: The Management of Projected Selves}
 \chaptermark{CHAPTER XXIII: THE MANAGEMENT OF PROJECTED SELVES}
 
-\newthought{During interplay, events may}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.ba0f8e35}{doi}}occur which make it difficult for
+
+\newthought{During interplay, events may} occur which make it difficult for
 participants to accept in an unthinking way the self projected by
 someone among them, or to continue to accept a projected self which they
 had initially accepted in this way. On such occasions dysphoria is
@@ -11309,26 +11397,19 @@ question.\footnote{From the point of view of the others, the individual
   doesn't want what he hasn't got. (When this maneuver begins to
   convince the very person who performs it, we have, presumably, a
   variant of a major structural element in social life, namely, pride.)
-  The practice of feigning indifference serves as a means of self
-  defense for the person who employs it, but it serves many different
-  important functions for the interplay in which it is performed. For
-  example, it seems that informal interplay could not smoothly perform
-  certain of its social functions unless unwanted participants could be
-  relied upon to withdraw voluntarily from the interplay (or voluntarily ab-}
+  The practice of feigning}
 
 \hypertarget{non-observance}{%
 \section{Non-Observance}\label{non-observance}}
 
 In Dixon, another strategy used to cope with embarrassing situations is
 for all concerned to act as if the disruptive, discrediting event had
-not in fact occurred. Individuals acted as if they had not seen or heard
-the discrediting event. It is interesting to note that a conflict
-sometimes arose, as in the case of stomach growls, burps, or the
-dropping of a piece of food, as to which strategy to employ: whether to
-act as if the event had not occurred or to recognize that it had
-occurred and that it was to be made a joke of. Frequently the tension
-and dysphoria on such occasions was created not by the offending act
-itself\marginnote{stain from entering) on the basis of slight hints conveyed to them
+not in fact occurred.\marginnote{indifference serves as a means of self
+  defense for the person who employs it, but it serves many different
+  important functions for the interplay in which it is performed. For
+  example, it seems that informal interplay could not smoothly perform
+  certain of its social functions unless unwanted participants could be
+  relied upon to withdraw voluntarily from the interplay (or voluntarily abstain from entering) on the basis of slight hints conveyed to them
   by other participants. Slight hints do not disrupt the most intimately
   defined working acceptance; all the participants can overtly maintain
   a spirit of friendliness and affability. And yet within such a
@@ -11337,7 +11418,14 @@ itself\marginnote{stain from entering) on the basis of slight hints conveyed to 
   the interplay, a participant's sensitivity to hints means that he is
   tractable and manageable; from the point of view of the participant
   himself, it means an opportunity to protect himself by feigning
-  indifference.} but rather by the state of suspension the participants found
+  indifference.} Individuals acted as if they had not seen or heard
+the discrediting event. It is interesting to note that a conflict
+sometimes arose, as in the case of stomach growls, burps, or the
+dropping of a piece of food, as to which strategy to employ: whether to
+act as if the event had not occurred or to recognize that it had
+occurred and that it was to be made a joke of. Frequently the tension
+and dysphoria on such occasions was created not by the offending act
+itself but rather by the state of suspension the participants found
 themselves in, waiting for the offender to define which strategy he, and
 hence they, would have to take.
 
@@ -11386,8 +11474,7 @@ tolerate the offense in question.
 \hypertarget{the-interaction-order}{%
 \section{The Interaction Order}\label{the-interaction-order}}
 
-\newthought{In the study of}
-\marginnote{\href{https://doi.org/10.32376/3f8575cb.9912a480}{doi}}social life, it is common to take the concept of social
+\newthought{In the study of} social life, it is common to take the concept of social
 order as central and to analyze concrete behavior in terms of the way it
 conforms to and departs from this model. It is in this sociological
 perspective that communication has been studied here.
@@ -11420,14 +11507,14 @@ reinforce self-regulation, and together these forces lead persons to
 behave in a way that is regular and can be anticipated and in a way that
 is considered legitimate and socially proper.
 
-\newpage The occasions when persons in Dixon come together and engage in spoken
+The occasions when persons in Dixon come together and engage in spoken
 communication may differ, one from another, in basic ways:
 comings-together may differ in number and identity of participants; in
 the kind of ties that bind those who participate; in the motive, the
 intent, and the function of the coming-together; in the social place and
 context in which the coming-together occurs; and in many other ways.
 
-On occasions in which islanders engage in face-to-face spoken
+\newpage On occasions in which islanders engage in face-to-face spoken
 communication, the conduct and action of participants are guided and
 integrated together under the influence of many different social norms.
 Action is guided and integrated by the rights and obligations pertaining
@@ -11532,7 +11619,7 @@ the daily social life of an entire community, then the connection
 between needs, communication system, and moral norms becomes less easy
 to be sure about but perhaps more interesting and significant.
 
-In Dixon, as presumably in any community, there is a need for
+\newpage In Dixon, as presumably in any community, there is a need for
 information to be able to flow through an almost infinite number of
 channels and networks, for lines of communication to be formed, altered,
 and re-formed in a fluid and constantly changing pattern. This flow of
@@ -11638,7 +11725,7 @@ circumspection, seemingly modify and guide the way in which an islander
 performs every one of his acts while he is a participant in spoken
 interaction.
 
-Opposing these inhibitory norms, there is a set of norms obliging
+\newpage Opposing these inhibitory norms, there is a set of norms obliging
 islanders to become immediately and thinkingly involved in any
 interaction in which they have been accredited as participants. A
 participant must not seem to be indifferent to the interaction or
@@ -11652,6 +11739,8 @@ unaffected in an expressive way, to give his co-participants confidence
 in the validity of the information they are receiving from him. And he
 is expected to give at least some expression to his real feelings,
 regardless of the price he may have to pay for so doing.
+
+\enlargethispage{\baselineskip}
 
 At all times and in all places islanders tended to manifest a
 fundamental action-tendency relative to communication. Whenever an
@@ -11803,7 +11892,7 @@ flow back and forth between them.
 Order}\label{the-special-characteristics-of-the-interaction-order}}
 
 The social order that obtains when persons are engaged in spoken
-communication---by virtue of being so engaged---possesses some
+communic- ation---by virtue of being so engaged---possesses some
 characteristics that are perhaps less pronounced in other types of
 social order.
 
@@ -11853,7 +11942,7 @@ Experience in the field suggests that rules regarding communication
 conduct are so automatically taken for granted, both by those who are
 studied and by those who do the study, that it is convenient to depend
 on extraordinary events to open our eyes to what ordinarily occurs. In
-situations where ordinary spoken communication cannot prevail,
+situations where\newpage\noindent ordinary spoken communication cannot prevail,
 extraordinary arrangements with high visibility to the student are
 required. On this assumption, then, some lines of further research in
 spoken communication can be suggested.
@@ -11906,7 +11995,7 @@ communication systems, and communication norms.
 
 \begin{hangparas}{.25in}{1} 
 
-Allport,\marginnote{\href{https://doi.org/10.32376/3f8575cb.573e204e}{doi}} Gordon, and Vernon, Philip. \emph{Studies in Expressive
+Allport, Gordon, and Vernon, Philip. \emph{Studies in Expressive
 Movements}. New York: Macmillan, 1933.
 
 Bales, Robert F. \emph{Interaction Process Analysis}. Cambridge, Mass.:
