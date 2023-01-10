@@ -52,7 +52,8 @@
 * [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md)
 * [Create Kindle ebook](/workflows/create-kindle-ebook.md)
 * [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md)
-* [Fix post-publication typos](/workflows/fix-post-publication-typos.md) 
+* [Fix post-publication typos](/workflows/fix-post-publication-typos.md)
+* [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md) 
 
 ## Chapter
 
@@ -168,4 +169,5 @@
 * [Create splash page on mediastudies.press](/workflows/create-splash-page-on-mediastudies.press.md)
 * [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)  
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
-* [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md) 
+* [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md)
+* [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md) 
