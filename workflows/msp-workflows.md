@@ -117,6 +117,7 @@
 * [Prepare the LaTeX](/workflows/prepare-the-latex.md)
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
 * [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md) 
+* [Create print PDF](/workflows/create-print-pdf.md)
 
 ## 5. Cover
 

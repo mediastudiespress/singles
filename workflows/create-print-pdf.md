@@ -1,6 +1,6 @@
 # Create print PDF
 
-#single #distribution
+#single #distribution #typesetting
 
 - [ ] navigate to [Overleaf](https://www.overleaf.com/project)
 - [ ] duplicate the main LaTeX file, and append "-print" to its name
