@@ -1,10 +1,16 @@
-# Check and update doi
+# Blog post
 
-#chapter #openreader #publicdomain #publish #organization #marketing
+#organization #marketing
 
-- [ ] check the DOI by copying and then running [Search Crossref](shortcuts://run-shortcut?name=Search%20Crossref)
-- [ ] Optional: download the existing record by running this [Crossref XML](shortcuts://run-shortcut?name=Crossref%20XML) [Crossref XML]
-- [ ] ONLY FOR NON-BOOKS: Next run this Shortcut, [Update Crossref 1](shortcuts://run-shortcut?name=Update%20Crossref%201), replacing anything necessary 
-- [ ] ONLY FOR NON-BOOKS: Copy the updated material, and run [Update Crossref 2](shortcuts://run-shortcut?name=Update%20Crossref%202), replacing anything necessary 
-- [ ] FOR BOOKS: Navigate to Thoth, and download the Crossref DOI Deposit XML file; submit to the [msp Crossref account](https://doi.crossref.org/servlet/submissionAdmin?sf=showUpload), using Submissions—> Upload. Check Submissions —> Administration —> Search to see if an error is generated. It is normally a timestamp error. Copy the original timestamp, add 1 to it, paste into the XML file in timestamp, and re-upload. 
-- [ ] If there is no error, run [Search Crossref](shortcuts://run-shortcut?name=Search%20Crossref) again to confirm the updated info; you may need to way a while
+# Blog post
+
+#marketing
+
+- [ ] Copy the url to the bottom of this list, linking to the main content to write about
+- [ ] Navigate to the [blog](https://www.mediastudies.press/blog), and click Create Pub. Add the new Pub to the Blog collection. Remove the author. 
+- [ ] Draft the blog post in a text document or in the Pub body
+- [ ] Navigate to the Connections tab in the Pub Settings, and add a Connection to the main source. Unselect Show description.
+- [ ] Search Unsplash for a header photo. Download the file, and upload to Background image in the Pub Settings, selecting the “Use header image as preview”
+- [ ] Change license to CC BY-NC, and change the link to ISO-date-short-description, and save
+- [ ] Use the Edit Theme button to change filter and font color
+- [ ] Look over the post and hit the Publish button. Check the [blog page](https://www.mediastudies.press/blog) to make sure it looks good. 
