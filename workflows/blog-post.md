@@ -1,6 +1,6 @@
 # Check and update doi
 
-#chapter #openreader #publicdomain #publish
+#chapter #openreader #publicdomain #publish #organization #marketing
 
 - [ ] check the DOI by copying and then running [Search Crossref](shortcuts://run-shortcut?name=Search%20Crossref)
 - [ ] Optional: download the existing record by running this [Crossref XML](shortcuts://run-shortcut?name=Crossref%20XML) [Crossref XML]
