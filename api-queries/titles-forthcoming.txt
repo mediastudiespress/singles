@@ -8,5 +8,6 @@
      }
   ) {
 title
+publicationDate
     }
   }
