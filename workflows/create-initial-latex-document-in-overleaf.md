@@ -2,7 +2,7 @@
 
 #single #typesetting
 
-- [ ] Open Overleaf and copy an existing, published LaTeX “main” file. Add the new file to the “In progress” folder
+- [ ] Open Overleaf and copy the appropriate LaTeX template, from the Templates folder. Rename, and add the new file to the “In progress” folder
 - [ ] Change the Book metadata near the top, and recompile to check the Title Page
-- [ ] Open the Collection page on PubPub, and carefully transfer the relevant metadata on the Copyright Page
+- [ ] Open the book’s Thoth page on, and carefully transfer the relevant metadata on the Copyright Page
 - [ ] Re-compile and check
