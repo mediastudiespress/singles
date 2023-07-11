@@ -9,6 +9,5 @@
 title
 coverUrl
 publications {publicationType, isbn}
-
     }
   }
