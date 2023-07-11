@@ -11,9 +11,6 @@
        publications {
             publicationType
             isbn
-            locations {
-              landingPage
-              fullTextUrl
-            }
+            locations
        }
 } 
