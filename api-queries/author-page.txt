@@ -11,6 +11,8 @@
        publications {
             publicationType
             isbn
-            locations
+        		locations {
+        		  landingPage
+        		}
        }
 } 
