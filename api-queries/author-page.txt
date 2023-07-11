@@ -8,13 +8,6 @@
   ) {
 title
 coverUrl
-       publications {
-            publicationType
-            isbn
-        		locations {
-        		  landingPage
-        		  fullTextUrl
-        		}
-       }
+       publications {isbn}
     }
   }
