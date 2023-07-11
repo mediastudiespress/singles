@@ -6,14 +6,9 @@
        direction: ASC
      }
   ) {
-      title
-      coverUrl
-       publications {
-            publicationType
-            isbn
-        	locations {
-        		landingPage
-        		}
-       }
-       }
-} 
+title
+coverUrl
+publications {publicationType, isbn}
+
+    }
+  }
