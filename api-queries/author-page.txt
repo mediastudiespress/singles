@@ -1,13 +1,18 @@
 {
-  books(
-    publishers: "4ab3bec2-c491-46d4-8731-47a5d9b33cc5"
-    order: {
-       field: TITLE
-       direction: ASC
-     }
-  ) {
-title
-coverUrl
-publications {publicationType}
+    books(
+      publishers: "4ab3bec2-c491-46d4-8731-47a5d9b33cc5"
+      order: {field: PUBLICATION_DATE, direction: ASC}) {
+       fullTitle
+       doi
+       publications {
+            publicationType
+            isbn
+        		locations {
+        		  landingPage
+        		  fullTextUrl
+        		}
+       }
+
     }
-  }
+}
+ 
