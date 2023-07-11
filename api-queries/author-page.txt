@@ -7,10 +7,8 @@
      }
   ) {
 title
-doi
-lccn
-oclc
-publications {publicationType}
-subjects {subjectType, subjectCode}
+coverUrl
+landingPage
+publications {locations{landingPage}}
     }
   }
