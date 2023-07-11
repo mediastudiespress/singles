@@ -10,6 +10,7 @@ title
 coverUrl
 lccn
 oclc
+locations
 publications {publicationType}
 subjects {subjectType, subjectCode}
     }
