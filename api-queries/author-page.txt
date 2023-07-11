@@ -7,10 +7,7 @@
      }
   ) {
 title
-doi
-lccn
-oclc
+coverUrl
 publications {isbn}
-subjects {subjectType, subjectCode}
     }
   }
