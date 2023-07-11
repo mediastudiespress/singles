@@ -10,3 +10,4 @@ title
 coverUrl
 publications {isbn}
   }
+} 
