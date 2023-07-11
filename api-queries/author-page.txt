@@ -10,7 +10,7 @@ title
 doi
 lccn
 oclc
-publications
+publications {isbn}
 subjects {subjectType, subjectCode}
     }
   }
