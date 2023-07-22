@@ -32,5 +32,6 @@
 
 SUBSCRIBER NAME
 URL OF SUBSCRIBER
+THE (replace with ‘yes’ or ‘no’ depending on whether the subscriber should have “the” before its name in blog post, Twitter, etc.)
 TWITTER URL (or ‘none’)
 MASTODON URL (or ‘none’)
