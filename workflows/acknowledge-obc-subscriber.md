@@ -18,7 +18,6 @@
 - [ ] Change the new-supporter text file extension to .md in Shortcuts
 - [ ] Import the file
 - [ ] copy and paste the first line into the Title
-- [ ] check the bracketed [the]’s, deleting if appropriate 
 - [ ] replace {{subscriber logo here}} with the subscriber’s logo; add their url at the top of the page
 - [ ] replace {{OBC logo here}}; and add the url at the top of the page
 - [ ] replace {{msp logo here}}; and add the url at the top of the page
@@ -26,7 +25,6 @@
 
 ## Twitter and Mastodon
 
-- [ ] check the bracketed [the]’s, deleting if appropriate 
 - [ ] Post the Tweet, after adding url
 - [ ] Post the Mastodon, after adding url
 
