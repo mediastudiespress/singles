@@ -54,7 +54,8 @@
 * [Create Kindle ebook](/workflows/create-kindle-ebook.md)
 * [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md)
 * [Fix post-publication typos](/workflows/fix-post-publication-typos.md)
-* [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md) 
+* [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md)
+* [Create the landing page](/workflows/create-the-landing-page.md)
 
 ## Chapter
 
@@ -143,6 +144,7 @@
 * [Single final pre-publication check](/workflows/single-final-pre-publication-check.md)
 * [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md)
 * [Create ePub version](/workflows/create-epub-version.md)
+* [Create the landing page](/workflows/create-the-landing-page.md) 
 
 ## 8. Distribution
 
@@ -162,7 +164,8 @@
 * [Add ePub to Google Books](/workflows/add-epub-to-google-books.md)
 * [Update once MUSE is published](/workflows/update-once-muse-is-published.md)
 * [Create Kindle ebook](/workflows/create-kindle-ebook.md)
-* [Fix post-publication typos](/workflows/fix-post-publication-typos.md) 
+* [Fix post-publication typos](/workflows/fix-post-publication-typos.md)
+* [Create the landing page](/workflows/create-the-landing-page.md) 
 
 ## 9. Marketing
 
@@ -172,4 +175,5 @@
 * [Publicize new single on listservs](/workflows/publicize-new-single-on-listservs.md)  
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
 * [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md)
-* [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md) 
+* [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md)
+* [Create the landing page](/workflows/create-the-landing-page.md)
