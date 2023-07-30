@@ -19,3 +19,4 @@
 - [ ] In Front Matter on PubPub, credit cover designer and the CC-licensed image, according to older examples; do the same at the base of the Collection layout
 - [ ] On Overleaf, do the same
 - [ ] Copy over the InDesign file to Working Copy /cover
+- [ ] Upload the jpg version to myidentifiers.com (ISBN) records
