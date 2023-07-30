@@ -1,22 +1,25 @@
-# Set up cover file
+# Create ePub version
 
-#single #cover
+#single #publish #marketing
 
-- [ ] copy over InDesign file—one that is closest in format—to a /cover folder in Working Copy. Rename, and export to a desktop folder. 
-- [ ] if an image-based cover, look at (1) [Unsplash](https://unsplash.com), (2) [dpla](https://dp.la), (3) [Openverse](https://wordpress.org/openverse/?referrer=creativecommons.org)
-- [ ] Play around with the front cover, looking at mockups
-- [ ] Optional: send the cover to the author for their approval
-- [ ] If the book will be printed, fill in the required information on the back cover.
-- [ ] Export the front and back cover as individual pages in pdf format
-- [ ] follow [these directions](https://helpx.adobe.com/acrobat/kb/Change-PDF-page-size-in-MAC.html) to convert pdf to 8.5 by 11; save separately, with name-8.5-11-front-cover-pdf.pdf
-- [ ] using a similar process, open the original pdf export in Acrobat, and, using the edit button in “Scale pages to specific size,” change the unit to “pt” and adjustment “Fit from outside (cut page)”, with 640 in short edge and 1024 from long edge. Save as name-640-1024-front-cover-pdf.pdf.
-- [ ] using Preview, open the pdfs, export with png and jpg versions for both, naming name-640-1024-front-cover-png.png; be sure to use 300 resolution for the png
-- [ ] Copy all those to the \cover folder
-- [ ] Copy the path to the png file, and paste in the Cover URL for the [Toth](https://thoth.pub/admin/dashboard) Book record; also update ISBN records at myidentifiers.com
-- [ ] Navigate to the PubPub Collection page -> Layout and add the png image. Adjust width as appropriate.
-- [ ] Crop a text-free 1200px x 800px image from the cover to serve as the preview and, depending, the background image. Save as acronym-preview.png and copy to Working Copy /cover directory
-- [ ] Upload the new image to the Collection “Preview image” and each Pub’s “Preview image” and “Background image”
-- [ ] In Front Matter on PubPub, credit cover designer and the CC-licensed image, according to older examples; do the same at the base of the Collection layout
-- [ ] On Overleaf, do the same
-- [ ] Copy over the InDesign file to Working Copy /cover
-- [ ] Upload the jpg version to myidentifiers.com (ISBN) records
+- [ ] Export the individual chapter ePubs on mediastudies.press
+- [ ] If you do not have a Front Matter Pub, you will need to create a temporary one, based on [Liberty and the News](https://www.mediastudies.press/pub/mzxa3wgv/release/4). Erase the PDF links at top and bottom, and do not include Contents. Export as a ePub, and make sure it is included
+- [ ] Upload one of the chapters to [this ePub validatior](https://www.ebookit.com/tools/bp/Bo/eBookIt/epub-validator). Copy and paste any issues below
+- [ ] Navigate to Calibre on the Mac, and import chapters
+- [ ] Export a jpg cover into /Shorcuts, and rename cover.jgp
+- [ ] Highlight chapters, and select EpubMerge from the toolbar. Be sure to order the chapters in the popover
+- [ ] In the metadata popover, upload cover.jpg
+- [ ] Fill in the Title and Series (if applicable)
+- [ ] In the Tags fields, add the BIC Subjects, without acronym codes, separated by commas
+- [ ] In the Ids field, add eISBN as isbn:(no hyphens),doi:(no http), and add the Published date and Publisher
+- [ ] In the Comments field, paste the long description, and save
+- [ ] Select Edit Book in the toolbar; delete title_page.x html and any others like text/title_page.x html
+- [ ] Select ch001.xhtml and other any others; in each case, delete the <img src=…> near the top. (This may not be there). Delete any extraneous files.
+- [ ] Using the TOC on the top bar, eliminate any sub-headers and check the top-level chapter ones
+- [ ] Go back to Calibre, select Convert Book from the toolbar. Under EPUB output on the left menu, change the EPUB to EPUB version 3
+- [ ] Export as an ePub
+- [ ] Test the ePub in Books and Kindle
+- [ ] Rename the ePub file with the acronym and copy to Working Copy in /ebook/
+- [ ] Create a “release” on Github, in the Singles repository. Use the example of previous releases, and attach the two files
+- [ ] Change the PDF download and add the buttons for ePub on the landing page. Test the downloads.
+- [ ] Navigate to Toth, and add a Publication under ePub, with the landing page url and the direct Github links entered; do the same with the PDF
