@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">
+  <Header>
+    <Sender>
+      <SenderName>Thoth</SenderName>
+      <EmailAddress>distribution@thoth.pub</EmailAddress>
+    </Sender>
+    <SentDateTime>20230806T191925</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>urn:uuid:9eaad76e-89ff-4ba0-858f-f2276f69110d</RecordReference>
+    <NotificationType>03</NotificationType>
+    <RecordSourceType>01</RecordSourceType>
+    <ProductIdentifier>
+      <ProductIDType>01</ProductIDType>
+      <IDValue>urn:uuid:9eaad76e-89ff-4ba0-858f-f2276f69110d</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9781951399191</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>06</ProductIDType>
+      <IDValue>10.32376/3f8575cb.80aee30a</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EB</ProductForm>
+      <ProductFormDetail>E107</ProductFormDetail>
+      <PrimaryContentType>10</PrimaryContentType>
+      <EpubLicense>
+        <EpubLicenseName>Creative Commons License</EpubLicenseName>
+        <EpubLicenseExpression>
+          <EpubLicenseExpressionType>02</EpubLicenseExpressionType>
+          <EpubLicenseExpressionLink>https://creativecommons.org/licenses/by-nc/4.0/</EpubLicenseExpressionLink>
+        </EpubLicenseExpression>
+      </EpubLicense>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Franklin Ford Collection</TitleText>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>B01</ContributorRole>
+        <NameIdentifier>
+          <NameIDType>21</NameIDType>
+          <IDValue>0000-0002-6540-006X</IDValue>
+        </NameIdentifier>
+        <NamesBeforeKey>Dominique</NamesBeforeKey>
+        <KeyNames>Trudel</KeyNames>
+      </Contributor>
+      <Contributor>
+        <SequenceNumber>2</SequenceNumber>
+        <ContributorRole>B01</ContributorRole>
+        <NameIdentifier>
+          <NameIDType>21</NameIDType>
+          <IDValue>0000-0002-6482-5365</IDValue>
+        </NameIdentifier>
+        <NamesBeforeKey>Juliette</NamesBeforeKey>
+        <KeyNames>De Maeyer</KeyNames>
+      </Contributor>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <Subject>
+        <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+        <SubjectCode>KNTJ</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+        <SubjectCode>KNTT</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>12</SubjectSchemeIdentifier>
+        <SubjectCode>HPS</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>PHI020000</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>LAN004000</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>LAN008000</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectCode>KNTP2</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectCode>KNTX</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectCode>QDHR3</SubjectCode>
+      </Subject>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="eng">The American journalist Franklin Ford (1849–1918) is remembered for his ambitious (and stillborn) Thought News periodical, hatched with philosopher John Dewey. The Franklin Ford Collection, curated and introduced by Dominique Trudel and Juliette De Maeyer, takes in the full shambolic spread of Ford's thought, across news, politics, education, finance, and society at large. The collection includes nineteen documents—letters, leaflets, editorials, and treatises—with critical annotations from Trudel and De Maeyer. The works, many unpublished or rarely circulated, illustrate the core themes that animated Ford's career, including his sweeping program of press reform and his thoughts on the interconnected flows of money, transportation, and communication.</Text>
+      </TextContent>
+      <TextContent>
+        <TextType>04</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Contents
+
+1. “He Has Ideas about Everything”: An Introduction to the Franklin Ford Collection 
+Dominique Trudel &amp; Juliette De Maeyer
+
+2. Acknowledgments
+Dominique Trudel &amp; Juliette De Maeyer
+
+3. The Larger Life: A Poem Dedicated to Franklin Ford 
+Sheridan Ford
+
+I. Reforming the News
+
+4. Draft of Action
+Franklin Ford
+
+5. A Newspaper Laboratory
+Franklin Ford
+
+6. Banding Together the Leading Newspapers
+Franklin Ford
+
+7. The Press of New York—Its Future
+Franklin Ford
+
+8. Organization of Intelligence Requires an Organism
+John Dewey
+
+9. In Search of Absolute News, Sensation, and Unity
+Corydon Ford &amp; Franklin Ford
+
+10. The News System: A Scientific Basis for Organizing the News
+Franklin Ford
+
+II. Interconnected Flows: Money, Information, and Transportation
+
+11. Better Credit Reporting
+Franklin Ford
+
+12. Traffic Associations
+Franklin Ford
+
+13. The Country Check
+Franklin Ford
+
+14. The Express Companies and the Bank
+Franklin Ford
+
+15. The Mercantile Agencies and Credit Reporting
+Franklin Ford
+
+16. Co-operative Credit Reporting
+Franklin Ford
+
+III. News is Government
+
+17. City News Office Needed
+Franklin Ford
+
+18. Municipal Reform: A Scientific Question
+Franklin Ford
+
+19. Government is the Organization of Intelligence or News
+Franklin Ford
+
+20. The Simple Idea of Government
+Franklin Ford
+
+21. A New and Revolutionary Government
+Franklin Ford
+
+22. News is the Master Element of Social Control</Text>
+      </TextContent>
+      <TextContent>
+        <TextType>20</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Open Access</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>mediastudies.press</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>mediastudies.press</PublisherName>
+      </Publisher>
+      <CityOfPublication>Bethlehem, PA</CityOfPublication>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20230715</Date>
+      </PublishingDate>
+    </PublishingDetail>
+    <RelatedMaterial>
+      <RelatedProduct>
+        <ProductRelationCode>06</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>15</ProductIDType>
+          <IDValue>9781951399221</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+      <RelatedProduct>
+        <ProductRelationCode>06</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>15</ProductIDType>
+          <IDValue>9781951399191</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+      <RelatedProduct>
+        <ProductRelationCode>06</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>15</ProductIDType>
+          <IDValue>9781951399207</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+      <RelatedProduct>
+        <ProductRelationCode>06</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>15</ProductIDType>
+          <IDValue>9781951399214</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+    </RelatedMaterial>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>mediastudies.press</SupplierName>
+          <Website>
+            <WebsiteRole>01</WebsiteRole>
+            <WebsiteDescription>Publisher's website: web shop</WebsiteDescription>
+            <WebsiteLink>https://www.mediastudies.press/ford-collection</WebsiteLink>
+          </Website>
+        </Supplier>
+        <ProductAvailability>99</ProductAvailability>
+        <UnpricedItemType>01</UnpricedItemType>
+      </SupplyDetail>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>mediastudies.press</SupplierName>
+          <Website>
+            <WebsiteRole>29</WebsiteRole>
+            <WebsiteDescription>Publisher's website: download the title</WebsiteDescription>
+            <WebsiteLink>https://github.com/mediastudiespress/singles/releases/download/franklinford1.01/franklin-ford-collection.pdf</WebsiteLink>
+          </Website>
+        </Supplier>
+        <ProductAvailability>99</ProductAvailability>
+        <UnpricedItemType>01</UnpricedItemType>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>
