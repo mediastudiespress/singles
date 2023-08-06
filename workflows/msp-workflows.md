@@ -56,6 +56,7 @@
 * [Fix post-publication typos](/workflows/fix-post-publication-typos.md)
 * [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md)
 * [Create the landing page](/workflows/create-the-landing-page.md)
+* [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md) 
 
 ## Chapter
 
@@ -69,7 +70,8 @@
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
 * [Prepare cover PDF for Amazon](/workflows/prepare-cover-pdf-for-amazon.md)
 * [Send chapter to copy-editor](/workflows/send-off-chapter-to-copy-editor.md)
-* [Create individual original pdf chapters in Github](/workflows/create-individual-original-pdf-chapters-in-github.md) 
+* [Create individual original pdf chapters in Github](/workflows/create-individual-original-pdf-chapters-in-github.md)
+* [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md) 
 
 ***
 
@@ -135,7 +137,8 @@
 * [Get LCCN from LOC](/workflows/get-lcnn-from-loc.md)
 * [Create initial home page](/workflows/create-initial-home-page.md)
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
-* [Select background header and preview image](/workflows/select-background-header-and-preview-image.md) 
+* [Select background header and preview image](/workflows/select-background-header-and-preview-image.md)
+* [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md) 
 
 ## 7. Publish
 
@@ -166,6 +169,7 @@
 * [Create Kindle ebook](/workflows/create-kindle-ebook.md)
 * [Fix post-publication typos](/workflows/fix-post-publication-typos.md)
 * [Create the landing page](/workflows/create-the-landing-page.md) 
+* [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md) 
 
 ## 9. Marketing
 
