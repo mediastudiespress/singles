@@ -56,7 +56,8 @@
 * [Fix post-publication typos](/workflows/fix-post-publication-typos.md)
 * [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md)
 * [Create the landing page](/workflows/create-the-landing-page.md)
-* [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md) 
+* [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md)
+* [Update author pages](/workflows/update-author-pages.md) 
 
 ## Chapter
 
@@ -181,3 +182,4 @@
 * [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md)
 * [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md)
 * [Create the landing page](/workflows/create-the-landing-page.md)
+* [Update author pages](/workflows/update-author-pages.md) 
