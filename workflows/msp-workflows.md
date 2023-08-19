@@ -58,6 +58,7 @@
 * [Create the landing page](/workflows/create-the-landing-page.md)
 * [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md)
 * [Update author pages](/workflows/update-author-pages.md) 
+* [Make a custom LaTeX Overleaf table of contents](/workflows/make-a-custom-latex-overleaf-table-of-contents.md) 
 
 ## Chapter
 
@@ -123,6 +124,7 @@
 * [Upload chapter to Overleaf](/workflows/upload-chapter-to-overleaf.md)
 * [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md) 
 * [Create print PDF](/workflows/create-print-pdf.md)
+* [Make a custom LaTeX Overleaf table of contents](/workflows/make-a-custom-latex-overleaf-table-of-contents.md) 
 
 ## 5. Cover
 
@@ -149,6 +151,7 @@
 * [Add pdf to PubPub and Github](/workflows/add-pdf-to-pubpub-and-github.md)
 * [Create ePub version](/workflows/create-epub-version.md)
 * [Create the landing page](/workflows/create-the-landing-page.md) 
+* [Make a custom LaTeX Overleaf table of contents](/workflows/make-a-custom-latex-overleaf-table-of-contents.md) 
 
 ## 8. Distribution
 
