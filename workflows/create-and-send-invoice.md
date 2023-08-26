@@ -1,6 +1,6 @@
 # Create and send invoice
 
-#organization
+#organization #finances
 
 - [ ] Run the [Invoice](shortcuts://run-shortcut?name=MSP%20invoice) Shortcut, and select Create invoice
 - [ ] Make changes to the Pages and Numbers document, and export both as PDFs

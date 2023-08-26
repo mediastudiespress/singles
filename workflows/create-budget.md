@@ -1,6 +1,6 @@
 # Create budget
 
-#organization
+#organization #finances
 
 - [ ] using the template below, fill out the budget
 - [ ] navigate to Working Copy -> mediastudies.press -> organization -> operations -> budgets_and_plans, create a new Markdown document, and save according to the titling scheme, and commit
