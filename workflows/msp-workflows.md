@@ -65,7 +65,8 @@
 * [Create the landing page](/workflows/create-the-landing-page.md)
 * [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md)
 * [Update author pages](/workflows/update-author-pages.md) 
-* [Make a custom LaTeX Overleaf table of contents](/workflows/make-a-custom-latex-overleaf-table-of-contents.md) 
+* [Make a custom LaTeX Overleaf table of contents](/workflows/make-a-custom-latex-overleaf-table-of-contents.md)
+* [Create Publicity page](/workflows/create-publicity-page.md)
 
 ## Chapter
 
@@ -192,4 +193,5 @@
 * [Check ISBNs for any updates](/workflows/check-isbns-for-any-updates.md)
 * [Create marketing plan on PubPub](/workflows/create-marketing-plan-on-pubpub.md)
 * [Create the landing page](/workflows/create-the-landing-page.md)
-* [Update author pages](/workflows/update-author-pages.md) 
+* [Update author pages](/workflows/update-author-pages.md)
+* [Create Publicity page](/workflows/create-publicity-page.md)
