@@ -195,3 +195,4 @@
 * [Create the landing page](/workflows/create-the-landing-page.md)
 * [Update author pages](/workflows/update-author-pages.md)
 * [Create Publicity page](/workflows/create-publicity-page.md)
+* [Send out book review solicitations](/workflows/send-out-book-review-solicitations.md) 
