@@ -2,26 +2,8 @@
 
 #single #marketing
 
-- [ ] Create a new Pub, titled ‘[author] Marketing,’ and assign it to the Internal collection
-- [ ] Copy the headers below as rich text, and paste into the Pub
-- [ ] If you haven’t already, order author copies for the author
-- [ ] Now or at another time, retrieve the *Publicize new single on listservs* workflow
-- [ ] Brainstorm emails to individuals and clusters of individuals who might be especially interested in the event
-- [ ] Create a thread for Twitter and Mastodon, based on the long description
-- [ ] Brainstorm journals and other publications for potential book reviewers; it may make sense to create a table, with the review editor, date tracking, etc. 
-- [ ] Consider a launch event over Zoom
-
-
-***
-
-## Listservs
-
-## Emails
-
-## Twitter/Mastodon
-
-## Launch Event
-
-## Book reviews
-
-## Other ideas
+- [ ] Create a new Pub, titled ‘Publicity Plan for {{title}},’ and assign it to the Internal collection
+- [ ] Navigate to the [Publicity Airtable](x-icabmobile://x-callback-url/open?url=https://airtable.com/appbmfM8EfrVkeFrT/tblchjtzJ0Ij4ZxeX/viwoGSgl80WEMzBUn?blocks=hide), and add any relevant journals
+- [ ] Run this [Shortcut](shortcuts://run-shortcut?name=msp-publicity-listservs-etc) to choose listservs, journals and the like
+- [ ] Run this [Shortcut](shortcuts://run-shortcut?name=msp-publicity-page)
+- [ ] You will see instructions at the top of the page, with a sample email to send to author(s)
