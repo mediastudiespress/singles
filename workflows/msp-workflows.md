@@ -14,12 +14,14 @@
 * [Create and send invoice](/workflows/create-and-send-invoice.md)
 * [Pay honorarium to reviewer](/workflows/pay-honorarium-to-reviewer.md)
 * [Update monthly finances](/workflows/update-monthly-finances.md)
+* [Gather annual report components](/workflows/gather-annual-report-components.md) 
 
 ## Finances    
 
 * [Create and send invoice](/workflows/create-and-send-invoice.md)
 * [Create budget](/workflows/create-budget.md)
-* [Update monthly finances](/workflows/update-monthly-finances.md)  
+* [Update monthly finances](/workflows/update-monthly-finances.md)
+* [Gather annual report components](/workflows/gather-annual-report-components.md) 
 
 ## Single
 
