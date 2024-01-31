@@ -14,7 +14,8 @@
 * [Create and send invoice](/workflows/create-and-send-invoice.md)
 * [Pay honorarium to reviewer](/workflows/pay-honorarium-to-reviewer.md)
 * [Update monthly finances](/workflows/update-monthly-finances.md)
-* [Gather annual report components](/workflows/gather-annual-report-components.md) 
+* [Gather annual report components](/workflows/gather-annual-report-components.md)
+* [Notify board of semi-annual meeting](/workflows/notify-board-of-semi-annual-meeting.md) 
 
 ## Finances    
 
