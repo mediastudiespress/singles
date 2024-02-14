@@ -199,3 +199,4 @@
 * [Update author pages](/workflows/update-author-pages.md)
 * [Create Publicity page](/workflows/create-publicity-page.md)
 * [Send out book review solicitations](/workflows/send-out-book-review-solicitations.md) 
+* [Plan launch event](/workflows/plan-launch-event.md)  
