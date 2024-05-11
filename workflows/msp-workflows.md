@@ -124,6 +124,7 @@
 * [Create new Book Collection](/workflows/create-new-book-collection.md)
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
 * [Create individual original pdf chapters in Github](/workflows/create-individual-original-pdf-chapters-in-github.md) 
+* [Layout Collection](/workflows/layout-collection.md) 
 
 ## 3. Editing
 
