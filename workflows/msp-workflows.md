@@ -137,6 +137,7 @@
 * [Create initial LaTeX document in Overleaf](/workflows/create-initial-latex-document-in-overleaf.md) 
 * [Create print PDF](/workflows/create-print-pdf.md)
 * [Make a custom LaTeX Overleaf table of contents](/workflows/make-a-custom-latex-overleaf-table-of-contents.md) 
+* [Add chapter to InDesign](/workflows/add-chapter-to-indesign.md)
 
 ## 5. Cover
 
