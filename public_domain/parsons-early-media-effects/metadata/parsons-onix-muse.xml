@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ONIXMessage release="3.0" xmlns="http://ns.editeur.org/onix/3.0/reference">
+  <Header>
+    <Sender>
+      <SenderName>Thoth</SenderName>
+      <EmailAddress>distribution@thoth.pub</EmailAddress>
+    </Sender>
+    <SentDateTime>20241222T212027</SentDateTime>
+  </Header>
+  <Product>
+    <RecordReference>urn:uuid:31013990-a16b-40fe-a807-6debaf27dfb0</RecordReference>
+    <NotificationType>03</NotificationType>
+    <RecordSourceType>01</RecordSourceType>
+    <ProductIdentifier>
+      <ProductIDType>01</ProductIDType>
+      <IDValue>urn:uuid:31013990-a16b-40fe-a807-6debaf27dfb0</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>15</ProductIDType>
+      <IDValue>9781951399269</IDValue>
+    </ProductIdentifier>
+    <ProductIdentifier>
+      <ProductIDType>06</ProductIDType>
+      <IDValue>10.32376/3f8575cb.f1e0489e</IDValue>
+    </ProductIdentifier>
+    <DescriptiveDetail>
+      <ProductComposition>00</ProductComposition>
+      <ProductForm>EB</ProductForm>
+      <ProductFormDetail>E107</ProductFormDetail>
+      <PrimaryContentType>10</PrimaryContentType>
+      <EpubLicense>
+        <EpubLicenseName>Creative Commons License</EpubLicenseName>
+        <EpubLicenseExpression>
+          <EpubLicenseExpressionType>02</EpubLicenseExpressionType>
+          <EpubLicenseExpressionLink>https://creativecommons.org/licenses/by-nc/4.0/ (introduction, chapter introductions); https://creativecommons.org/public-domain/cc0/ (other materials)</EpubLicenseExpressionLink>
+        </EpubLicenseExpression>
+      </EpubLicense>
+      <Collection>
+        <CollectionType>10</CollectionType>
+        <TitleDetail>
+          <TitleType>01</TitleType>
+          <TitleElement>
+            <TitleElementLevel>02</TitleElementLevel>
+            <SequenceNumber>6</SequenceNumber>
+            <TitleText>Public Domain Series</TitleText>
+          </TitleElement>
+        </TitleDetail>
+      </Collection>
+      <TitleDetail>
+        <TitleType>01</TitleType>
+        <TitleElement>
+          <TitleElementLevel>01</TitleElementLevel>
+          <TitleText>Early Media Effects Theory &amp; the Suggestion Doctrine</TitleText>
+          <Subtitle>Selected Readings, 1895–1935</Subtitle>
+        </TitleElement>
+      </TitleDetail>
+      <Contributor>
+        <SequenceNumber>1</SequenceNumber>
+        <ContributorRole>B01</ContributorRole>
+        <NamesBeforeKey>Patrick</NamesBeforeKey>
+        <KeyNames>Parsons</KeyNames>
+      </Contributor>
+      <EditionStatement>First edition.</EditionStatement>
+      <Language>
+        <LanguageRole>01</LanguageRole>
+        <LanguageCode>eng</LanguageCode>
+      </Language>
+      <Extent>
+        <ExtentType>00</ExtentType>
+        <ExtentValue>330</ExtentValue>
+        <ExtentUnit>03</ExtentUnit>
+      </Extent>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectCode>JMH</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>SOC052000</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectCode>JMT</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>PSY031000</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>93</SubjectSchemeIdentifier>
+        <SubjectCode>JBCT</SubjectCode>
+      </Subject>
+      <Subject>
+        <SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+        <SubjectCode>POL049000</SubjectCode>
+      </Subject>
+      <Audience>
+        <AudienceCodeType>01</AudienceCodeType>
+        <AudienceCodeValue>06</AudienceCodeValue>
+      </Audience>
+    </DescriptiveDetail>
+    <CollateralDetail>
+      <TextContent>
+        <TextType>03</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text language="eng">While much has been written on the history of media effects research in the United States, a casual review of the literature could reasonably lead one to believe that little if any such work was conducted until the 1940s. The anthology, consisting of over 30 public domain works originally publishing from the late 19th century to the mid-1930s, demonstrates the rich and varied study of media effects before mid-century—much of it centered on the concept of “suggestion.” What media scholars know today as “persuasion,” social psychologists of the early 1900s would have understood as the process of suggestion. The works collected in Early Media Effects Theory &amp; the Suggestion Doctrine include the original statements on the subject from many of the leading social theorists of the age, among them figures such as Gabriel Tarde and Gustave Le Bon in France and James Baldwin, Edward Ross, and Floyd Allport in the United States.</Text>
+      </TextContent>
+      <TextContent>
+        <TextType>04</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Introduction: An Overview of the Origins and Evolution of Suggestion Theory 1
+Patrick Parsons
+Part Two: Foundations
+The Crowd: A Study of the Popular Mind (1896) 13
+Gustave Le Bon
+The Laws of Imitation (1903) 23
+Gabriel Tarde
+The Imitative Functions and Their Place in Human Nature (1894) 31
+Josiah Royce
+Mental Development of the Child and the Race (1911) 43
+James Mark Baldwin
+The Psychology of Suggestion (1898) 54
+Boris Sidis
+Social Psychology: An Outline and Sourcebook (1908) 64
+Edward Alsworth Ross
+A Sociological Definition of Suggestion (1921), Definition of Imitation (1921), &amp; Attention, Interest, and Imitation (1921) 75
+W. V. Bechterew, Charles Judd, and George Stout
+The Need for Social Psychology (1917) 90
+John Dewey
+Part Three: Evolutions &amp; Variations
+An Introduction to Social Psychology (1913) 101
+William McDougall
+Instincts of the Herd in War and Peace (1917) 112
+Wilfred Trotter
+The Original Nature of Man (1913) 122
+Edward Lee Thorndike
+Social Psychology (1924) 128
+Floyd Henry Allport
+Suggestion and Suggestibility (1919) 139
+Robert H. Gault
+Suggestion and Suggestibility (1920) 147
+Edmund Prideaux
+The Comparative Influence of Majority and Expert Opinion (1921) 159
+Henry T. Moore
+The Psychology of Belief: A Study of Its Emotional, and Volitional Determinants (1925) 165
+Frederick Lund
+Social Psychology (1925) &amp; The Concept of Imitation (1926) 173
+Knight Dunlap and Ellsworth Faris
+An Introduction to Social Psychology (1922) 185
+Charles A. Ellwood
+An Introduction to Social Psychology (1926) 198
+Luther Lee Bernard
+Principles of Sociology (1928) 213
+Frederick Elmore Lumley
+Social Psychology (1931) 223
+Ernest Théodore Krueger and Walter C. Reckless
+The Influence of Newspaper Presentations Upon the Growth of Crime and Other Anti-Social Activity (1910 &amp; 1911) 234
+Frances Fenton
+Part Four: Applications
+The Psychology of Persuasion (1920) 255
+William Macpherson
+The Control of the Social Mind (1923) 268
+Arland Deyett Weeks
+Control of Propaganda as a Psychological Problem (1922) 277
+Edward Kellog Strong, Jr.
+The Theory of Political Propaganda (1927) 288
+Harold D. Lasswell
+The Psychology of Advertising (1913) 295
+Walter Dill Scott
+The Conditions of the Belief in Advertising (1923) 301
+Albert T. Poffenberger
+The Psychology of the Audience (1935) 308
+Harry L. Hollingworth</Text>
+      </TextContent>
+      <TextContent>
+        <TextType>20</TextType>
+        <ContentAudience>00</ContentAudience>
+        <Text>Open Access</Text>
+      </TextContent>
+    </CollateralDetail>
+    <PublishingDetail>
+      <Imprint>
+        <ImprintName>mediastudies.press</ImprintName>
+      </Imprint>
+      <Publisher>
+        <PublishingRole>01</PublishingRole>
+        <PublisherName>mediastudies.press</PublisherName>
+      </Publisher>
+      <CityOfPublication>Bethlehem, PA</CityOfPublication>
+      <PublishingStatus>04</PublishingStatus>
+      <PublishingDate>
+        <PublishingDateRole>01</PublishingDateRole>
+        <Date dateformat="00">20241228</Date>
+      </PublishingDate>
+      <CopyrightStatement>
+        <CopyrightYear>2024</CopyrightYear>
+      </CopyrightStatement>
+    </PublishingDetail>
+    <RelatedMaterial>
+      <RelatedProduct>
+        <ProductRelationCode>06</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>15</ProductIDType>
+          <IDValue>9781951399283</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+      <RelatedProduct>
+        <ProductRelationCode>06</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>15</ProductIDType>
+          <IDValue>9781951399269</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+      <RelatedProduct>
+        <ProductRelationCode>06</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>15</ProductIDType>
+          <IDValue>9781951399276</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+      <RelatedProduct>
+        <ProductRelationCode>06</ProductRelationCode>
+        <ProductIdentifier>
+          <ProductIDType>15</ProductIDType>
+          <IDValue>9781951399290</IDValue>
+        </ProductIdentifier>
+      </RelatedProduct>
+    </RelatedMaterial>
+    <ProductSupply>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>mediastudies.press</SupplierName>
+          <Website>
+            <WebsiteRole>29</WebsiteRole>
+            <WebsiteDescription>Publisher's website: download the title</WebsiteDescription>
+            <WebsiteLink>https://github.com/mediastudiespress/singles/releases/download/early1.0/parsons-early-media-effects-2024.pdf</WebsiteLink>
+          </Website>
+        </Supplier>
+        <ProductAvailability>99</ProductAvailability>
+        <UnpricedItemType>01</UnpricedItemType>
+      </SupplyDetail>
+      <SupplyDetail>
+        <Supplier>
+          <SupplierRole>09</SupplierRole>
+          <SupplierName>mediastudies.press</SupplierName>
+          <Website>
+            <WebsiteRole>02</WebsiteRole>
+            <WebsiteDescription>Publisher's website: web shop</WebsiteDescription>
+            <WebsiteLink>https://www.mediastudies.press/early-media-effects-theory-the-suggestion-doctrine</WebsiteLink>
+          </Website>
+        </Supplier>
+        <ProductAvailability>99</ProductAvailability>
+        <UnpricedItemType>01</UnpricedItemType>
+      </SupplyDetail>
+    </ProductSupply>
+  </Product>
+</ONIXMessage>
