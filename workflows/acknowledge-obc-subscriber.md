@@ -2,7 +2,7 @@
 
 #organization
 
-## Add to webpage
+## Add to website
 
 - [ ] Search for the logo of the subscriber, and save to Shortcuts; convert to png if necessary, and rename for the subscriber
 - [ ] Navigate to the [OBC page](https://www.mediastudies.press/dash/pages/obc-supporters)
