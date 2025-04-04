@@ -1,45 +1,10 @@
-# Add chapter to InDesign
+# Add chapter to InDesign file
 
 #typesetting
 
-- [ ] duplicate the first-chapter spread to end of document
-- [ ] change chapter number and copy over the title, fixing any line-break issues
-- [ ] copy title over to left hidden; shortened title to middle hidden; author last name(s) third hidden
-- [ ] update TOC
-- [ ] download Word version, remove top stuff, apply Crimson font, save
-- [ ] upload the text
-- [ ] check for any PubPub-formatted citations that need t be transferred over
-- [ ] add the paragraph styles
-- [ ] check for unusual indents, headers, etc, very carefully
-- [ ] fix footnote numbers and spacing, and check them against the PubPub version, especially for italics
-
-## Paragraphs
-
-* option 1 - no-indent text   
-* option 2 - indented text
-* option 3 - dropcap
-* option Y - block quote
-* option W - reference text
-* option E - footnote text
-
-## Headers
-
-* option 9 - header 1
-* option Q - second title
-* option R - smaller header
-
-## Characters  & commands
-
-* option T - superscript
-* Control option command a - left quotes
-* Control option command b - right quotes
-* Control option command t - toc update
-* Control option command I - insert footnote
-
-## Less used
-
-* option 4 - chapter header
-* option 5 - chapter title
-* option 6 - author title
-* option 7 - excerpt 
-* option 8 - editors intro
+- [ ] duplicate the most recent chapter’s first two-page spread to end of document, using control-click
+- [ ] with PubPub chapter page open, copy over the title, author name (if applicable), change chapter number, and update the three “invisible” boxes for the TOC and running headers
+- [ ] export Word doc from PubPub
+- [ ] open the Word doc, remove title, etc.
+- [ ] using CMD-D, important the Word file
+- [ ] using the [InDesign cheat sheet](https://www.mediastudies.press/pub/spf9xxpc/draft?readingCollection=ffbc1e78), proceed to format the chapter
