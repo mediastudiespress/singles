@@ -125,6 +125,7 @@
 * [Convert outbound link to reprint-with-permission](/workflows/convert-outbound-link-to-with-permission.md)
 * [Create individual original pdf chapters in Github](/workflows/create-individual-original-pdf-chapters-in-github.md) 
 * [Layout Collection](/workflows/layout-collection.md) 
+* [Add a book to Airtable and Airtable task](/workflows/add-a-book-to-airtable-and-airtable-task.md)
 
 ## 3. Editing
 
@@ -154,7 +155,8 @@
 * [Create initial home page](/workflows/create-initial-home-page.md)
 * [Create short and long blurbs](/workflows/create-short-and-long-blurbs.md)
 * [Select background header and preview image](/workflows/select-background-header-and-preview-image.md)
-* [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md) 
+* [Add chapters to Thoth](/workflows/add-chapters-to-thoth.md)
+* [Add a book to Airtable and Airtable task](/workflows/add-a-book-to-airtable-and-airtable-task.md) 
 
 ## 7. Publish
 
